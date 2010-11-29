@@ -1,0 +1,5 @@
+#!/bin/bash
+mkdir ~/.terminfo/ && cd ~/.terminfo
+curl -O http://nion.modprobe.de/mostlike.txt
+tic mostlike.txt
+alias man="TERMINFO=~/.terminfo/ LESS=C TERM=mostlike PAGER=less man"
