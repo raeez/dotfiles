@@ -1,0 +1,6 @@
+#!/bin/bash
+mkdir ~/.terminfo/ && cd ~/.terminfo
+cp mostlike.txt ~/.terminfo/
+tic ~/.terminfo/mostlike.txt
+# add the following to your shell's profile:
+# alias man="TERMINFO=~/.terminfo/ LESS=C TERM=mostlike PAGER=less man"
