@@ -24,6 +24,7 @@ alias go="git log --graph --pretty=format:'%Cred%H%Creset -%C(yellow)%d%Creset %
 alias gs="git status"
 alias gr="git grep -R"
 alias ma="TERMINFO=~/.terminfo LESS=C TERM=mostlike man"
+alias man="ma"
 alias l="ls -lah"
 
 bindkey -e
