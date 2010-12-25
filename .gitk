@@ -1,0 +1,3 @@
+set Mainfont {ProggyTiny 12}
+set textfont {ProggyTiny 12}
+set uifont {ProggyTiny 12}
