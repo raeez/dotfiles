@@ -17,14 +17,16 @@ export ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
 #
+
+source $ZSH/oh-my-zsh.sh
+
 alias go="git log --graph --pretty=format:'%Cred%H%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
 alias gs="git status"
 alias gr="git grep -R"
 alias ma="TERMINFO=~/.terminfo LESS=C TERM=mostlike man"
+alias l="ls -lah"
 
-plugins=(git ruby pip osx github macports)
-
-source $ZSH/oh-my-zsh.sh
+bindkey -e
 
 # Customize to your needs...
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:$PATH
