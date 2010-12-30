@@ -46,8 +46,10 @@ set listchars=tab:▸\ ,eol:¬
 imap hh <Esc>
 
 au BufEnter *.tex set makeprg=xelatex\ %;open\ %<.pdf
-
 au BufEnter *.rb set makeprg=irb\ -r\ %
+au BufEnter *.py set makeprg=python\ %
+au BufEnter *.c set makeprg=clang\ -Wall\ %\ &&\ ./a.out
+au BufEnter *.cc set makeprg=clang++\ -Wall\ %\ &&\ ./a.out
 
 "OmniCompletion
 no <Nul> <C-x><C-o>
@@ -100,33 +102,34 @@ set clipboard+=unnamed
 
 "set modeline
 
-set background=dark
+:hi Function term=underline cterm=bold ctermfg=LightGray
 
 " Taglist variables
 " Display function name in status bar:
-let g:ctags_statusline=1
+"let g:ctags_statusline=1
 " Automatically start script
-let generate_tags=1
+"let generate_tags=1
 " Displays taglist results in a vertical window:
-let Tlist_Use_Horiz_Window=0
+"let Tlist_Use_Horiz_Window=0
 " Shorter commands to toggle Taglist display
-nnoremap LL :TlistToggle<CR>
-map <F4> :TlistToggle<CR>
-" Various Taglist diplay config:
-let Tlist_Use_Right_Window = 1
-let Tlist_Compact_Format = 1
-let Tlist_Exit_OnlyWindow = 1
-let Tlist_GainFocus_On_ToggleOpen = 1
-let Tlist_File_Fold_Auto_Close = 1
-
-python << EOF
-import os
-import sys
-import vim
-for p in sys.path:
-    if os.path.isdir(p):
-        vim.command(r"set path+=%s" % (p.replace(" ", r"\ ")))
-
-def EvaluateCurrentRange(): 
-    eval(compile('\n'.join(vim.current.range),'','exec'),globals()) 
-EOF
+"nnoremap LL :TlistToggle<CR>
+"map <F4> :TlistToggle<CR>
+"
+"" Various Taglist diplay config:
+"let Tlist_Use_Right_Window = 1
+"let Tlist_Compact_Format = 1
+"let Tlist_Exit_OnlyWindow = 1
+"let Tlist_GainFocus_On_ToggleOpen = 1
+"let Tlist_File_Fold_Auto_Close = 1
+"
+"python << EOF
+"import os
+"import sys
+"import vim
+"for p in sys.path:
+"    if os.path.isdir(p):
+"        vim.command(r"set path+=%s" % (p.replace(" ", r"\ ")))
+"
+"def EvaluateCurrentRange(): 
+"    eval(compile('\n'.join(vim.current.range),'','exec'),globals()) 
+"EOF
