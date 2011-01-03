@@ -396,7 +396,9 @@ alias ack="ack --color"
 alias webshare='python -c "import SimpleHTTPServer;SimpleHTTPServer.test()"'
 alias httptunnel="ssh -fND 127.0.0.1:7991 raeez@linerva.mit.edu"
 alias history="fc -l 1"
+alias clang="clang -Wall"
 
+alias fr="sudo du -sk ./* | sort -n | awk 'BEGIN{ pref[1]=\"K\"; pref[2]=\"M\"; pref[3]=\"G\";} { total = total + \$1; x = \$1; y = 1; while( x > 1024 ) { x = (x + 1023)/1024; y++; } printf(\"%g%s\t%s\n\",int(x*10)/10,pref[y],\$2); } END { y = 1; while( total > 1024 ) { total = (total + 1023)/1024; y++; } printf(\"Total: %g%s\n\",int(total*10)/10,pref[y]); }'"
 bindkey -e
 
 # Customize to your needs...
