@@ -382,6 +382,9 @@ esac
 
 alias go="git log --graph --pretty=format:'%Cred%H%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
 alias gs="git status"
+alias gc="git commit"
+alias gb="git branch"
+alias ga="git add"
 alias gr="git grep -R"
 alias ma="TERMINFO=~/.terminfo LESS=C TERM=mostlike man"
 alias man="ma"
@@ -399,9 +402,14 @@ alias history="fc -l 1"
 alias clang="clang -Wall"
 
 alias fr="sudo du -sk ./* | sort -n | awk 'BEGIN{ pref[1]=\"K\"; pref[2]=\"M\"; pref[3]=\"G\";} { total = total + \$1; x = \$1; y = 1; while( x > 1024 ) { x = (x + 1023)/1024; y++; } printf(\"%g%s\t%s\n\",int(x*10)/10,pref[y],\$2); } END { y = 1; while( total > 1024 ) { total = (total + 1023)/1024; y++; } printf(\"Total: %g%s\n\",int(total*10)/10,pref[y]); }'"
+alias pref="open -a System\ Preferences"
+alias vlc="open -a VLC.app"
+alias pstree="pstree -w"
+
 bindkey -e
 
 # Customize to your needs...
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:$PATH
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export PATH=/opt/local/Library/Frameworks/Python.framework/Versions/2.7/bin:$PATH
+export GPGKEY=6F2F2AE8
