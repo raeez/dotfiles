@@ -386,7 +386,6 @@ alias gc="git commit"
 alias gb="git branch"
 alias ga="git add"
 alias gr="git grep -R"
-alias gt="git tag"
 alias ma="TERMINFO=~/.terminfo LESS=C TERM=mostlike man"
 alias man="ma"
 alias l="ls -lahG"
@@ -401,16 +400,24 @@ alias webshare='python -c "import SimpleHTTPServer;SimpleHTTPServer.test()"'
 alias httptunnel="ssh -fND 127.0.0.1:7991 raeez@linerva.mit.edu"
 alias history="fc -l 1"
 alias clang="clang -Wall"
+alias oghc="ghc -fwarn-incomplete-patterns -Wall -Werror -fwarn-name-shadowing"
 
 alias fr="sudo du -sk ./* | sort -n | awk 'BEGIN{ pref[1]=\"K\"; pref[2]=\"M\"; pref[3]=\"G\";} { total = total + \$1; x = \$1; y = 1; while( x > 1024 ) { x = (x + 1023)/1024; y++; } printf(\"%g%s\t%s\n\",int(x*10)/10,pref[y],\$2); } END { y = 1; while( total > 1024 ) { total = (total + 1023)/1024; y++; } printf(\"Total: %g%s\n\",int(total*10)/10,pref[y]); }'"
 alias pref="open -a System\ Preferences"
+alias skype="open -a Skype"
 alias vlc="open -a VLC.app"
+alias jackc="open -a /Applications/Jack/JackPilot.app"
 alias pstree="pstree -w"
 
 bindkey -e
 
-# Customize to your needs...
+alias vmware="open -a /Applications/VMware\ Fusion.app"
+alias xcode="open -a XCode.app"
+alias pde="open -a Pd-extended.app"
+alias amacs="open -a Aquamacs.app ~/Dropbox/raeez.org"
+
+export GPGKEY=6F2F2AE8
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:$PATH
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export PATH=/opt/local/Library/Frameworks/Python.framework/Versions/2.7/bin:$PATH
-export GPGKEY=6F2F2AE8
+export PATH=/Users/raeez/.cabal/bin:$PATH
