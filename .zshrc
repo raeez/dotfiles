@@ -393,7 +393,7 @@ alias ls="ls -G"
 alias less="less -R"
 alias grep="egrep --color=auto"
 alias egrep="egrep --color=always"
-alias gr="egrep -R . -e"
+alias gr="egrep -iR . -e"
 alias fi="find . -regex"
 alias ack="ack --color"
 alias webshare='python -c "import SimpleHTTPServer;SimpleHTTPServer.test()"'
@@ -402,7 +402,7 @@ alias history="fc -l 1"
 alias clang="clang -Wall"
 alias oghc="ghc -fwarn-incomplete-patterns -Wall -Werror -fwarn-name-shadowing"
 
-alias fr="sudo du -sk ./* | sort -n | awk 'BEGIN{ pref[1]=\"K\"; pref[2]=\"M\"; pref[3]=\"G\";} { total = total + \$1; x = \$1; y = 1; while( x > 1024 ) { x = (x + 1023)/1024; y++; } printf(\"%g%s\t%s\n\",int(x*10)/10,pref[y],\$2); } END { y = 1; while( total > 1024 ) { total = (total + 1023)/1024; y++; } printf(\"Total: %g%s\n\",int(total*10)/10,pref[y]); }'"
+alias free="sudo du -sk ./* | sort -n | awk 'BEGIN{ pref[1]=\"K\"; pref[2]=\"M\"; pref[3]=\"G\";} { total = total + \$1; x = \$1; y = 1; while( x > 1024 ) { x = (x + 1023)/1024; y++; } printf(\"%g%s\t%s\n\",int(x*10)/10,pref[y],\$2); } END { y = 1; while( total > 1024 ) { total = (total + 1023)/1024; y++; } printf(\"Total: %g%s\n\",int(total*10)/10,pref[y]); }'"
 alias pref="open -a System\ Preferences"
 alias skype="open -a Skype"
 alias vlc="open -a VLC.app"
@@ -414,10 +414,18 @@ bindkey -e
 alias vmware="open -a /Applications/VMware\ Fusion.app"
 alias xcode="open -a XCode.app"
 alias pde="open -a Pd-extended.app"
-alias amacs="open -a Aquamacs.app ~/Dropbox/raeez.org"
+alias omacs="open -a Aquamacs.app ~/.org/raeez.org"
+alias amacs="open -a Aquamacs.app"
+alias vico="open -a ~/Dropbox/Applications/Vico.app"
 
 export GPGKEY=6F2F2AE8
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:$PATH
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export PATH=/opt/local/Library/Frameworks/Python.framework/Versions/2.7/bin:$PATH
 export PATH=/Users/raeez/.cabal/bin:$PATH
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+export PATH=/lib/sup/bin:$PATH
+
+export RUBYLIB=/lib/sup/lib
+
+# terminal colours
+export CLICOLOR=1;
