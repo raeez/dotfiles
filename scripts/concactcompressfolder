@@ -1,0 +1,2 @@
+#!/bin/bash
+for dir in *; do (echo "working on $dir" && cd "$dir" && cp ~/script ∙ && ./script); done
