@@ -1,3 +1,5 @@
+execute pathogen#infect()
+
 " Basic History
 set nocompatible
 
@@ -156,4 +158,8 @@ runtime macros/matchit.vim
 
 set colorcolumn=80
 set background=dark
+" let g:solarized_termcolors=16
+""let g:solarized_termcolors=256
+""let g:solarized_visibility = "high"
+"let g:solarized_contrast = "high"
 colorscheme solarized

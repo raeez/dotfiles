@@ -58,9 +58,10 @@ export LSCOLORS="Gxfxcxdxbxegedabagacad"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git bower sublime brew history node npm sudo web-search)
+plugins=(git bower sublime brew history node npm sudo web-search zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # User configuration
 
