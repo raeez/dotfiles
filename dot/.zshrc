@@ -157,7 +157,6 @@ alias rd=rmdir
 alias d='dirs -v'
 # source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-
 #setopt no_beep
 setopt auto_cd
 setopt multios

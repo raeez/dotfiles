@@ -2,11 +2,11 @@
 	path = themes/solarized
 	url = git://github.com/altercation/solarized.git
 [submodule "scripts/zsh-autosuggestions"]
-	path = scripts/zsh-autosuggestions
+	path = toolchain/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions.git
 [submodule "fonts/fonts"]
 	path = fonts/fonts
 	url = https://github.com/powerline/fonts.git
 [submodule "scripts/zsh-syntax-highlighting"]
-	path = scripts/zsh-syntax-highlighting
+	path = toolchain/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
