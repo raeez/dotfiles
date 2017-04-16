@@ -2,6 +2,7 @@
 #export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/.cargo/bin:$HOME/bin:/usr/local/bin:$PATH
 export PROJ=$HOME/proj
+export GITSCRIPTS=$HOME/proj/sp17/sp17-gitscripts
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/raeez/.oh-my-zsh
