@@ -1,4 +1,10 @@
-pull: pull-dot-vim pull-dot-vimrc pull-dot-zshrc pull-dot-oh-my-zsh
+###########
+## clean ##
+###########
+clean:
+	rm -rf dot/.vim
+
+pull: pull-dot-vim pull-dot-vimrc pull-dot-zshrc pull-dot-oh-my-zsh pull-lingua
 	echo "done"
 
 install: colored-manpages vim zsh
@@ -16,6 +22,22 @@ pull-dot-zshrc:
 	cp -r ~/.zshrc dot/
 pull-dot-oh-my-zsh:
 	cp -r ~/.zshrc dot/
+
+pull-lingua: pull-italia pull-francais pull-afrikaans pull-english
+	echo "done"
+
+pull-italia:
+	-cp -r ~/.italia dot/
+
+pull-afrikaans:
+	-cp -r ~/.afrikaans dot/
+
+pull-english:
+	-cp -r ~/.english dot/
+
+pull-francais:
+	-cp -r ~/.francais dot/
+
 
 ##########################
 ## install dependencies ##

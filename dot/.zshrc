@@ -94,7 +94,7 @@ source $ZSH/oh-my-zsh.sh
 alias ups="ssh root@sci-serv.raeez.com 'bash -s' < ~/proj/www/raeez.com/src/git-pull"
 alias timeout="gtimeout"
 alias athena="ssh -K raeez@athena.dialup.mit.edu"
-alias man='nocorrect man'
+# alias man='nocorrect man'
 alias mv='nocorrect mv'
 alias mysql='nocorrect mysql'
 alias mkdir='nocorrect mkdir'
@@ -157,7 +157,10 @@ alias rd=rmdir
 alias d='dirs -v'
 # source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-#setopt no_beep
+# setopt no_beep
 setopt auto_cd
 setopt multios
 setopt cdablevarS
+
+# mostlike
+alias man="TERMINFO=~/.terminfo/ LESS=C TERM=mostlike PAGER=less man"
