@@ -4,7 +4,7 @@
 clean:
 	rm -rf dot/.vim
 
-pull: pull-dot-vim pull-dot-vimrc pull-dot-zshrc pull-dot-oh-my-zsh pull-lingua
+pull: pull-plan pull-dot-vim pull-dot-vimrc pull-dot-zshrc pull-dot-oh-my-zsh pull-lingua
 	echo "done"
 
 install: colored-manpages vim zsh
@@ -22,6 +22,9 @@ pull-dot-zshrc:
 	cp -r ~/.zshrc dot/
 pull-dot-oh-my-zsh:
 	cp -r ~/.zshrc dot/
+
+pull-plan:
+	cp -r ~/.plan dot/
 
 pull-lingua: pull-italia pull-francais pull-afrikaans pull-english
 	echo "done"
