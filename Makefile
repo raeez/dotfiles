@@ -1,10 +1,10 @@
 ###########
 ## clean ##
 ###########
-clean:
+clean-vim:
 	rm -rf dot/.vim
 
-pull: pull-plan pull-dot-vim pull-dot-vimrc pull-dot-zshrc pull-dot-oh-my-zsh pull-lingua
+pull: clean-vim pull-plan pull-dot-vim pull-dot-vimrc pull-dot-zshrc pull-dot-oh-my-zsh pull-lingua
 	echo "done"
 
 install: colored-manpages vim zsh
