@@ -64,7 +64,8 @@ zsh:
 oh-my-zsh:
 
 powerline: oh-my-zsh
-	$(shell git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k)
+	-mkdir -p /root/.oh-my-zsh/custom/themes
+	$(shell git clone https://github.com/bhilburn/powerlevel9k.git /root/.oh-my-zsh/custom/themes/powerlevel9k)
 
 lingua:
 	-cp -r dot/.italia ~
