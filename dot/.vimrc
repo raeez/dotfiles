@@ -1,4 +1,5 @@
 execute pathogen#infect()
+filetype plugin indent on
 
 " Basic History
 set nocompatible
@@ -86,7 +87,6 @@ function s:setupMarkup()
   map <buffer> <Leader>p :Mm <CR>
 endfunction
 
-filetype plugin indent on
 set ofu=syntaxcomplete#Complete
 
 if has("autocmd")
@@ -167,14 +167,21 @@ let g:signify_sign_weight = 'none'
 
 " vim-lext-suite"
     " REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
-filetype plugin on
+" filetype plugin on # already on
     " IMPORTANT: grep will sometimes skip displaying the file name if you
     " search in a single file. This will confuse Latex-Suite. Set your grep
     " program to always generate a file-name.
+
 set grepprg=grep\ -nH\ $*
     " OPTIONAL: This enables automatic indentation as you type.
-filetype indent on
+  
+" filetype indent on # already on
     " OPTIONAL: Starting with Vim 7, the filetype of empty .tex files defaults to
     " 'plaintex' instead of 'tex', which results in vim-latex not being loaded.
     " The following changes the default filetype back to 'tex':
+
 let g:tex_flavor='latex'
+
+set tw=59 " text width
+set wm=2  " word margin
+set wrap linebreak nolist
