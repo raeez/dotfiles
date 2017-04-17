@@ -159,10 +159,11 @@ runtime macros/matchit.vim
 set colorcolumn=80
 set background=dark
 " let g:solarized_termcolors=16
-""let g:solarized_termcolors=256
-""let g:solarized_visibility = "high"
-"let g:solarized_contrast = "high"
-colorscheme solarized
+let g:solarized_termcolors=256
+let g:solarized_visibility = "high"
+let g:solarized_contrast = "high"
+"colorscheme solarized-dark
+let g:signify_sign_weight = 'none'
 
 " vim-lext-suite"
     " REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
@@ -177,5 +178,3 @@ filetype indent on
     " 'plaintex' instead of 'tex', which results in vim-latex not being loaded.
     " The following changes the default filetype back to 'tex':
 let g:tex_flavor='latex'
-
-
