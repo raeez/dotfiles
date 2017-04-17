@@ -54,12 +54,12 @@ colored-manpages:
 	# alias man="TERMINFO=~/.terminfo/ LESS=C TERM=mostlike PAGER=less man"
 	
 vim:
-	cp -r dot/.vim ~
-	cp -r dot/.vimrc ~
+	-cp -r dot/.vim ~
+	-cp -r dot/.vimrc ~
 
 zsh:
-	cp -r dot/.zsh ~
-	cp -r dot/.oh-my-zsh ~
+	-cp -r dot/.zshrc ~
+	-cp -r dot/.oh-my-zsh ~
 
 lingua:
 	-cp -r dot/.italia ~
