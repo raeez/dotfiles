@@ -61,7 +61,29 @@ zsh:
 	-cp -r dot/.zshrc ~
 	-cp -r dot/.oh-my-zsh ~
 
+oh-my-zsh:
+
+powerline: oh-my-zsh
+	$(shell git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k)
+
 lingua:
 	-cp -r dot/.italia ~
 	-cp -r dot/.francais ~
 	-cp -r dot/.afrikaans ~
+
+
+####################
+## install-server ##
+####################
+
+curl:
+	sudo apt-get install curl
+
+sci-serv-base: curl
+	sudo apt-get update
+	sudo apt-get install nginx
+	sudo ufw app list
+	sudo ufw allow 'Nginx HTTP'
+	sudo ufw status
+	systemctl status nginx
+	ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
