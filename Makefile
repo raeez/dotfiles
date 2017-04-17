@@ -7,7 +7,7 @@ clean-vim:
 pull: clean-vim pull-plan pull-dot-vim pull-dot-vimrc pull-dot-zshrc pull-dot-oh-my-zsh pull-lingua
 	echo "done"
 
-install: colored-manpages vim zsh
+install: colored-manpages vim zsh lingua
 	echo "done"
 
 #######################
@@ -47,9 +47,9 @@ pull-francais:
 ##########################
 
 colored-manpages:
-	mkdir ~/.terminfo # && cd ~/.terminfo
-	cp themes/mostlike.txt ~/.terminfo/
-	tic ~/.terminfo/mostlike.txt
+	-mkdir -p ~/.terminfo # && cd ~/.terminfo
+	-cp themes/mostlike.txt ~/.terminfo/
+	-tic ~/.terminfo/mostlike.txt
 	# add the following to your shell's profile:
 	# alias man="TERMINFO=~/.terminfo/ LESS=C TERM=mostlike PAGER=less man"
 	
@@ -60,3 +60,8 @@ vim:
 zsh:
 	cp -r dot/.zsh ~
 	cp -r dot/.oh-my-zsh ~
+
+lingua:
+	-cp -r dot/.italia ~
+	-cp -r dot/.francais ~
+	-cp -r dot/.afrikaans ~
