@@ -4,10 +4,11 @@
 clean-vim:
 	rm -rf dot/.vim
 
-pull: clean-vim pull-plan pull-dot-vim pull-dot-vimrc pull-dot-zshrc pull-dot-oh-my-zsh pull-lingua
-	echo "done"
+pull: clean-vim pull-dot-plan pull-dot-gitconfig pull-dot-vim pull-dot-vimrc pull-dot-zshrc pull-dot-oh-my-zsh pull-lingua
+	-git rm -rf dot/.vim/backup/*
+	-rm -rf dot/.vim/backup/*
 
-install: colored-manpages vim zsh lingua
+install: colored-manpages vim zsh lingua plan gitconfig
 	echo "done"
 
 #######################
@@ -21,20 +22,21 @@ pull-dot-vim:
 pull-dot-vimrc:
 	cp -r ~/.vimrc dot/
 	cp -r ~/.gvimrc dot/
-
+pull-dot-gitconfig:
+	cp -r ~/.gitconfig dot/
 pull-dot-zshrc:
 	cp -r ~/.zshrc dot/
 pull-dot-oh-my-zsh:
 	cp -r ~/.zshrc dot/
 
-pull-plan:
+pull-dot-plan:
 	cp -r ~/.plan dot/
 
-pull-lingua: pull-italia pull-francais pull-afrikaans pull-english
+pull-lingua: pull-italiana pull-francais pull-afrikaans pull-english
 	echo "done"
 
-pull-italia:
-	-cp -r ~/.italia dot/
+pull-italiana:
+	-cp -r ~/.italiana dot/
 
 pull-afrikaans:
 	-cp -r ~/.afrikaans dot/
@@ -58,22 +60,30 @@ colored-manpages:
 	# alias man="TERMINFO=~/.terminfo/ LESS=C TERM=mostlike PAGER=less man"
 	
 vim:
-	cp -r dot/.vim ~
-	cp -r dot/.vimrc ~
-	cp -r dot/.gvimrc ~
+	-cp -r dot/.vim ~
+	-cp -r dot/.vimrc ~
+	-cp -r dot/.gvimrc ~
 
 zsh:
 	-cp -r dot/.zshrc ~
 	-cp -r dot/.oh-my-zsh ~
 
 oh-my-zsh:
+	#
+
 
 powerline: oh-my-zsh
 	-mkdir -p /root/.oh-my-zsh/custom/themes
-	$(shell git clone https://github.com/bhilburn/powerlevel9k.git /root/.oh-my-zsh/custom/themes/powerlevel9k)
+	-$(shell git clone https://github.com/bhilburn/powerlevel9k.git /root/.oh-my-zsh/custom/themes/powerlevel9k)
+
+plan:
+	-cp -r dot/.plan ~
+
+gitconfig:
+	-cp -r dot/.gitconfig ~
 
 lingua:
-	-cp -r dot/.italia ~
+	-cp -r dot/.italiana ~
 	-cp -r dot/.francais ~
 	-cp -r dot/.afrikaans ~
 
