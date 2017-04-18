@@ -17,6 +17,7 @@ install: colored-manpages vim zsh lingua
 pull-dot-vim:
 	cp -r ~/.vim   dot/
 	-rm -rf dot/.vim/back/*
+	-git rm -rf dot/.vim/back/*
 pull-dot-vimrc:
 	cp -r ~/.vimrc dot/
 pull-dot-zshrc:
