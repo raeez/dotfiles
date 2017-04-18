@@ -20,6 +20,8 @@ pull-dot-vim:
 	-git rm -rf dot/.vim/back/*
 pull-dot-vimrc:
 	cp -r ~/.vimrc dot/
+	cp -r ~/.gvimrc dot/
+
 pull-dot-zshrc:
 	cp -r ~/.zshrc dot/
 pull-dot-oh-my-zsh:
@@ -56,8 +58,9 @@ colored-manpages:
 	# alias man="TERMINFO=~/.terminfo/ LESS=C TERM=mostlike PAGER=less man"
 	
 vim:
-	-cp -r dot/.vim ~
-	-cp -r dot/.vimrc ~
+	cp -r dot/.vim ~
+	cp -r dot/.vimrc ~
+	cp -r dot/.gvimrc ~
 
 zsh:
 	-cp -r dot/.zshrc ~
