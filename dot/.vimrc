@@ -1,4 +1,4 @@
-" TODO 
+" TODO
 " - use au to detect filetype for duplication of "", {} etc.
 
 " enable pathogen
@@ -106,7 +106,7 @@ if has("autocmd")
 endif
 
 " make programs for various buffer types
-au BufEnter *.tex set makeprg=pdflatex\ %;open\ %<.pdf
+" au BufEnter *.tex set makeprg=pdflatex\ %;open\ %<.pdf
 au BufEnter *.rb set makeprg=irb\ -r\ %
 au BufEnter *.py set makeprg=python\ %
 au BufEnter *.c set makeprg=clang\ -Wall\ %\ &&\ ./a.out
@@ -120,6 +120,8 @@ au FileType make                                     set noexpandtab
 " md, markdown, and mk are markdown and define buffer-local preview
 au BufRead,BufNewFile *.{.plan,md,markdown,mdown,mkd,mkdn} call s:setupMarkup()
 au BufRead,BufNewFile *.{txt,tex} call s:setupWrapping()
+
+autocmd BufWritePre * %s/\s\+$//e
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
@@ -178,13 +180,16 @@ let g:signify_sign_weight = 'none'
 
 set grepprg=grep\ -nH\ $*
     " OPTIONAL: This enables automatic indentation as you type.
-  
+
 " filetype indent on # already on
     " OPTIONAL: Starting with Vim 7, the filetype of empty .tex files defaults to
     " 'plaintex' instead of 'tex', which results in vim-latex not being loaded.
     " The following changes the default filetype back to 'tex':
 
+" see vim-latex-suite manual: handles vim's mode upon .tex
 let g:tex_flavor='latex'
+
+" auto paste mode, accounting for tmux
 function! WrapForTmux(s)
   if !exists('$TMUX')
     return a:s
@@ -206,3 +211,6 @@ function! XTermPasteBegin()
 endfunction
 
 inoremap <special> <expr> <Esc>[200~ XTermPasteBegin()
+
+" automatic insertion of timestamp
+iab __- <c-r>=strftime("%d/%m/%y %H:%M:%S")<cr>
