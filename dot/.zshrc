@@ -2,8 +2,9 @@
 #export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/.cargo/bin:$HOME/bin:/usr/local/bin:$PATH
 export PROJ=$HOME/proj
-export GS=$HOME/proj/sp17/sp17-gitscripts
-export GG=$HOME/proj/mathematics/generalized-grassmannians
+export GS=$PROJ/sp17/sp17-gitscripts
+export GG=$PROJ/mathematica/generalized-grassmannians
+export DOTFILES=$PROJ/sys/dotfiles
 export WWW=/var/www/html # ubuntu 16 nginx default host dir
 
 # Path to your oh-my-zsh installation.

@@ -1,3 +1,6 @@
+NOW='generic'
+-include $(PROJ)/mkscripts/timestamp.mk
+
 ###########
 ## clean ##
 ###########
@@ -39,9 +42,13 @@ colored-manpages:
 	# alias man="TERMINFO=~/.terminfo/ LESS=C TERM=mostlike PAGER=less man"
 
 vim:
-	-cp -r dot/.vim ~
-	-cp -r dot/.vimrc ~
-	-cp -r dot/.gvimrc ~
+	- mkdir -p ~/.bak/dotfiles
+	-cp -rf ~/.vim ~/.bak/dotfiles/.vim.$(NOW).bak
+	-cp -rf dot/.vim ~
+	-cp -rf ~/.vimrc ~/.bak/dotfiles/.vimrc.$(NOW).bak
+	-cp -rf dot/.vimrc ~
+	-cp -rf ~/.gvimrc ~/.bak/dotfiles/.gvimrc.$(NOW).bak
+	-cp -rf dot/.gvimrc ~
 
 zsh:
 	-cp -r dot/.zshrc ~
