@@ -6,7 +6,7 @@ pull: pull-dot-plan pull-dot-gitconfig pull-dot-vim pull-dot-vimrc pull-dot-zshr
 	-git rm -rf dot/.vim/backup/*
 	-rm -rf dot/.vim/backup/*
 
-install: colored-manpages vim zsh lingua plan gitconfig
+install: fonts colored-manpages vim zsh lingua plan gitconfig
 	echo "done"
 
 #######################
@@ -89,6 +89,9 @@ lingua:
 ####################
 ## install-server ##
 ####################
+
+fonts:
+	./fonts/powerline/install.sh
 
 curl:
 	sudo apt-get install curl

@@ -1,3 +1,6 @@
+" TODO 
+" - use au to detect filetype for duplication of "", {} etc.
+
 " enable pathogen
 execute pathogen#infect()
 filetype plugin indent on
@@ -18,12 +21,12 @@ syntax enable
 set encoding=utf-8
 
 " Whitespace stuff
-set nowrap
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set expandtab
 set list listchars=tab:\ \ ,trail:·
+set wrap
 
 set autoindent
 set smartindent
@@ -183,7 +186,3 @@ set grepprg=grep\ -nH\ $*
     " The following changes the default filetype back to 'tex':
 
 let g:tex_flavor='latex'
-
-set tw=59 " text width
-set wm=2  " word margin
-" set wrap linebreak nolist

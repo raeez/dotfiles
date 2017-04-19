@@ -2,7 +2,7 @@
 	path = toolchain/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions.git
 [submodule "fonts/fonts"]
-	path = fonts/fonts
+	path = fonts/powerline
 	url = https://github.com/powerline/fonts.git
 [submodule "scripts/zsh-syntax-highlighting"]
 	path = toolchain/zsh-syntax-highlighting
