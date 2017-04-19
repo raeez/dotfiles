@@ -1,10 +1,8 @@
 ###########
 ## clean ##
 ###########
-clean-vim:
-	rm -rf dot/.vim
 
-pull: clean-vim pull-dot-plan pull-dot-gitconfig pull-dot-vim pull-dot-vimrc pull-dot-zshrc pull-dot-oh-my-zsh pull-lingua
+pull: pull-dot-plan pull-dot-gitconfig pull-dot-vim pull-dot-vimrc pull-dot-zshrc pull-dot-oh-my-zsh pull-lingua
 	-git rm -rf dot/.vim/backup/*
 	-rm -rf dot/.vim/backup/*
 
