@@ -120,7 +120,7 @@ au FileType make                                     set noexpandtab
 " md, markdown, and mk are markdown and define buffer-local preview
 au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn} call s:setupMarkup()
 
-au BufRead,BufNewFile *.txt call s:setupWrapping()
+au BufRead,BufNewFile *.{txt,tex} call s:setupWrapping()
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
