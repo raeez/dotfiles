@@ -12,3 +12,4 @@
 
 ## todo
 * alias git log --graph --pretty=oneline --abbrev-commit
+* fix modeline bug on .md
