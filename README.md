@@ -1,9 +1,14 @@
-# raeez.com:sys.git->README.md
-designed for the DVORAK keyboard layout
-vim: An efficent vim configuration
-zsh: unadorned oh-my-zsh configuration /w git aliases
+# raeez.com:sys/dotfiles.git/README.md
+- assumes a DVORAK keyboard layout
+- vim: a nascent configuration
+* .vim
+* .vimrc
+* .gvimrc
+- zsh: mostly vanilla
+* .oh-my-zsh
+* .zshrc
+- git:
+* .gitconfig
 
 ## todo
-- reinstate term-colors for less and man
-- introduce global git configuration
-* git log --graph --pretty=oneline --abbrev-commit
+* alias git log --graph --pretty=oneline --abbrev-commit
