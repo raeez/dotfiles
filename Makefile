@@ -41,18 +41,22 @@ colored-manpages:
 	# add the following to your shell's profile:
 	# alias man="TERMINFO=~/.terminfo/ LESS=C TERM=mostlike PAGER=less man"
 
-vim:
-	- mkdir -p ~/.bak/dotfiles
-	-cp -rf ~/.vim ~/.bak/dotfiles/.vim.$(NOW).bak
+bak-dotfiles-dir:
+	-mkdir -p ~/.bak/dotfiles
+
+vim: bak-dotfiles-dir
+	-cp -rf ~/.vim ~/.bak/dotfiles/$(NOW).vim.bak
 	-cp -rf dot/.vim ~
-	-cp -rf ~/.vimrc ~/.bak/dotfiles/.vimrc.$(NOW).bak
+	-cp -rf ~/.vimrc ~/.bak/dotfiles/$(NOW).vimrc.bak
 	-cp -rf dot/.vimrc ~
-	-cp -rf ~/.gvimrc ~/.bak/dotfiles/.gvimrc.$(NOW).bak
+	-cp -rf ~/.gvimrc ~/.bak/dotfiles/$(NOW).gvimrc.bak
 	-cp -rf dot/.gvimrc ~
 
-zsh:
-	-cp -r dot/.zshrc ~
-	-cp -r dot/.oh-my-zsh ~
+zsh: bak-dotfiles-dir
+	-cp -rf ~/.zshrc ~/.bak/dotfiles/$(NOW).zshrc.bak
+	-cp -rf dot/.zshrc ~
+	-cp -rf ~/.oh-my-zsh ~/.bak/dotfiles/$(NOW).oh-my-zsh.bak
+	-cp -rf dot/.oh-my-zsh ~
 
 oh-my-zsh:
 	#
