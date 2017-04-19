@@ -57,10 +57,6 @@ set laststatus=2
 " This is likely a bludgeon to solve some other issue, but it works
 set noequalalways
 
-" NERDTree configuration
-let NERDTreeIgnore=['\.rbc$', '\~$']
-map <Leader>n :NERDTreeToggle<CR>
-
 " Command-T configuration
 let g:CommandTMaxHeight=20
 
@@ -68,13 +64,13 @@ let g:CommandTMaxHeight=20
 map <Leader><Leader> :ZoomWin<CR>
 
 " CTags
-map <Leader>rt :!ctags --extra=+f -R *<CR><CR>
+" map <Leader>rt :!ctags --extra=+f -R *<CR><CR>
 
 " Remember last location in file
-if has("autocmd")
-  au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
-    \| exe "normal g'\"" | endif
-endif
+" if has("autocmd")
+"   au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
+"     \| exe "normal g'\"" | endif
+" endif
 
 function s:setupWrapping()
   set wrap
@@ -91,31 +87,31 @@ set ofu=syntaxcomplete#Complete
 
 if has("autocmd")
 
-"Fussy languages
-autocmd FileType ruby setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
-autocmd FileType yaml setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
-autocmd FileType html setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
-autocmd FileType python setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
-autocmd FileType * setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+  "Fussy languages
+  autocmd FileType ruby setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+  autocmd FileType yaml setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+  autocmd FileType html setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+  autocmd FileType python setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+  autocmd FileType * setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+" TODO decide on FileType for latex
 
-autocmd BufReadPost *
-  \ if line("'\"") > 1 && line("'\"") <= line("$") |
-  \   exe "normal! g`\"" |
-  \ endif
+" autocmd BufReadPost *
+"   \ if line("'\"") > 1 && line("'\"") <= line("$") |
+"   \   exe "normal! g`\"" |
+"   \ endif
 endif
 
 " make programs for various buffer types
-au BufEnter *.tex set makeprg=xelatex\ %;open\ %<.pdf
+au BufEnter *.tex set makeprg=pdflatex\ %;open\ %<.pdf
 au BufEnter *.rb set makeprg=irb\ -r\ %
 au BufEnter *.py set makeprg=python\ %
 au BufEnter *.c set makeprg=clang\ -Wall\ %\ &&\ ./a.out
 au BufEnter *.cc set makeprg=clang++\ -Wall\ %\ &&\ ./a.out
-
 " make uses real tabs
 au FileType make                                     set noexpandtab
 
 " Thorfile, Rakefile and Gemfile are Ruby
-au BufRead,BufNewFile {Gemfile,Rakefile,Thorfile,config.ru}    set ft=ruby
+" au BufRead,BufNewFile {Gemfile,Rakefile,Thorfile,config.ru}    set ft=ruby
 
 " md, markdown, and mk are markdown and define buffer-local preview
 au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn} call s:setupMarkup()
@@ -141,6 +137,7 @@ cmap <C-P> <C-R>=expand("%:p:h") . "/" <CR>
 " Bubble single lines
 nmap <C-Up> [e
 nmap <C-Down> ]e
+
 " Bubble multiple lines
 vmap <C-Up> [egv
 vmap <C-Down> ]egv
@@ -154,15 +151,18 @@ set backupdir=~/.vim/backup
 set directory=~/.vim/backup
 
 "extended % matching
-runtime macros/matchit.vim
+" runtime macros/matchit.vim
 
 set colorcolumn=80
 set background=dark
+" set background=light
+
 " let g:solarized_termcolors=16
-let g:solarized_termcolors=256
+" let g:solarized_termcolors=256
 let g:solarized_visibility = "high"
+" let g:solarized_visibility = "low"
 let g:solarized_contrast = "high"
-"colorscheme solarized-dark
+colorscheme solarized
 let g:signify_sign_weight = 'none'
 
 " vim-lext-suite"
@@ -184,4 +184,4 @@ let g:tex_flavor='latex'
 
 set tw=59 " text width
 set wm=2  " word margin
-set wrap linebreak nolist
+" set wrap linebreak nolist

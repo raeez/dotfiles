@@ -155,12 +155,14 @@ set directory=~/.vim/backup
 
 set colorcolumn=80
 set background=dark
+" set background=light
 
 " let g:solarized_termcolors=16
-let g:solarized_termcolors=256
+" let g:solarized_termcolors=256
 let g:solarized_visibility = "high"
+" let g:solarized_visibility = "low"
 let g:solarized_contrast = "high"
-" colorscheme solarized-dark
+colorscheme solarized
 let g:signify_sign_weight = 'none'
 
 " vim-lext-suite"
