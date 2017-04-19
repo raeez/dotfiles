@@ -37,7 +37,7 @@ colored-manpages:
 	-tic ~/.terminfo/mostlike.txt
 	# add the following to your shell's profile:
 	# alias man="TERMINFO=~/.terminfo/ LESS=C TERM=mostlike PAGER=less man"
-	
+
 vim:
 	-cp -r dot/.vim ~
 	-cp -r dot/.vimrc ~
@@ -49,7 +49,6 @@ zsh:
 
 oh-my-zsh:
 	#
-
 
 powerline: oh-my-zsh
 	-mkdir -p /root/.oh-my-zsh/custom/themes

@@ -10,9 +10,3 @@
 [submodule "toolchain/dotfiles.github.com"]
 	path = toolchain/dotfiles.github.com
 	url = https://github.com/dotfiles/dotfiles.github.com
-[submodule "dot/.vim/bundle/vim-latex"]
-	path = dot/.vim/bundle/vim-latex
-	url = https://github.com/vim-latex/vim-latex.git
-[submodule "dot/.vim/bundle/vim-colors-solarized"]
-	path = dot/.vim/bundle/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git

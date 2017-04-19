@@ -234,6 +234,7 @@ altkey-mappings	latex-suite.txt	/*altkey-mappings*
 auc-tex-mappings	latex-suite.txt	/*auc-tex-mappings*
 automatic-package-detection	latex-suite.txt	/*automatic-package-detection*
 bibtex-bindings	latex-suite.txt	/*bibtex-bindings*
+cS	surround.txt	/*cS*
 changing-commands	latex-suite.txt	/*changing-commands*
 changing-environments	latex-suite.txt	/*changing-environments*
 cite-search-caching	latex-suite.txt	/*cite-search-caching*
@@ -242,6 +243,7 @@ compiler-output-customization	latex-suite.txt	/*compiler-output-customization*
 compiler-rules	latex-suite.txt	/*compiler-rules*
 compiling-multiple	latex-suite.txt	/*compiling-multiple*
 completion-window-preferences	latex-suite.txt	/*completion-window-preferences*
+cs	surround.txt	/*cs*
 custom-macros-menu	latex-suite.txt	/*custom-macros-menu*
 custom-packages	latex-suite.txt	/*custom-packages*
 customize-alt-key-maps	latex-suite.txt	/*customize-alt-key-maps*
@@ -260,6 +262,7 @@ customizing-viewing	latex-suite.txt	/*customizing-viewing*
 customizing-what-to-fold	latex-suite.txt	/*customizing-what-to-fold*
 default-folding	latex-suite.txt	/*default-folding*
 diacritic-mappings	latex-suite.txt	/*diacritic-mappings*
+ds	surround.txt	/*ds*
 editing-folding	latex-suite.txt	/*editing-folding*
 enabling-searching	latex-suite.txt	/*enabling-searching*
 enclosing-commands	latex-suite.txt	/*enclosing-commands*
@@ -274,6 +277,8 @@ forward-searching	latex-suite.txt	/*forward-searching*
 g:snippets_dir	snipMate.txt	/*g:snippets_dir*
 g:snips_author	snipMate.txt	/*g:snips_author*
 greek-letter-mappings	latex-suite.txt	/*greek-letter-mappings*
+i_CTRL-G_S	surround.txt	/*i_CTRL-G_S*
+i_CTRL-G_s	surround.txt	/*i_CTRL-G_s*
 i_CTRL-R_<Tab>	snipMate.txt	/*i_CTRL-R_<Tab>*
 inserting-commands	latex-suite.txt	/*inserting-commands*
 inserting-env-f5	latex-suite.txt	/*inserting-env-f5*
@@ -708,6 +713,13 @@ snippet	snipMate.txt	/*snippet*
 snippet-syntax	snipMate.txt	/*snippet-syntax*
 snippets	snipMate.txt	/*snippets*
 supporting-packages	latex-suite.txt	/*supporting-packages*
+surround	surround.txt	/*surround*
+surround-customizing	surround.txt	/*surround-customizing*
+surround-issues	surround.txt	/*surround-issues*
+surround-mappings	surround.txt	/*surround-mappings*
+surround-replacements	surround.txt	/*surround-replacements*
+surround-targets	surround.txt	/*surround-targets*
+surround.txt	surround.txt	/*surround.txt*
 taglist-commands	taglist.txt	/*taglist-commands*
 taglist-debug	taglist.txt	/*taglist-debug*
 taglist-extend	taglist.txt	/*taglist-extend*
@@ -725,4 +737,10 @@ taglist-session	taglist.txt	/*taglist-session*
 taglist-todo	taglist.txt	/*taglist-todo*
 taglist-using	taglist.txt	/*taglist-using*
 taglist.txt	taglist.txt	/*taglist.txt*
+vS	surround.txt	/*vS*
+vgS	surround.txt	/*vgS*
 why-IMAP	latex-suite.txt	/*why-IMAP*
+yS	surround.txt	/*yS*
+ySS	surround.txt	/*ySS*
+ys	surround.txt	/*ys*
+yss	surround.txt	/*yss*
