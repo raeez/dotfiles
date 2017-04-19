@@ -1,14 +1,14 @@
 # raeez.com:sys/dotfiles.git/README.md
 - assumes a DVORAK keyboard layout
 - vim: a nascent configuration
-* .vim
-* .vimrc
-* .gvimrc
+  * .vim
+  * .vimrc
+  * .gvimrc
 - zsh: mostly vanilla
-* .oh-my-zsh
-* .zshrc
+  * .oh-my-zsh
+  * .zshrc
 - git:
-* .gitconfig
+  * .gitconfig
 
 ## todo
 * alias git log --graph --pretty=oneline --abbrev-commit
