@@ -10,3 +10,6 @@
 [submodule "toolchain/dotfiles.github.com"]
 	path = toolchain/dotfiles.github.com
 	url = https://github.com/dotfiles/dotfiles.github.com
+[submodule "dot/.vim/bundle/vim-surround"]
+	path = dot/.vim/bundle/vim-surround
+	url = git://github.com/tpope/vim-surround.git
