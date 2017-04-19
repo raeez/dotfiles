@@ -2,11 +2,11 @@
 ## clean ##
 ###########
 
-pull: pull-dot-plan pull-dot-gitconfig pull-dot-vim pull-dot-vimrc pull-dot-zshrc pull-dot-oh-my-zsh pull-lingua
+pull: pull-dot-plan pull-dot-gitconfig pull-dot-vim pull-dot-vimrc pull-dot-zshrc pull-dot-oh-my-zsh
 	-git rm -rf dot/.vim/backup/*
 	-rm -rf dot/.vim/backup/*
 
-install: fonts colored-manpages vim zsh lingua plan gitconfig
+install: fonts colored-manpages vim zsh plan gitconfig
 	echo "done"
 
 #######################
@@ -26,25 +26,6 @@ pull-dot-zshrc:
 	cp -r ~/.zshrc dot/
 pull-dot-oh-my-zsh:
 	cp -r ~/.zshrc dot/
-
-pull-dot-plan:
-	cp -r ~/.plan dot/
-
-pull-lingua: pull-italiana pull-francais pull-afrikaans pull-english
-	echo "done"
-
-pull-italiana:
-	-cp -r ~/.italiana dot/
-
-pull-afrikaans:
-	-cp -r ~/.afrikaans dot/
-
-pull-english:
-	-cp -r ~/.english dot/
-
-pull-francais:
-	-cp -r ~/.francais dot/
-
 
 ##########################
 ## install dependencies ##
@@ -79,12 +60,6 @@ plan:
 
 gitconfig:
 	-cp -r dot/.gitconfig ~
-
-lingua:
-	-cp -r dot/.italiana ~
-	-cp -r dot/.francais ~
-	-cp -r dot/.afrikaans ~
-
 
 ####################
 ## install-server ##
