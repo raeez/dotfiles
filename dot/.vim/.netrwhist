@@ -1,5 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/lib/haskell/hatred/XMonad'
-let g:netrw_dirhist_2='/lib/haskell/hatred/Ritual'
-let g:netrw_dirhist_3='/lib/su2/scpp/SCPP'

@@ -105,7 +105,7 @@ autocmd BufReadPost *
 endif
 
 " make programs for various buffer types
-au BufEnter *.tex set makeprg=xelatex\ %;open\ %<.pdf
+ au BufEnter *.tex set makeprg=xelatex\ %;open\ %<.pdf
 au BufEnter *.rb set makeprg=irb\ -r\ %
 au BufEnter *.py set makeprg=python\ %
 au BufEnter *.c set makeprg=clang\ -Wall\ %\ &&\ ./a.out
@@ -184,4 +184,4 @@ let g:tex_flavor='latex'
 
 set tw=59 " text width
 set wm=2  " word margin
-set wrap linebreak nolist
+" set wrap linebreak nolist
