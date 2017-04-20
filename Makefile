@@ -5,7 +5,7 @@ NOW='generic'
 ## clean ##
 ###########
 
-pull: pull-dot-plan pull-dot-gitconfig pull-dot-vim pull-dot-vimrc pull-dot-zshrc pull-dot-oh-my-zsh
+save: save-rc pull-dot-gitconfig pull-dot-vim pull-dot-vimrc pull-dot-zshrc pull-dot-oh-my-zsh
 	-git rm -rf dot/.vim/backup/*
 	-rm -rf dot/.vim/backup/*
 
@@ -13,8 +13,10 @@ install: fonts colored-manpages vim zsh plan gitconfig
 	echo "done"
 
 #######################
-## pull dependencies ##
+## save local config ##
 #######################
+
+save-rc: pull-dot-vimrc pull-dot-gitconfig pull-dot-zshrc
 
 pull-dot-vim:
 	cp -r ~/.vim   dot/

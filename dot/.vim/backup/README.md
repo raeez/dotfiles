@@ -1,2 +1,1 @@
-# Make pull ensures this directory is empty before exiting with success
-# code 0
+# make save ensures this directory is empty before exiting with success code 0

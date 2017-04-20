@@ -1,9 +1,10 @@
 " TODO
-" - use au to detect filetype for duplication of "", {} etc.
+" - use au to detect filetype to turn on/off duplication of "", {} etc.
 
 " enable pathogen
 execute pathogen#infect()
 filetype plugin indent on
+filetype plugin on
 
 " Basic History
 set nocompatible
@@ -214,3 +215,12 @@ inoremap <special> <expr> <Esc>[200~ XTermPasteBegin()
 
 " automatic insertion of timestamp
 iab __- <c-r>=strftime("%d/%m/%y %H:%M:%S")<cr>
+
+" latex-flow aware gq
+map \gq ?^$\\|^\s*\(\\begin\\|\\end\\|\\label\)?1<CR>gq//-1<CR>
+omap lp ?^$\\|^\s*\(\\begin\\|\\end\\|\\label\)?1<CR>//-1<CR>.<CR>
+
+" vim sessions defaults to capturing all global options, including
+" 'runtimepath' needed by vim-pathogen
+" set sessionoptions-=options
+
