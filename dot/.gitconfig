@@ -8,7 +8,7 @@
 [alias]
   smi = !"git submodule init"
   sms = !"git submodule sync --recursive"
-  smu = !"git submodule update --init --recursve"
+  smu = !"git submodule update --init --recursive"
   lg = !"git lg1"
   lg1 = !"git lg1-specific --all"
   lg2 = !"git lg2-specific --all"

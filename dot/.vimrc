@@ -98,7 +98,10 @@ if has("autocmd")
   autocmd FileType html setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
   autocmd FileType python setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
   autocmd FileType * setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+
 " TODO decide on FileType for latex
+
+  autocmd BufWritePre * %s/\s\+$//e
 
 " autocmd BufReadPost *
 "   \ if line("'\"") > 1 && line("'\"") <= line("$") |
@@ -108,21 +111,17 @@ endif
 
 " make programs for various buffer types
 " au BufEnter *.tex set makeprg=pdflatex\ %;open\ %<.pdf
+au FileType make set noexpandtab
 au BufEnter *.rb set makeprg=irb\ -r\ %
 au BufEnter *.py set makeprg=python\ %
 au BufEnter *.c set makeprg=clang\ -Wall\ %\ &&\ ./a.out
 au BufEnter *.cc set makeprg=clang++\ -Wall\ %\ &&\ ./a.out
 " make uses real tabs
-au FileType make                                     set noexpandtab
-
 " Thorfile, Rakefile and Gemfile are Ruby
 " au BufRead,BufNewFile {Gemfile,Rakefile,Thorfile,config.ru}    set ft=ruby
-
 " md, markdown, and mk are markdown and define buffer-local preview
 au BufRead,BufNewFile *.{.plan,md,markdown,mdown,mkd,mkdn} call s:setupMarkup()
 au BufRead,BufNewFile *.{txt,tex} call s:setupWrapping()
-
-autocmd BufWritePre * %s/\s\+$//e
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
@@ -229,4 +228,3 @@ omap lp ?^$\\|^\s*\(\\begin\\|\\end\\|\\label\)?1<CR>//-1<CR>.<CR>
 " vim sessions defaults to capturing all global options, including
 " 'runtimepath' needed by vim-pathogen
 " set sessionoptions-=options
-
