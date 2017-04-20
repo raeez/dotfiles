@@ -3,6 +3,7 @@
 
 " enable pathogen
 execute pathogen#infect()
+Helptags
 filetype plugin indent on
 filetype plugin on
 
@@ -103,10 +104,10 @@ if has("autocmd")
 
   autocmd BufWritePre * %s/\s\+$//e
 
-" autocmd BufReadPost *
-"   \ if line("'\"") > 1 && line("'\"") <= line("$") |
-"   \   exe "normal! g`\"" |
-"   \ endif
+  autocmd BufReadPost *
+  \ if line("'\"") > 1 && line("'\"") <= line("$") |
+  \   exe "normal! g`\"" |
+  \ endif
 endif
 
 " make programs for various buffer types
