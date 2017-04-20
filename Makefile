@@ -47,11 +47,11 @@ bak-dotfiles-dir:
 	-mkdir -p ~/.bak/dotfiles
 
 vim: bak-dotfiles-dir
-	-cp -rf ~/.vim ~/.bak/dotfiles/$(NOW).vim.bak
+	-mv ~/.vim ~/.bak/dotfiles/$(NOW).vim.bak
 	-cp -rf dot/.vim ~
-	-cp -rf ~/.vimrc ~/.bak/dotfiles/$(NOW).vimrc.bak
+	-mv ~/.vimrc ~/.bak/dotfiles/$(NOW).vimrc.bak
 	-cp -rf dot/.vimrc ~
-	-cp -rf ~/.gvimrc ~/.bak/dotfiles/$(NOW).gvimrc.bak
+	-mv ~/.gvimrc ~/.bak/dotfiles/$(NOW).gvimrc.bak
 	-cp -rf dot/.gvimrc ~
 
 zsh: bak-dotfiles-dir
