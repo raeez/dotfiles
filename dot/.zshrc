@@ -96,6 +96,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
+alias vim="mvim -v"
 alias ups="ssh root@sci-serv.raeez.com 'bash -s' < ~/proj/www/raeez.com/src/git-pull"
 alias timeout="gtimeout"
 alias athena="ssh -K raeez@athena.dialup.mit.edu"
