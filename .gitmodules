@@ -22,3 +22,6 @@
 [submodule "dot/.vim/bundle/vim-latex-live-preview"]
 	path = dot/.vim/bundle/vim-latex-live-preview
 	url = https://github.com/xuhdev/vim-latex-live-preview.git
+[submodule "dot/.vim/bundle/vimtex"]
+	path = dot/.vim/bundle/vimtex
+	url = https://github.com/lervag/vimtex.git
