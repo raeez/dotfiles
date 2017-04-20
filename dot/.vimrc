@@ -172,7 +172,7 @@ let g:solarized_contrast = "high"
 colorscheme solarized
 let g:signify_sign_weight = 'none'
 
-" vim-lext-suite"
+" vim-latex-suite"
     " REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
 " filetype plugin on # already on
     " IMPORTANT: grep will sometimes skip displaying the file name if you
