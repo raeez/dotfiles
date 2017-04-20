@@ -55,9 +55,6 @@
 [submodule "dot/.vim/bundle/vim-repeat"]
 	path = dot/.vim/bundle/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
-[submodule "dot/.vim/bundle/YouCompleteMe"]
-	path = dot/.vim/bundle/YouCompleteMe
-	url = https://github.com/Valloric/YouCompleteMe.git
 [submodule "dot/.vim/bundle/emmet-vim"]
 	path = dot/.vim/bundle/emmet-vim
 	url = https://github.com/mattn/emmet-vim.git
