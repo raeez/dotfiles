@@ -6,6 +6,8 @@ execute pathogen#infect()
 filetype plugin indent on
 filetype plugin on
 
+set guifont=Inconsolata\ for\ Powerline:h14
+
 " Basic History
 set nocompatible
 

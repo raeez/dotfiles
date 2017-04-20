@@ -4,6 +4,7 @@
 " enable pathogen
 execute pathogen#infect()
 Helptags
+set guifont=Inconsolata:h14
 filetype plugin indent on
 filetype plugin on
 
