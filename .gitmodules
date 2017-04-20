@@ -71,5 +71,5 @@
 	path = dot/.vim/bundle/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
 [submodule "dot/.vim/vim-pathogen"]
-	path = dot/.vim/vim-pathogen
+	path = dot/.vim/bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
