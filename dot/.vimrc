@@ -160,19 +160,25 @@ set directory=~/.vim/backup
 " runtime macros/matchit.vim
 
 set colorcolumn=80
-set background=dark
+if has('gui_running')
+    set background=light " use macvim for light theme"
+else
+    set background=dark
+endif
 " set background=light
 
-" let g:solarized_termcolors=16
-" let g:solarized_termcolors=256
+"let g:solarized_termcolors=16
+"let g:solarized_termcolors=256
 let g:solarized_visibility = "high"
 let g:solarized_termtrans = 1
-" let g:solarized_visibility = "low"
-let g:solarized_contrast = "high"
-colorscheme solarized
+"let g:solarized_visibility = "low"
+"let g:solarized_contrast = "high"
 let g:signify_sign_weight = 'none'
 
-" vim-latex-suite"
+
+colorscheme solarized
+
+" vim-lext-suite"
     " REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
 " filetype plugin on # already on
     " IMPORTANT: grep will sometimes skip displaying the file name if you

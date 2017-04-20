@@ -1,5 +1,10 @@
+" TODO
+" - use au to detect filetype to turn on/off duplication of "", {} etc.
+
+" enable pathogen
 execute pathogen#infect()
 filetype plugin indent on
+filetype plugin on
 
 " Basic History
 set nocompatible
@@ -17,12 +22,12 @@ syntax enable
 set encoding=utf-8
 
 " Whitespace stuff
-set nowrap
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set expandtab
 set list listchars=tab:\ \ ,trail:·
+set wrap
 
 set autoindent
 set smartindent
@@ -102,7 +107,7 @@ if has("autocmd")
 endif
 
 " make programs for various buffer types
-au BufEnter *.tex set makeprg=pdflatex\ %;open\ %<.pdf
+" au BufEnter *.tex set makeprg=pdflatex\ %;open\ %<.pdf
 au BufEnter *.rb set makeprg=irb\ -r\ %
 au BufEnter *.py set makeprg=python\ %
 au BufEnter *.c set makeprg=clang\ -Wall\ %\ &&\ ./a.out
@@ -114,9 +119,10 @@ au FileType make                                     set noexpandtab
 " au BufRead,BufNewFile {Gemfile,Rakefile,Thorfile,config.ru}    set ft=ruby
 
 " md, markdown, and mk are markdown and define buffer-local preview
-au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn} call s:setupMarkup()
+au BufRead,BufNewFile *.{.plan,md,markdown,mdown,mkd,mkdn} call s:setupMarkup()
+au BufRead,BufNewFile *.{txt,tex} call s:setupWrapping()
 
-au BufRead,BufNewFile *.txt call s:setupWrapping()
+autocmd BufWritePre * %s/\s\+$//e
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
@@ -154,16 +160,23 @@ set directory=~/.vim/backup
 " runtime macros/matchit.vim
 
 set colorcolumn=80
-set background=dark
+if has('gui_running')
+    set background=light " use macvim for light theme"
+else
+    set background=dark
+endif
 " set background=light
 
-" let g:solarized_termcolors=16
-" let g:solarized_termcolors=256
+"let g:solarized_termcolors=16
+"let g:solarized_termcolors=256
 let g:solarized_visibility = "high"
-" let g:solarized_visibility = "low"
-let g:solarized_contrast = "high"
-colorscheme solarized
+let g:solarized_termtrans = 1
+"let g:solarized_visibility = "low"
+"let g:solarized_contrast = "high"
 let g:signify_sign_weight = 'none'
+
+
+colorscheme solarized
 
 " vim-lext-suite"
     " REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
@@ -174,14 +187,46 @@ let g:signify_sign_weight = 'none'
 
 set grepprg=grep\ -nH\ $*
     " OPTIONAL: This enables automatic indentation as you type.
-  
+
 " filetype indent on # already on
     " OPTIONAL: Starting with Vim 7, the filetype of empty .tex files defaults to
     " 'plaintex' instead of 'tex', which results in vim-latex not being loaded.
     " The following changes the default filetype back to 'tex':
 
+" see vim-latex-suite manual: handles vim's mode upon .tex
 let g:tex_flavor='latex'
 
-set tw=59 " text width
-set wm=2  " word margin
-" set wrap linebreak nolist
+" auto paste mode, accounting for tmux
+function! WrapForTmux(s)
+  if !exists('$TMUX')
+    return a:s
+  endif
+
+  let tmux_start = "\<Esc>Ptmux;"
+  let tmux_end = "\<Esc>\\"
+
+  return tmux_start . substitute(a:s, "\<Esc>", "\<Esc>\<Esc>", 'g') . tmux_end
+endfunction
+
+let &t_SI .= WrapForTmux("\<Esc>[?2004h")
+let &t_EI .= WrapForTmux("\<Esc>[?2004l")
+
+function! XTermPasteBegin()
+  set pastetoggle=<Esc>[201~
+  set paste
+  return ""
+endfunction
+
+inoremap <special> <expr> <Esc>[200~ XTermPasteBegin()
+
+" automatic insertion of timestamp
+iab __- <c-r>=strftime("%d/%m/%y %H:%M:%S")<cr>
+
+" latex-flow aware gq
+map \gq ?^$\\|^\s*\(\\begin\\|\\end\\|\\label\)?1<CR>gq//-1<CR>
+omap lp ?^$\\|^\s*\(\\begin\\|\\end\\|\\label\)?1<CR>//-1<CR>.<CR>
+
+" vim sessions defaults to capturing all global options, including
+" 'runtimepath' needed by vim-pathogen
+" set sessionoptions-=options
+
