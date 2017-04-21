@@ -5,7 +5,7 @@ NOW='generic'
 ## clean ##
 ###########
 
-save: save-rc pull-dot-gitconfig pull-dot-vim pull-dot-vimrc pull-dot-zshrc pull-dot-oh-my-zsh
+save: save-rc save-gitconfig save-vim save-vimrc save-zshrc save-oh-my-zsh
 	-git rm -rf dot/.vim/backup/*
 	-rm -rf dot/.vim/backup/*
 
@@ -16,21 +16,22 @@ install: fonts colored-manpages vim zsh plan gitconfig
 ## save local config ##
 #######################
 
-save-rc: pull-dot-vimrc pull-dot-gitconfig pull-dot-zshrc
+save-rc: save-vimrc save-gitconfig save-zshrc
 
-pull-dot-vim:
-	cp -r ~/.vim   dot/
-	-rm -rf dot/.vim/back/*
-	-git rm -rf dot/.vim/back/*
-pull-dot-vimrc:
-	cp -r ~/.vimrc dot/
-	cp -r ~/.gvimrc dot/
-pull-dot-gitconfig:
-	cp -r ~/.gitconfig dot/
-pull-dot-zshrc:
-	cp -r ~/.zshrc dot/
-pull-dot-oh-my-zsh:
-	cp -r ~/.zshrc dot/
+save-vim:
+	-cp -r ~/.vim dot/
+	-cp -r ~/.viminfo dot/
+save-vimrc:
+	-cp -rf ~/.vimrc dot/
+	-cp -rf ~/.gvimrc dot/
+save-gitconfig:
+	-cp -rf ~/.gitconfig dot/
+save-zshrc:
+	-cp -rf ~/.zshrc dot/
+save-oh-my-zsh:
+	-cp -rf ~/.zshrc dot/
+save-iterm2:
+	-cp -rf ~/.iterm2 dot/
 
 ##########################
 ## install dependencies ##
@@ -53,6 +54,8 @@ vim: bak-dotfiles-dir
 	-cp -rf dot/.vimrc ~
 	-mv ~/.gvimrc ~/.bak/dotfiles/$(NOW).gvimrc.bak
 	-cp -rf dot/.gvimrc ~
+	-mv ~/.viminfo ~/.bak/dotfiles/$(NOW).viminfo.bak
+	-cp -rf dot/.viminfo ~
 
 zsh: bak-dotfiles-dir
 	-cp -rf ~/.zshrc ~/.bak/dotfiles/$(NOW).zshrc.bak
