@@ -122,7 +122,8 @@ au BufEnter *.cc set makeprg=clang++\ -Wall\ %\ &&\ ./a.out
 " Thorfile, Rakefile and Gemfile are Ruby
 " au BufRead,BufNewFile {Gemfile,Rakefile,Thorfile,config.ru}    set ft=ruby
 " md, markdown, and mk are markdown and define buffer-local preview
-au BufRead,BufNewFile *.{.plan,md,markdown,mdown,mkd,mkdn} call s:setupMarkup()
+autocmd BufNewFile,BufReadPost *.{plan,md} set filetype=markdown
+au BufRead,BufNewFile *.{plan,md,markdown,mdown,mkd,mkdn} call s:setupMarkup()
 au BufRead,BufNewFile *.{txt,tex} call s:setupWrapping()
 
 " allow backspacing over everything in insert mode
