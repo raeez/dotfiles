@@ -1,6 +1,9 @@
 # If you come from bash you might have to change your $PATH.
 #export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/.cargo/bin:$HOME/bin:/usr/local/bin:$PATH
+export PATH=$PATH:/Library/TeX/texbin # TeX on El Capitan
+# http://tug.org/mactex/elcapitan.html
+# http://people.ict.usc.edu/~leuski/cocoaspell/
 export PROJ=$HOME/proj
 export SYS=$PROJ/sys
 export GS=$PROJ/sp17/sp17-gitscripts
