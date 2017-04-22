@@ -6,7 +6,12 @@ execute pathogen#infect()
 Helptags
 set guifont=Inconsolata:h14
 filetype plugin indent on
-filetype plugin on
+
+
+set shellslash
+set grepprg=grep\ -nH\ $*
+
+
 
 " Basic History
 set nocompatible
@@ -231,3 +236,12 @@ omap lp ?^$\\|^\s*\(\\begin\\|\\end\\|\\label\)?1<CR>//-1<CR>.<CR>
 " vim sessions defaults to capturing all global options, including
 " 'runtimepath' needed by vim-pathogen
 " set sessionoptions-=options
+"
+g:livepreview_previewer = 'open -a Skim'
+"let g:livepreview_previewer = 'evince'
+" On OS X: Evince 3 or later from MacPorts works
+" let g:livepreview_previewer = 'okular'
+"g:livepreview_previewer = 'zathura'
+"g:livepreview_previewer = 'open -a Skim'
+"g:livepreview_previewer = 'open -a Preview', the preview only updates when you move the focus on the Preview application.
+" MuPDF: let g:livepreview_previewer = 'mupdf'

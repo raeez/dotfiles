@@ -99,7 +99,29 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
-alias vim="mvim -v"
+## OSX application shortcuts
+# TODO switch on os (fix sci-serv error)
+# TODO split off os specific configuration via something analogous to
+#       source "${ZDOTDIR:-${HOME}}/.zshrc-`uname`"
+
+ case `uname` in
+   Darwin)
+    # commands for OS X go here
+    alias flux="open /Applications/Flux.app"
+    alias fork="open /Applications/ForkLift.app"
+    alias vim="mvim -v"
+    alias apps="open /Applications/"
+    alias chrome="open /Applications/Google\ Chrome.app"
+    alias down="open ~/Downloads"
+   ;;
+   Linux)
+     # commands for Linux go here
+   ;;
+   FreeBSD)
+     # commands for FreeBSD go here
+   ;;
+ esac
+
 alias ups="ssh root@sci-serv.raeez.com 'bash -s' < ~/proj/www/raeez.com/src/git-pull"
 alias timeout="gtimeout"
 alias athena="ssh -K raeez@athena.dialup.mit.edu"
