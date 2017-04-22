@@ -2,6 +2,7 @@
 #export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/.cargo/bin:$HOME/bin:/usr/local/bin:$PATH
 export PATH=$PATH:/Library/TeX/texbin # TeX on El Capitan
+export PATH=$PATH:$PROJ/bin # custom scripts
 # http://tug.org/mactex/elcapitan.html
 # http://people.ict.usc.edu/~leuski/cocoaspell/
 export PROJ=$HOME/proj

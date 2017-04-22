@@ -106,6 +106,13 @@ if has("autocmd")
   autocmd FileType python setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
   autocmd FileType * setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
+  autocmd Filetype tex setl updatetime=5
+  let g:livepreview_previewer = 'open -a Skim'
+  let g:LatexBox_split_type="new"
+
+  " defaults write TeXShop BringPdfFrontOnAutomaticUpdate NO
+
+
 " TODO decide on FileType for latex
 
   autocmd BufWritePre * %s/\s\+$//e
@@ -160,8 +167,8 @@ set modeline
 set modelines=10
 
 "Directories for swp files
-set backupdir=~/.vim/backup
-set directory=~/.vim/backup
+"set backupdir=~/.vim/backup
+"set directory=~/.vim/backup
 
 "extended % matching
 " runtime macros/matchit.vim
@@ -237,7 +244,6 @@ omap lp ?^$\\|^\s*\(\\begin\\|\\end\\|\\label\)?1<CR>//-1<CR>.<CR>
 " 'runtimepath' needed by vim-pathogen
 " set sessionoptions-=options
 "
-g:livepreview_previewer = 'open -a Skim'
 "let g:livepreview_previewer = 'evince'
 " On OS X: Evince 3 or later from MacPorts works
 " let g:livepreview_previewer = 'okular'
@@ -245,3 +251,6 @@ g:livepreview_previewer = 'open -a Skim'
 "g:livepreview_previewer = 'open -a Skim'
 "g:livepreview_previewer = 'open -a Preview', the preview only updates when you move the focus on the Preview application.
 " MuPDF: let g:livepreview_previewer = 'mupdf'
+
+let g:airline_theme='solarized'
+let g:Tex_CompileRule_pdf = 'xelatex -output-directory=out --interaction=nonstopmode -file-line-error-style $*'

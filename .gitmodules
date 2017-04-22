@@ -16,9 +16,6 @@
 [submodule "dot/.vim/bundle/vim-colors-solarized"]
 	path = dot/.vim/bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
-[submodule "dot/.vim/bundle/vim-latex"]
-	path = dot/.vim/bundle/vim-latex
-	url = https://github.com/vim-latex/vim-latex.git
 [submodule "dot/.vim/bundle/nerdtree"]
 	path = dot/.vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
@@ -67,3 +64,9 @@
 [submodule "dot/.vim/bundle/LaTeX-Box-Team"]
 	path = dot/.vim/bundle/LaTexBox
 	url = https://github.com/LaTeX-Box-Team/LaTeX-Box.git
+[submodule "dot/.vim/bundle/vim-latex"]
+	path = dot/.vim/bundle/vim-latex
+	url = https://github.com/vim-latex/vim-latex.git
+[submodule "dot/.vim/bundle/dash.vim"]
+	path = dot/.vim/bundle/dash.vim
+	url = https://github.com/rizzatti/dash.vim.git
