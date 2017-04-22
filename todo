@@ -1,1 +1,14 @@
 git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/bundle/vim-airline-themes
+https://github.com/agnoster/agnoster-zsh-theme.git
+https://github.com/bhilburn/powerlevel9k#installation
+stylizing your prompt https://github.com/bhilburn/powerlevel9k/wiki/Stylizing-Your-Prompt
+http://todotxt.com
+https://github.com/ginatrapani/todo.txt-cli/releases
+show off your config: https://github.com/bhilburn/powerlevel9k/wiki/Show-Off-Your-Config
+https://github.com/dritter/agnoster-like-themes
+powerline prompt for your shell https://github.com/banga/powerline-shell
+install powerline on mac https://gist.github.com/wm/4750511
+learn zsh autocorrections: https://github.com/zsh-users/zsh-autosuggestions#oh-my-zsh
+
+
+solarized-powerline install instructions: https://github.com/KuoE0/oh-my-zsh-solarized-powerline-theme
