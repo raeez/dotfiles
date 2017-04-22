@@ -4,7 +4,6 @@
 " enable pathogen
 execute pathogen#infect()
 Helptags
-set guifont=Inconsolata:h14
 filetype plugin indent on
 
 
@@ -174,11 +173,6 @@ set modelines=10
 " runtime macros/matchit.vim
 
 set colorcolumn=80
-if has('gui_running')
-    set background=light " use macvim for light theme"
-else
-    set background=dark
-endif
 " set background=light
 
 "let g:solarized_termcolors=16
@@ -254,3 +248,35 @@ omap lp ?^$\\|^\s*\(\\begin\\|\\end\\|\\label\)?1<CR>//-1<CR>.<CR>
 
 let g:airline_theme='solarized'
 let g:Tex_CompileRule_pdf = 'xelatex -output-directory=out --interaction=nonstopmode -file-line-error-style $*'
+let g:Powerline_symbols = 'fancy'
+set encoding=utf-8
+set t_Co=256
+set fillchars+=stl:\ ,stlnc:\
+set term=xterm-256color
+set termencoding=utf-8
+
+if has('gui_running')
+   let s:uname = system("uname")
+   "if s:uname == "Darwin\n"
+   set background=dark " use macvim for light theme"
+   set guifont=Inconsolata-dz\ for\ Powerline:h15
+else
+    set background=dark
+endif
+
+let g:Powerline_symbols = 'fancy'
+set encoding=utf-8
+set t_Co=256
+set fillchars+=stl:\ ,stlnc:\
+let g:Powerline_mode_V="V·LINE"
+let g:Powerline_mode_cv="V·BLOCK"
+let g:Powerline_mode_S="S·LINE"
+let g:Powerline_mode_cs="S·BLOCK"
+let g:airline_powerline_fonts = 1
+ if !exists('g:airline_symbols')
+       let g:airline_symbols = {}
+ endif
+let g:airline_symbols.space = "\ua0"
+  let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#show_buffers = 0
+"let g:airline_theme = 'molokai'

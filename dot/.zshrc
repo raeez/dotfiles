@@ -2,7 +2,7 @@
 #export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/.cargo/bin:$HOME/bin:/usr/local/bin:$PATH
 export PATH=$PATH:/Library/TeX/texbin # TeX on El Capitan
-export PATH=$PATH:$PROJ/bin # custom scripts
+export PATH=$PATH:$PROJ/bin           # custom scripts
 # http://tug.org/mactex/elcapitan.html
 # http://people.ict.usc.edu/~leuski/cocoaspell/
 export PROJ=$HOME/proj
@@ -14,13 +14,32 @@ export WWW=/var/www/html # ubuntu 16 nginx default host dir
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/raeez/.oh-my-zsh
+export TERM="xterm-256color"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
 # ZSH_THEME="agnoster"
-ZSH_THEME="powerlevel9k/powerlevel9k"
+# ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="solarized-powerline"
+ZSH_POWERLINE_SHOW_IP=true
+ZSH_POWERLINE_SHOW_TIME=true
+ZSH_POWERLINE_SINGLE_LINE=false
+ZSH_POWERLINE_SHOW_BRANCH=true
+ZSH_POWERLINE_SHOW_RETURN_CODE=true
+ZSH_POWERLINE_SHOW_OS=false
+ZSH_POWERLINE_DIRECTORY_DEPTH=5
+ZSH_POWERLINE_SHOW_USER=true
+POWERLEVEL_9K_LEFT_PROMPT_ELEMENTS=(context dir rbenv vcs)
+POWERLEVEL_9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)
+
+
+
+# ln -s $PWD/solarized-powerline.zsh-theme ~/.oh-my-zsh/themes
+# POWERLEVEL9K_MODE='compatible'
+
+# POWERLEVEL9K_MODE='awesome-patched'
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -79,11 +98,11 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+if [[ -n $SSH_CONNECTION ]]; then
+   export EDITOR='vim'
+ else
+   export EDITOR='mvim'
+ fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
