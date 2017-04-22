@@ -70,3 +70,9 @@
 [submodule "dot/.vim/bundle/dash.vim"]
 	path = dot/.vim/bundle/dash.vim
 	url = https://github.com/rizzatti/dash.vim.git
+[submodule "fonts/awesome-terminal-fonts"]
+	path = fonts/awesome-terminal-fonts
+	url = https://github.com/gabrielelana/awesome-terminal-fonts.git
+[submodule "oh-my-zsh-solarized-powerline-theme"]
+	path = oh-my-zsh-solarized-powerline-theme
+	url = https://github.com/KuoE0/oh-my-zsh-solarized-powerline-theme.git

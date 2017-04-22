@@ -23,7 +23,6 @@ save-vim:
 	-cp -r ~/.viminfo dot/
 save-vimrc:
 	-cp -rf ~/.vimrc dot/
-	-cp -rf ~/.gvimrc dot/
 save-gitconfig:
 	-cp -rf ~/.gitconfig dot/
 save-zshrc:
@@ -52,8 +51,6 @@ vim: bak-dotfiles-dir
 	-cp -rf dot/.vim ~
 	-mv ~/.vimrc ~/.bak/dotfiles/$(NOW).vimrc.bak
 	-cp -rf dot/.vimrc ~
-	-mv ~/.gvimrc ~/.bak/dotfiles/$(NOW).gvimrc.bak
-	-cp -rf dot/.gvimrc ~
 	-mv ~/.viminfo ~/.bak/dotfiles/$(NOW).viminfo.bak
 	-cp -rf dot/.viminfo ~
 
