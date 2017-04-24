@@ -88,3 +88,6 @@
 [submodule "dot/.zsh/zsh-autosuggestions"]
 	path = dot/.zsh/zsh-autosuggestions
 	url = git://github.com/zsh-users/zsh-autosuggestions
+[submodule "vimrc"]
+	path = vimrc
+	url = https://github.com/amix/vimrc.git
