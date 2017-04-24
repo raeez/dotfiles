@@ -76,3 +76,12 @@
 [submodule "oh-my-zsh-solarized-powerline-theme"]
 	path = oh-my-zsh-solarized-powerline-theme
 	url = https://github.com/KuoE0/oh-my-zsh-solarized-powerline-theme.git
+[submodule "dot/.vim/bundle/vim-startify"]
+	path = dot/.vim/bundle/vim-startify
+	url = https://github.com/mhinz/vim-startify.git
+[submodule "dot/.vim/bundle/vim-solarized-powerline"]
+	path = dot/.vim/bundle/vim-solarized-powerline
+	url = https://github.com/stephenmckinney/vim-solarized-powerline.git
+[submodule "fonts/nerd-fonts"]
+	path = fonts/nerd-fonts
+	url = https://github.com/ryanoasis/nerd-fonts.git
