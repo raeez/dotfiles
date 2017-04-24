@@ -1,4 +1,5 @@
 # investigate
+https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-1-install-powerlevel9k
 https://github.com/amix/vimrc
 http://sourabhbajaj.com/mac-setup/Vim/README.html
 http://mikebuss.com/2014/02/02/a-beautiful-productive-terminal-experience
