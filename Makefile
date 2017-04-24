@@ -30,6 +30,7 @@ save-zshrc:
 save-oh-my-zsh:
 	-cp -rf ~/.zshrc dot/
 save-iterm2:
+	-cp -rf ~/.iterm2_shell_integration.zsh dot/
 	-cp -rf ~/.iterm2 dot/
 
 ##########################
