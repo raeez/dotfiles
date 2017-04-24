@@ -1,4 +1,5 @@
 # investigate
+https://www.iterm2.com/documentation-shell-integration.html
 git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/bundle/vim-airline-themes
 https://github.com/agnoster/agnoster-zsh-theme.git
 https://github.com/bhilburn/powerlevel9k#installation
