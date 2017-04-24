@@ -85,3 +85,6 @@
 [submodule "fonts/nerd-fonts"]
 	path = fonts/nerd-fonts
 	url = https://github.com/ryanoasis/nerd-fonts.git
+[submodule "dot/.zsh/zsh-autosuggestions"]
+	path = dot/.zsh/zsh-autosuggestions
+	url = git://github.com/zsh-users/zsh-autosuggestions

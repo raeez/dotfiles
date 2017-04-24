@@ -25,6 +25,9 @@ save-vimrc:
 	-cp -rf ~/.vimrc dot/
 save-gitconfig:
 	-cp -rf ~/.gitconfig dot/
+save-zsh:
+	-cp -rf ~/.zsh dot/
+	-cp -rf ~/.oh-my-zsh dot/
 save-zshrc:
 	-cp -rf ~/.zshrc dot/
 save-oh-my-zsh:
