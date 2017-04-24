@@ -1,4 +1,7 @@
 # investigate
+https://github.com/amix/vimrc
+http://sourabhbajaj.com/mac-setup/Vim/README.html
+http://mikebuss.com/2014/02/02/a-beautiful-productive-terminal-experience
 https://github.com/zsh-users/zsh-autosuggestions#oh-my-zsh
 https://www.iterm2.com/documentation-shell-integration.html
 git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/bundle/vim-airline-themes
