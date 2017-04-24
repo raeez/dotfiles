@@ -1,4 +1,5 @@
 # investigate
+https://github.com/zsh-users/zsh-autosuggestions#oh-my-zsh
 https://www.iterm2.com/documentation-shell-integration.html
 git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/bundle/vim-airline-themes
 https://github.com/agnoster/agnoster-zsh-theme.git
