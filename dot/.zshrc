@@ -11,6 +11,9 @@ export GS=$PROJ/sp17/sp17-gitscripts
 export GG=$PROJ/mathematica/generalized-grassmannians
 export DOTFILES=$PROJ/sys/dotfiles
 export WWW=/var/www/html # ubuntu 16 nginx default host dir
+export ZSHRC=~/.zshrc
+export VIMRC=~/.vimrc
+export GITCONFIG=~/.gitconfig
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/raeez/.oh-my-zsh
@@ -21,19 +24,85 @@ export TERM="xterm-256color"
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
 # ZSH_THEME="agnoster"
-# ZSH_THEME="powerlevel9k/powerlevel9k"
-ZSH_THEME="solarized-powerline"
-ZSH_POWERLINE_SHOW_IP=true
-ZSH_POWERLINE_SHOW_TIME=true
-ZSH_POWERLINE_SINGLE_LINE=false
-ZSH_POWERLINE_SHOW_BRANCH=true
-ZSH_POWERLINE_SHOW_RETURN_CODE=true
-ZSH_POWERLINE_SHOW_OS=false
-ZSH_POWERLINE_DIRECTORY_DEPTH=5
-ZSH_POWERLINE_SHOW_USER=true
-POWERLEVEL_9K_LEFT_PROMPT_ELEMENTS=(context dir rbenv vcs)
-POWERLEVEL_9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)
+# ZSH_THEME="solarized-powerline"
+# ZSH_POWERLINE_SHOW_IP=true
+# ZSH_POWERLINE_SHOW_TIME=true
+# ZSH_POWERLINE_SINGLE_LINE=false
+# ZSH_POWERLINE_SHOW_BRANCH=true
+# ZSH_POWERLINE_SHOW_RETURN_CODE=true
+# ZSH_POWERLINE_SHOW_OS=false
+# ZSH_POWERLINE_DIRECTORY_DEPTH=5
+# ZSH_POWERLINE_SHOW_USER=true
+# POWERLEVEL_9K_LEFT_PROMPT_ELEMENTS=(context dir rbenv vcs)
+# POWERLEVEL_9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)
+# # POWERLEVEL9K_MODE='awesome-patched'
+# # POWERLEVEL9K_MODE='awesome-fontconfig'
+# POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+# POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="%{%F{249}%}\u250f"
+# POWERLEVEL9K_MULTILINE_SECOND_PROMPT_PREFIX="%{%F{249}%}\u2517%{%F{default}%} "
+# POWERLEVEL9K_SHORTEN_DIR_LENGTH=4
+# POWERLEVEL9K_SHORTEN_STRATEGY="truncate_middle"
+# POWERLEVEL9K_OS_ICON_BACKGROUND="black"
+# POWERLEVEL9K_OS_ICON_FOREGROUND="249"
+# POWERLEVEL9K_TODO_BACKGROUND="black"
+# POWERLEVEL9K_TODO_FOREGROUND="249"
+# POWERLEVEL9K_DIR_HOME_BACKGROUND="black"
+# POWERLEVEL9K_DIR_HOME_FOREGROUND="249"
+# POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND="black"
+# POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND="249"
+# POWERLEVEL9K_DIR_DEFAULT_BACKGROUND="black"
+# POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="249"
+# POWERLEVEL9K_STATUS_OK_BACKGROUND="black"
+# POWERLEVEL9K_STATUS_OK_FOREGROUND="green"
+# POWERLEVEL9K_STATUS_ERROR_BACKGROUND="black"
+# POWERLEVEL9K_STATUS_ERROR_FOREGROUND="red"
+# POWERLEVEL9K_NVM_BACKGROUND="black"
+# POWERLEVEL9K_NVM_FOREGROUND="249"
+# POWERLEVEL9K_NVM_VISUAL_IDENTIFIER_COLOR="green"
+# POWERLEVEL9K_RVM_BACKGROUND="black"
+# POWERLEVEL9K_RVM_FOREGROUND="249"
+# POWERLEVEL9K_RVM_VISUAL_IDENTIFIER_COLOR="red"
+# POWERLEVEL9K_LOAD_CRITICAL_BACKGROUND="black"
+# POWERLEVEL9K_LOAD_WARNING_BACKGROUND="black"
+# POWERLEVEL9K_LOAD_NORMAL_BACKGROUND="black"
+# POWERLEVEL9K_LOAD_CRITICAL_FOREGROUND="249"
+# POWERLEVEL9K_LOAD_WARNING_FOREGROUND="249"
+# POWERLEVEL9K_LOAD_NORMAL_FOREGROUND="249"
+# POWERLEVEL9K_LOAD_CRITICAL_VISUAL_IDENTIFIER_COLOR="red"
+# POWERLEVEL9K_LOAD_WARNING_VISUAL_IDENTIFIER_COLOR="yellow"
+# POWERLEVEL9K_LOAD_NORMAL_VISUAL_IDENTIFIER_COLOR="green"
+# POWERLEVEL9K_RAM_BACKGROUND="black"
+# POWERLEVEL9K_RAM_FOREGROUND="249"
+# POWERLEVEL9K_RAM_ELEMENTS=(ram_free)
+# POWERLEVEL9K_BATTERY_LOW_BACKGROUND="black"
+# POWERLEVEL9K_BATTERY_CHARGING_BACKGROUND="black"
+# POWERLEVEL9K_BATTERY_CHARGED_BACKGROUND="black"
+# POWERLEVEL9K_BATTERY_DISCONNECTED_BACKGROUND="black"
+# POWERLEVEL9K_BATTERY_LOW_FOREGROUND="249"
+# POWERLEVEL9K_BATTERY_CHARGING_FOREGROUND="249"
+# POWERLEVEL9K_BATTERY_CHARGED_FOREGROUND="249"
+# POWERLEVEL9K_BATTERY_DISCONNECTED_FOREGROUND="249"
+# POWERLEVEL9K_BATTERY_LOW_VISUAL_IDENTIFIER_COLOR="red"
+# POWERLEVEL9K_BATTERY_CHARGING_VISUAL_IDENTIFIER_COLOR="yellow"
+# POWERLEVEL9K_BATTERY_CHARGED_VISUAL_IDENTIFIER_COLOR="green"
+# POWERLEVEL9K_BATTERY_DISCONNECTED_VISUAL_IDENTIFIER_COLOR="249"
+# POWERLEVEL9K_TIME_BACKGROUND="black"
+# POWERLEVEL9K_TIME_FOREGROUND="249"
+# POWERLEVEL9K_TIME_FORMAT="%D{%H:%M:%S} \UE12E"
+# POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=('status' 'os_icon' 'todo' 'context' 'dir' 'vcs')
+# POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=('nvm' 'rvm' 'load' 'ram_joined' 'battery' 'time')
 
+# POWERLEVEL9K_MODE='awesome-patched'
+# POWERLEVEL9K_SHORTEN_DIR_LENGTH=3
+# POWERLEVEL9K_SHORTEN_STRATEGY="truncate_middle"
+# POWERLEVEL9K_STATUS_VERBOSE=false
+# POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status os_icon load context dir vcs)
+# POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(time)
+# POWERLEVEL9K_SHOW_CHANGESET=true
+# POWERLEVEL9K_CHANGESET_HASH_LENGTH=6
+
+ZSH_THEME="powerlevel9k/powerlevel9k"
+POWERLEVEL9K_MODE='nerdfont-complete'
 
 
 # ln -s $PWD/solarized-powerline.zsh-theme ~/.oh-my-zsh/themes
@@ -89,6 +158,7 @@ export LSCOLORS="Gxfxcxdxbxegedabagacad"
 plugins=(git bower sublime brew history node npm sudo web-search zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # User configuration
 
@@ -190,6 +260,7 @@ alias oghc="ghc -fwarn-incomplete-patterns -Wall -Werror -fwarn-name-shadowing"
 
 alias free="sudo du -sk ./* | sort -n | awk 'BEGIN{ pref[1]=\"K\"; pref[2]=\"M\"; pref[3]=\"G\";} { total = total + \$1; x = \$1; y = 1; while( x > 1024 ) { x = (x + 1023)/1024; y++; } printf(\"%g%s\t%s\n\",int(x*10)/10,pref[y],\$2); } END { y = 1; while( total > 1024 ) { total = (total + 1023)/1024; y++; } printf(\"Total: %g%s\n\",int(total*10)/10,pref[y]); }'"
 alias pref="open -a System\ Preferences"
+alias db="open -a Dropbox"
 alias skype="open -a Skype"
 alias vlc="open -a VLC.app"
 alias jackc="open -a /Applications/Jack/JackPilot.app"
@@ -202,6 +273,7 @@ alias omacs="open -a Aquamacs.app ~/.org/raeez.org"
 alias amacs="open -a Aquamacs.app"
 alias vico="open -a ~/Dropbox/Applications/Vico.app"
 
+alias opdf="open -a /Applications/PDFEditorPro6.app"
 alias md='mkdir -p'
 alias rd=rmdir
 
@@ -215,5 +287,5 @@ setopt cdablevarS
 
 # mostlike
 alias man="TERMINFO=~/.terminfo/ LESS=C TERM=mostlike PAGER=less man"
-
 # test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+

@@ -166,8 +166,8 @@ set modeline
 set modelines=10
 
 "Directories for swp files
-"set backupdir=~/.vim/backup
-"set directory=~/.vim/backup
+set backupdir=~/.vim/backup
+set directory=~/.vim/backup
 
 "extended % matching
 " runtime macros/matchit.vim
@@ -280,3 +280,6 @@ let g:airline_symbols.space = "\ua0"
   let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#show_buffers = 0
 "let g:airline_theme = 'molokai'
+let g:Powerline_theme='short'
+let g:Powerline_colorscheme='solarized256_dark'
+
