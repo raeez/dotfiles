@@ -7,3 +7,7 @@ Eventually the included configuration will assume the DVORAK keyboard layout
 * investigate terminal colors on different contexts for cat
 * profile .vim config
 * include iTerm2 config
+* homogenize make install
+  * symlinks
+  * for loop in the backup phase
+  * Makefile conventions
