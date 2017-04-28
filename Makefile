@@ -9,7 +9,7 @@ save: save-rc save-gitconfig save-vim save-vimrc save-zshrc save-oh-my-zsh
 	-git rm -rf dot/.vim/backup/*
 	-rm -rf dot/.vim/backup/*
 
-install: fonts colored-manpages vim zsh plan gitconfig
+install: fonts colored-manpages tmux vim zsh plan gitconfig
 	echo "done"
 
 #######################
@@ -49,6 +49,9 @@ colored-manpages:
 
 bak-dotfiles-dir:
 	-mkdir -p ~/.bak/dotfiles
+
+tmux:
+	-cp -rf dot/.tmux-conf ~
 
 vim: bak-dotfiles-dir
 	-mv ~/.vim ~/.bak/dotfiles/$(NOW).vim.bak
