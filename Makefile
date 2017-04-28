@@ -19,7 +19,8 @@ install: fonts colored-manpages tmux vim zsh plan gitconfig
 save-rc: tmux-conf save-vimrc save-gitconfig save-zshrc
 
 save-tmux-conf:
-	-cp -rf ~/.tmux-conf dot/
+	-ln -s dot/tmux-conf ~/.tmux-conf
+	# TODO contemplate switch on OS
 
 save-vim:
 	-cp -r ~/.vim dot/
