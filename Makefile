@@ -16,7 +16,10 @@ install: fonts colored-manpages vim zsh plan gitconfig
 ## save local config ##
 #######################
 
-save-rc: save-vimrc save-gitconfig save-zshrc
+save-rc: tmux-conf save-vimrc save-gitconfig save-zshrc
+
+save-tmux-conf:
+	-cp -rf ~/.tmux-conf dot/
 
 save-vim:
 	-cp -r ~/.vim dot/
