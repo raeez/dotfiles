@@ -1,0 +1,14 @@
+set imap_user = “raeez.lorgat@gmail.com”
+set imap_pass = “3c,d!!2fgb^”
+set smtp_url = “smtp://raeez.lorgat@smtp.gmail.com:587/”
+set smtp_pass = “3c,d!!2fgb^”
+set from = “raeez.lorgat@gmail.com”
+set realname = “Raeez Lorgat”
+set folder = “imaps://imap.gmail.com:993"
+set spoolfile = “+INBOX”
+set postponed = “+[Gmail]/Drafts”
+set header_cache = ~/.mutt/cache/headers
+set message_cachedir = ~/.mutt/cache/bodies
+set certificate_file = ~/.mutt/certificates
+set move = no
+set smtp_authenticators = ‘gssapi:login’

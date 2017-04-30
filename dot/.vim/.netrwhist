@@ -1,4 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/Users/raeez/Dropbox (MIT)/proj/mathematica/generalized-grassmannians/bib'
 let g:netrw_dirhist_2='/Users/raeez/Dropbox (MIT)/proj/mathematica/generalized-grassmannians/sections'
+let g:netrw_dirhist_3='/Users/raeez/.ssh'
+let g:netrw_dirhist_4='/Users/raeez/Dropbox (MIT)/mathematica/bridges/sections/furuta'
+let g:netrw_dirhist_5='/Users/raeez/Dropbox (MIT)/www/raeez.com'

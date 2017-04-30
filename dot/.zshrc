@@ -3,13 +3,17 @@
 export PATH=$HOME/.cargo/bin:$HOME/bin:$PATH
 export PATH=$PATH:/Library/TeX/texbin # TeX on El Capitan
 export PATH=$PATH:$PROJ/bin           # custom scripts
-export PATH=:/usr/local/bin:$PATH:/usr/local/bin # TODO fix before and after
+export PATH=:/usr/local/bin:$PATH:/usr/local/bin:/usr/local
+# TODO fix before and after
+
 # http://tug.org/mactex/elcapitan.html
 # http://people.ict.usc.edu/~leuski/cocoaspell/
 export PROJ=$HOME/proj
 export SYS=$PROJ/sys
 export GS=$PROJ/sp17/sp17-gitscripts
 export GG=$PROJ/mathematica/generalized-grassmannians
+export M=$PROJ/mathematica/mirklecs
+export B=$PROJ/mathematica/bridges
 export DOTFILES=$PROJ/sys/dotfiles
 export WWW=/var/www/html # ubuntu 16 nginx default host dir
 export ZSHRC=~/.zshrc
@@ -29,6 +33,12 @@ export TERM="xterm-256color"
 ZSH_THEME="powerlevel9k/powerlevel9k"
 POWERLEVEL9K_MODE='nerdfont-complete'
 
+export MUTT_EMAIL_ADDRESS="raeez.lorgat@gmail.com"
+export MUTT_REALNAME="Raeez Lorgat"
+export MUTT_SMTP_URL="smtp://raeez.lorgat@smtp.gmail.com:587/"
+
+# If you're using google apps put your full email address in the smtp url
+# export MUTT_SMTP_URL="smtp://username@domain.com@smtp.gmail.com:587/"
 
 #
 # ZSH_POWERLINE_SHOW_IP=true
@@ -202,14 +212,16 @@ source $ZSH/oh-my-zsh.sh
  case `uname` in
    Darwin)
     # commands for OS X go here
+    alias appstore="open -a App\ Store.app"
     alias flux="open /Applications/Flux.app"
     alias fork="open /Applications/ForkLift.app"
     alias vim="mvim -v"
-
+    alias kindle="open -a Kindle.app"
     alias cvim="rm -rf ~/.vim/backup && mkdir -p ~/.vim/backup"
     alias apps="open /Applications/"
     alias chrome="open /Applications/Google\ Chrome.app"
-    alias down="open ~/Downloads"
+    alias dl="open ~/Downloads"
+    alias tbot="open -a Tweetbot.app"
    ;;
    Linux)
      # commands for Linux go here
@@ -220,6 +232,8 @@ source $ZSH/oh-my-zsh.sh
    ;;
  esac
 
+
+#alias grep="`which grep` --color=always"
 alias diff="colordiff"
 alias ups="ssh root@sci-serv.raeez.com 'bash -s' < ~/proj/www/raeez.com/src/git-pull"
 alias timeout="gtimeout"
@@ -256,8 +270,8 @@ alias ga="git add"
 alias gr="git grep -R"
 alias ls="ls -G"
 alias less="less -R"
-alias grep="egrep --color=auto"
-alias egrep="egrep --color=always"
+#alias grep="egrep -cio --color=auto"
+# alias egrep="egrep --color=always"
 alias gr="egrep -iR . -e"
 alias fi="find . -regex"
 alias ack="ack --color"

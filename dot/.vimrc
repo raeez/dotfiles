@@ -9,10 +9,17 @@ execute pathogen#infect()
 Helptags
 filetype plugin indent on
 
+"" directory management
+set path+=~/proj/mathematica/tex-mathematica/tutorials/
+set path+=~/
+set path+=~/proj
+set path+=~/proj/mathematica
+set path+=~/proj/mathematica/mirklecs
+set path+=~/proj/mathematica/generalized-grassmannians
+set autochdir
 
 set shellslash
 set grepprg=grep\ -nH\ $*
-
 
 
 " Basic History
@@ -126,8 +133,19 @@ if has("autocmd")
   \ endif
 endif
 
-" make programs for various buffer types
-" au BufEnter *.tex set makeprg=pdflatex\ %;open\ %<.pdf
+"""""""""""""""""""""""""""""""""""""""""
+"" automatically refresh log files
+au BufEnter *.{log,out,aux} set autoread
+
+"""""""""""""""""""""""""""""""""""""""""
+"" make programs for various buffer types
+au BufEnter *.tex set makeprg=make
+
+
+"""""""""""""""""""""""""""""""""""""""""
+"" hard wrap on selected formats
+au BufEnter *{html,py} set textwidth=79 " 80 columns of text
+
 au FileType make set noexpandtab
 au BufEnter *.rb set makeprg=irb\ -r\ %
 au BufEnter *.py set makeprg=python\ %
@@ -139,7 +157,7 @@ au BufEnter *.cc set makeprg=clang++\ -Wall\ %\ &&\ ./a.out
 " md, markdown, and mk are markdown and define buffer-local preview
 autocmd BufNewFile,BufReadPost *.{plan,md} set filetype=markdown
 au BufRead,BufNewFile *.{plan,md,markdown,mdown,mkd,mkdn} call s:setupMarkup()
-"au BufRead,BufNewFile *.{txt,tex} call s:setupWrapping()
+au BufRead,BufNewFile *.{txt,tex,html} call s:setupWrapping()
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
@@ -233,10 +251,13 @@ inoremap <special> <expr> <Esc>[200~ XTermPasteBegin()
 
 " automatic insertion of timestamp
 iab __- <c-r>=strftime("%d/%m/%y %H:%M:%S")<cr>
+iab ><> [<c-r>=strftime("%d/%m/%y %H:%M:%S")<cr>]
+
+au BufEnter *.{teq,plan} ia .g <esc>Go<esc>0i[<c-r>=strftime("%d/%m/%y %H:%M:%S")<cr>]
 
 " latex-flow aware gq
-map \gq ?^$\\|^\s*\(\\begin\\|\\end\\|\\label\)?1<CR>gq//-1<CR>
-omap lp ?^$\\|^\s*\(\\begin\\|\\end\\|\\label\)?1<CR>//-1<CR>.<CR>
+"map \gq ?^$\\|^\s*\(\\begin\\|\\end\\|\\label\)?1<CR>gq//-1<CR>
+"omap lp ?^$\\|^\s*\(\\begin\\|\\end\\|\\label\)?1<CR>//-1<CR>.<CR>
 
 " vim sessions defaults to capturing all global options, including
 " 'runtimepath' needed by vim-pathogen
@@ -267,14 +288,17 @@ let g:Powerline_symbols = 'fancy'
 set encoding=utf-8
 set t_Co=256
 set fillchars+=stl:\ ,stlnc:\
-set term=xterm-256color
 set termencoding=utf-8
 
 if has('gui_running')
+    map <F11> <Esc>:call ToggleGUICruft()<cr>
+    " TODO establish <c-v> vs <c-q> macvim
+    " by default, hide gui menus
+    set guioptions=i
     let s:uname = system("uname")
     "if s:uname == "Darwin\n"
     set background=dark " use macvim for light theme"
-    set guifont=Inconsolata\ for\ Powerline\ Nerd\ Font\ Complete:h21
+    set guifont=Inconsolata\ for\ Powerline\ Nerd\ Font\ Complete:h18
     set guioptions-=m " menubar
     set guioptions-=T " taskbar
     set guioptions-=r " right scrollbar
@@ -291,7 +315,9 @@ if has('gui_running')
     " https://www.intego.com/mac-security-blog/interface-tweaks-for-el-capitan/
     set vb t_vb=
 else
+    set term=xterm-256color
     set background=dark
+    set t_Co=256
 endif
 set noeb vb t_vb=
 
@@ -304,14 +330,8 @@ set noeb vb t_vb=
   "endif
 "endfunction
 
-map <F11> <Esc>:call ToggleGUICruft()<cr>
-
-" by default, hide gui menus
-set guioptions=i
-
 let g:Powerline_symbols = 'fancy'
 set encoding=utf-8
-set t_Co=256
 set fillchars+=stl:\ ,stlnc:\
 let g:Powerline_mode_V="V·LINE"
 let g:Powerline_mode_cv="V·BLOCK"
@@ -327,5 +347,5 @@ let g:airline#extensions#tabline#show_buffers = 0
 "let g:airline_theme = 'molokai'
 let g:Powerline_theme='short'
 let g:Powerline_colorscheme='solarized256_dark'
-set transparency=10
+set transparency=6
 set wm=4
