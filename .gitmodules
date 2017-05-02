@@ -31,3 +31,9 @@
 [submodule "themes/mango.vim"]
 	path = themes/mango.vim
 	url = https://github.com/goatslacker/mango.vim.git
+[submodule "fonts/FiraCode"]
+	path = fonts/FiraCode
+	url = https://github.com/tonsky/FiraCode.git
+[submodule "fonts/source-code-pro"]
+	path = fonts/source-code-pro
+	url = https://github.com/adobe-fonts/source-code-pro.git
