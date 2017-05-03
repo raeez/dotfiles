@@ -1,16 +1,35 @@
-" TODO
-" parse
+" TODO establish profiling routine for .vimrc / plugins
+" TODO develop vim scp habit
 "   * http://stackoverflow.com/questions/21112972/macvim-gets-all-settings-from-vimrc-but-not-the-colors-and-i-have-to-source
 "   * http://stackoverflow.com/questions/13436823/disable-use-of-macvim-keyboard-shortcuts
 " - use au to detect filetype to turn on/off duplication of "", {} etc.
+" - https://github.com/carlhuda/janus
+" - https://git.wincent.com/command-t.git'
+" -
 
 " enable pathogen
 execute pathogen#infect()
 Helptags
+
+" https://github.com/VundleVim/Vundle.vim
+" Vundle git repo: git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+" turn off vi compatibility
+" set the runtime path to include Vundle and initialize
+" set rtp+=~/.vim/bundle/Vundle.vim
+" call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" filetype off
+" set nocompatible
+" Plugin 'VundleVim/Vundle.vim'
+
 filetype plugin indent on
 
 if has('gui_running')
   call togglebg#map("<F2>")
+
+let mapleader = "\<Space>"
 
   " lazy method of appending this onto your .vimrc ":w! >> ~/.vimrc"
   " ------------------------------------------------------------------
@@ -19,7 +38,7 @@ if has('gui_running')
   " To use, place these commands in your .vimrc file (replacing any
   " existing colorscheme commands). See also ":help solarized"
 
-  set guifont=InconsolataForPowerline\ Nerd\ Font:h14
+  set guifont=InconsolataForPowerline\ Nerd\ Font:h16
   " ------------------------------------------------------------------
   " Solarized Colorscheme Config
   " ------------------------------------------------------------------
@@ -220,10 +239,6 @@ endif
 "" automatically refresh log files
 au BufEnter *.{log,out,aux} set autoread
 
-"""""""""""""""""""""""""""""""""""""""""
-"" make programs for various buffer types
-au BufEnter *.tex set makeprg=make
-
 
 """""""""""""""""""""""""""""""""""""""""
 "" hard wrap on selected formats
@@ -394,4 +409,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#show_buffers = 0
 "let g:airline_theme = 'molokai'
 let g:airline_theme = 'solarized'
-set wm=4
+"set wm=4 % TODO read :help wm := wrapmargin
+"
+" habits
+set hlsearch

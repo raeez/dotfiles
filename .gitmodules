@@ -37,3 +37,9 @@
 [submodule "fonts/source-code-pro"]
 	path = fonts/source-code-pro
 	url = https://github.com/adobe-fonts/source-code-pro.git
+[submodule "others/dotfiles"]
+	path = others/dotfiles
+	url = https://github.com/mallyvai/dotfiles.git
+[submodule "others/Vundle.vim"]
+	path = others/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim.git

@@ -1,5 +1,7 @@
 NOW='generic'
 -include $(PROJ)/mkscripts/timestamp.mk
+CP=cp -rf
+MV=mv -f
 
 ###########
 ## clean ##
@@ -16,26 +18,26 @@ install: fonts colored-manpages tmux vim zsh plan gitconfig
 ## save local config ##
 #######################
 
-save-rc: tmux-conf save-vimrc save-gitconfig save-zshrc
+save-rc: save-tmux-conf save-vimrc save-gitconfig save-zshrc
 
 save-tmux-conf:
-	-ln -s dot/tmux-conf ~/.tmux-conf
+	-$($(CP)) ~/.tmux-conf dot/tmux-conf
 	# TODO contemplate switch on OS
 
 save-vim:
-	-cp -r ~/.vim dot/
-	-cp -r ~/.viminfo dot/
+	-$(CP) -r ~/.vim dot/
+	-$(CP) -r ~/.viminfo dot/
 save-vimrc:
-	-cp -rf ~/.vimrc dot/
-	-cp -rf ~/.gvimrc dot/
+	-$(CP) -rf ~/.vimrc dot/
+	-$(CP) -rf ~/.gvimrc dot/
 save-gitconfig:
-	-cp -rf ~/.gitconfig dot/
+	-$(CP) -rf ~/.gitconfig dot/
 save-zshrc:
-	-cp -rf ~/.zshrc dot/
+	-$(CP) -rf ~/.zshrc dot/
 save-oh-my-zsh:
-	-cp -rf ~/.zshrc dot/
+	-$(CP) -rf ~/.zshrc dot/
 save-iterm2:
-	-cp -rf ~/.iterm2 dot/
+	-$(CP) -rf ~/.iterm2 dot/
 
 ##########################
 ## install dependencies ##
@@ -43,7 +45,7 @@ save-iterm2:
 
 colored-manpages:
 	-mkdir -p ~/.terminfo # && cd ~/.terminfo
-	-cp themes/mostlike.txt ~/.terminfo/
+	-$(CP) themes/mostlike.txt ~/.terminfo/
 	-tic ~/.terminfo/mostlike.txt
 	# add the following to your shell's profile:
 	# alias man="TERMINFO=~/.terminfo/ LESS=C TERM=mostlike PAGER=less man"
@@ -52,23 +54,23 @@ bak-dotfiles-dir:
 	-mkdir -p ~/.bak/dotfiles
 
 tmux:
-	-cp -rf dot/.tmux-conf ~
+	-$(CP) -rf dot/.tmux-conf ~
 
 vim: bak-dotfiles-dir
 	-mv ~/.vim ~/.bak/dotfiles/$(NOW).vim.bak
-	-cp -rf dot/.vim ~
+	-$(CP) -rf dot/.vim ~
 	-mv ~/.vimrc ~/.bak/dotfiles/$(NOW).vimrc.bak
-	-cp -rf dot/.vimrc ~
+	-$(CP) -rf dot/.vimrc ~
 	-mv ~/.gvimrc ~/.bak/dotfiles/$(NOW).gvimrc.bak
-	-cp -rf dot/.gvimrc ~
+	-$(CP) -rf dot/.gvimrc ~
 	-mv ~/.viminfo ~/.bak/dotfiles/$(NOW).viminfo.bak
-	-cp -rf dot/.viminfo ~
+	-$(CP) -rf dot/.viminfo ~
 
 zsh: bak-dotfiles-dir
-	-cp -rf ~/.zshrc ~/.bak/dotfiles/$(NOW).zshrc.bak
-	-cp -rf dot/.zshrc ~
-	-cp -rf ~/.oh-my-zsh ~/.bak/dotfiles/$(NOW).oh-my-zsh.bak
-	-cp -rf dot/.oh-my-zsh ~
+	-$(CP) -rf ~/.zshrc ~/.bak/dotfiles/$(NOW).zshrc.bak
+	-$(CP) -rf dot/.zshrc ~
+	-$(CP) -rf ~/.oh-my-zsh ~/.bak/dotfiles/$(NOW).oh-my-zsh.bak
+	-$(CP) -rf dot/.oh-my-zsh ~
 
 oh-my-zsh:
 	#
@@ -78,10 +80,10 @@ powerline: oh-my-zsh
 	-$(shell git clone https://github.com/bhilburn/powerlevel9k.git /root/.oh-my-zsh/custom/themes/powerlevel9k)
 
 plan:
-	-cp -r dot/.plan ~
+	-$(CP) -r dot/.plan ~
 
 gitconfig:
-	-cp -r dot/.gitconfig ~
+	-$(CP) -r dot/.gitconfig ~
 
 ####################
 ## install-server ##

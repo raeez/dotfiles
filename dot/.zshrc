@@ -1,4 +1,6 @@
-# If you come from bash you might have to change your $PATH.
+#export KEYTIMEOUT=1
+#bindkey -v
+
 #export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/.cargo/bin:$HOME/bin:$PATH
 export PATH=$PATH:/Library/TeX/texbin # TeX on El Capitan
@@ -14,6 +16,7 @@ export GS=$PROJ/sp17/sp17-gitscripts
 export GG=$PROJ/mathematica/generalized-grassmannians
 export M=$PROJ/mathematica/mirklecs
 export B=$PROJ/mathematica/bridges
+export T=$PROJ/mathematica/tex-mathematica/tutorials
 export DOTFILES=$PROJ/sys/dotfiles
 export WWW=/var/www/html # ubuntu 16 nginx default host dir
 export ZSHRC=~/.zshrc
@@ -204,6 +207,19 @@ source $ZSH/oh-my-zsh.sh
 ##   export EDITOR='mvim'
 ## fi
 
+## <c-z> switch back and forth between vim and zsh
+fancy-ctrl-z () {
+  if [[ $#BUFFER -eq 0 ]]; then
+    BUFFER="fg"
+    zle accept-line
+  else
+    zle push-input
+    zle clear-screen
+  fi
+}
+zle -N fancy-ctrl-z
+bindkey '^Z' fancy-ctrl-z
+
 ## OSX application shortcuts
 # TODO switch on os (fix sci-serv error)
 # TODO split off os specific configuration via something analogous to
@@ -272,7 +288,7 @@ alias ls="ls -G"
 alias less="less -R"
 #alias grep="egrep -cio --color=auto"
 # alias egrep="egrep --color=always"
-alias gr="egrep -iR . -e"
+alias gr="egrep -iR . -n -e"
 alias fi="find . -regex"
 alias ack="ack --color"
 alias webshare='python -c "import SimpleHTTPServer;SimpleHTTPServer.test()"'

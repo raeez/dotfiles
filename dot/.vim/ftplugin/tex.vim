@@ -1,4 +1,6 @@
 "set cmdheight=2 "otherwise have to press enter on every \ll c.f. :help :silent
+"set conceallevel=0 % TODO what does this do?
+" TODO read :help conceallevel
 
 " this is mostly a matter of taste. but LaTeX looks good with just a bit
 " of indentation.
@@ -11,18 +13,26 @@ set sw=2
 set iskeyword+=: " TODO what does this do?
 " trial line-wrapping
 
-" Compilation options
-"let g:Tex_TreatMacViewerAsUNIX = 1
-"let g:Tex_ExecuteUNIXViewerInForeground = 1
-let g:Tex_ViewRule_ps = 'open -a Skim'
-let g:Tex_ViewRule_pdf = 'open -a /Applications/Skim.app'
-"let g:Tex_ViewRule_dvi = 'open -a /Applications/texniscope.app'
-let g:Tex_DefaultTargetFormat='pdf'
-"let g:Tex_CompileRule_pdf = 'pdflatex -output-directory=out -interaction=nonstopmode $*'
-" && open -a $*.pdf'
-let g:Tex_CompileRule_pdf = 'latexmk -outdir=out -pdf -f $* && open -a Skim out/*.pdf'
-let g:Tex_MultipleCompileFormats='pdf'
+"""""""""""""""""""""""""
+"" Viewing Options ""
+"" TODO https://sourceforge.net/p/skim-app/wiki/TeX_and_PDF_Synchronization/
+let g:tex_flavor='latex'
+let g:Tex_TreatMacViewerAsUNIX=1
+let g:Tex_ExecuteUNIXViewerInForeground=1
+let g:Tex_ViewRule_ps='open -a Skim'
+let g:Tex_ViewRule_pdf='open -a /Applications/Skim.app'
+let g:Tex_ViewRule_dvi='open -a /Applications/texniscope.app'
+
+"""""""""""""""""""""""""
+"" Compilation Options ""
+""
+au BufEnter *.tex set makeprg=make
 let g:Tex_UseMakefile=0 " ignore any Makefile, if present
+let g:Tex_MultipleCompileFormats='pdf'
+let g:Tex_DefaultTargetFormat='pdf'
+"let g:Tex_CompileRule_pdf = 'pdflatex -output-directory=out -interaction=nonstopmode $* && open -a $*.pdf'
+"let g:Tex_CompileRule_pdf = 'pdflatex -output-directory=out -interaction=nonstopmode $* && open -a $*.pdf'
+let g:Tex_CompileRule_pdf = 'latexmk -outdir=out -pdf -f $* && open -a Skim out/*.pdf'
 "let g:Tex_CompileRule_pdf = 'xelatex -output-directory=out --interaction=nonstopmode -file-line-error-style $*'
 "let g:Tex_IgnoredWarnings=
 "    \'hyperref'."\n".

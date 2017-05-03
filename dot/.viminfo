@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/gui
+~MSle0~/plugin
 
 # Last Substitute Search Pattern:
 ~MSle0&subsection
@@ -20,1076 +20,1158 @@
 $
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1493710957,,"q"
-:x!
-|2,0,1493710922,,"x!"
-:w
-|2,0,1493710920,,"w"
-:x
-|2,0,1493710820,,"x"
-:e ~/.vimrc
-|2,0,1493710786,,"e ~/.vimrc"
-:e set
-|2,0,1493710784,,"e set"
-:set background=dark
-|2,0,1493710778,,"set background=dark"
-:q!
-|2,0,1493710721,,"q!"
-:set background=light
-|2,0,1493710702,,"set background=light"
-:sp ~/.vimrc
-|2,0,1493710618,,"sp ~/.vimrc"
-:e ~/
-|2,0,1493710616,,"e ~/"
-:e hhhh
-|2,0,1493710614,,"e hhhh"
-:! open %
-|2,0,1493710434,,"! open %"
-:cd $PROJ/www/raeez.com/index.html
-|2,0,1493710330,,"cd $PROJ/www/raeez.com/index.html"
-:1
-|2,0,1493710243,,"1"
-:qa!
-|2,0,1493710110,,"qa!"
-:vsp test.js
-|2,0,1493709945,,"vsp test.js"
-:319
-|2,0,1493709503,,"319"
-:help weight
-|2,0,1493709489,,"help weight"
-:help signify_sign_weight
-|2,0,1493709485,,"help signify_sign_weight"
-:set invlist
-|2,0,1493709410,,"set invlist"
-:set list
-|2,0,1493709408,,"set list"
-:help termtrans
-|2,0,1493709371,,"help termtrans"
-:vsp
-|2,0,1493709367,,"vsp"
-:help solarized-hitrail
-|2,0,1493709274,,"help solarized-hitrail"
-:help solarized-termtrans
-|2,0,1493709254,,"help solarized-termtrans"
-:source %
-|2,0,1493709186,,"source %"
-:X!
-|2,0,1493709134,,"X!"
-:e sections/classformations.tex
-|2,0,1493709047,,"e sections/classformations.tex"
-:e 
-|2,0,1493708961,,"e "
-:e /Users/raeez/proj/mathematica/generalized-grassmannians/glg.tex
-|2,0,1493708877,,"e /Users/raeez/proj/mathematica/generalized-grassmannians/glg.tex"
-:set fu
-|2,0,1493708336,,"set fu"
-:help transparency
-|2,0,1493708277,,"help transparency"
-:306
-|2,0,1493708256,,"306"
-:314
-|2,0,1493708186,,"314"
-:311
-|2,0,1493708129,,"311"
-:vsp ~/.vimrc
-|2,0,1493708122,,"vsp ~/.vimrc"
-:help <c-w>
-|2,0,1493707798,,"help <c-w>"
-:help solarized
-|2,0,1493707770,,"help solarized"
-:!make q
-|2,0,1493684071,,"!make q"
-:vsp glg.tex
-|2,0,1493684061,,"vsp glg.tex"
-:e preamble.tex
-|2,0,1493684052,,"e preamble.tex"
-:!make
-|2,0,1493684029,,"!make"
-:!make clean
-|2,0,1493683974,,"!make clean"
-:e /Users/raeez/proj/mathematica/mirklecs/lectures.tex
-|2,0,1493683933,,"e /Users/raeez/proj/mathematica/mirklecs/lectures.tex"
-:e subsections.tex
-|2,0,1493683918,,"e subsections.tex"
-:e commands.tex
-|2,0,1493683832,,"e commands.tex"
-:e macros.tex
-|2,0,1493683828,,"e macros.tex"
-:e notation.tex
-|2,0,1493683766,,"e notation.tex"
-:e glg.tex
-|2,0,1493683657,,"e glg.tex"
-:e!
-|2,0,1493683473,,"e!"
-:e
-|2,0,1493683469,,"e"
-:!make index
-|2,0,1493683373,,"!make index"
-:vsp nomenclature.tex
-|2,0,1493683059,,"vsp nomenclature.tex"
-:.!jj
-|2,0,1493683046,,".!jj"
-:sp notation.tex
-|2,0,1493682949,,"sp notation.tex"
-:Vj
-|2,0,1493682858,,"Vj"
-:!mke
-|2,0,1493682848,,"!mke"
-:164
-|2,0,1493682630,,"164"
-:sp nomenclature.tex
-|2,0,1493682540,,"sp nomenclature.tex"
-:e sections/galoistheory.tex
-|2,0,1493682377,,"e sections/galoistheory.tex"
-:21
-|2,0,1493682212,,"21"
-:!
-|2,0,1493681479,,"!"
-:e sections/gaugetheory.tex
-|2,0,1493681446,,"e sections/gaugetheory.tex"
-:e sections/
-|2,0,1493681438,,"e sections/"
-:e sections/indobjects.tex
-|2,0,1493681378,,"e sections/indobjects.tex"
-:%s/subsection/section/g
-|2,0,1493681210,,"%s/subsection/section/g"
-:e sections/surfaces.tex
-|2,0,1493681084,,"e sections/surfaces.tex"
-:e abstract.tex
-|2,0,1493681012,,"e abstract.tex"
-:!open out/
-|2,0,1493680797,,"!open out/"
-:e Makefile
-|2,0,1493680501,,"e Makefile"
-:!git mv sections/introduction.tex sections/galoistheory.tex
-|2,0,1493680478,,"!git mv sections/introduction.tex sections/galoistheory.tex"
-:vsp sections/introduction.tex
-|2,0,1493680413,,"vsp sections/introduction.tex"
-:e sections
-|2,0,1493680407,,"e sections"
-:%s/chapter/part/g
-|2,0,1493680398,,"%s/chapter/part/g"
-:!make 
-|2,0,1493680113,,"!make "
 :xa!
-|2,0,1493704907,,"xa!"
-:help latex-suite
-|2,0,1493704802,,"help latex-suite"
-:e ~/.vim/ftplugin/tex.vim
-|2,0,1493704696,,"e ~/.vim/ftplugin/tex.vim"
-:vsp notation.tex
-|2,0,1493704611,,"vsp notation.tex"
-:!make clean && make
-|2,0,1493704507,,"!make clean && make"
-:e nomenclature.tex
-|2,0,1493704318,,"e nomenclature.tex"
-:sp out/glg.log
-|2,0,1493704299,,"sp out/glg.log"
-:sp ../notation.tex
-|2,0,1493684126,,"sp ../notation.tex"
-:e ../no
-|2,0,1493684124,,"e ../no"
-:sp 
-|2,0,1493683789,,"sp "
-:e ../notation.tex
-|2,0,1493683707,,"e ../notation.tex"
-:vsp ../preamble.tex
-|2,0,1493683254,,"vsp ../preamble.tex"
-::vsp glg.
-|2,0,1493683250,,":vsp glg."
-:!:e
-|2,0,1493682819,,"!:e"
-:set autoread
-|2,0,1493682448,,"set autoread"
-:e sp ~/.vimrc
-|2,0,1493682431,,"e sp ~/.vimrc"
-:set reload
-|2,0,1493682426,,"set reload"
-:set autoload
-|2,0,1493682420,,"set autoload"
-:.,.+1e
-|2,0,1493681870,,".,.+1e"
-:e ../
-|2,0,1493680001,,"e ../"
-:E
-|2,0,1493679469,,"E"
-:e %
-|2,0,1493677669,,"e %"
-:resize 4
-|2,0,1493680028,,"resize 4"
-:resize 5
-|2,0,1493680022,,"resize 5"
-:vsp macro
-|2,0,1493679868,,"vsp macro"
-:resize 10
-|2,0,1493679822,,"resize 10"
-:sp ../glg.tex
-|2,0,1493679818,,"sp ../glg.tex"
-:sp glg-construction.tex
-|2,0,1493679816,,"sp glg-construction.tex"
-:sp
-|2,0,1493679813,,"sp"
-:v
-|2,0,1493679810,,"v"
-:vsp ../glg.tex
-|2,0,1493679743,,"vsp ../glg.tex"
-:e ../glg
-|2,0,1493679741,,"e ../glg"
-:e ../glg.tex
-|2,0,1493679635,,"e ../glg.tex"
-:e /Users/raeez/proj/mathematica/mirklecs/sections/lec3.tex
-|2,0,1493679534,,"e /Users/raeez/proj/mathematica/mirklecs/sections/lec3.tex"
-:e sections/glg-construction.tex
-|2,0,1493679526,,"e sections/glg-construction.tex"
-:'<,'>s/\\nc/\\rc/g
-|2,0,1493679378,,"'<,'>s/\\\\nc/\\\\rc/g"
-:234
-|2,0,1493679046,,"234"
-:%s/\\nm/%\\nm/g
-|2,0,1493678731,,"%s/\\\\nm/%\\\\nm/g"
-:sp glg.tex
-|2,0,1493678646,,"sp glg.tex"
-:!:
-|2,0,1493678538,,"!:"
-:%s/%\\nc/\\nc/g
-|2,0,1493678532,,"%s/%\\\\nc/\\\\nc/g"
-:%s%\\nc/\\nc/g
-|2,0,1493678524,,"%s%\\\\nc/\\\\nc/g"
-:%s/\%\\nc/\\nc/g
-|2,0,1493678491,,"%s/\\%\\\\nc/\\\\nc/g"
-:%s\%\\nc/\\nc/g
-|2,0,1493678473,,"%s\\%\\\\nc/\\\\nc/g"
-:18
-|2,0,1493678319,,"18"
-:sp macros.tex
-|2,0,1493678313,,"sp macros.tex"
-:!make clean && make && make index
-|2,0,1493678253,,"!make clean && make && make index"
-:.!\ll
-|2,0,1493678064,,".!\\ll"
-:%s/\\nc/\%\\nc/g
-|2,0,1493677988,,"%s/\\\\nc/\\%\\\\nc/g"
-:%snc
-|2,0,1493677973,,"%snc"
-:w!
-|2,0,1493677914,,"w!"
-:e glg-construction.tex
-|2,0,1493677904,,"e glg-construction.tex"
-:e /Users/raeez/proj/mathematica/generalized-grassmannians/macros.tex
-|2,0,1493677891,,"e /Users/raeez/proj/mathematica/generalized-grassmannians/macros.tex"
-:e /Users/raeez/proj/mathematica/mirklecs/preamble.tex
-|2,0,1493677859,,"e /Users/raeez/proj/mathematica/mirklecs/preamble.tex"
-:15
-|2,0,1493677771,,"15"
-:!ajjjk
-|2,0,1493677593,,"!ajjjk"
-:vsp ../notation.tex
-|2,0,1493677456,,"vsp ../notation.tex"
-:e /Users/raeez/proj/mathematica/generalized-grassmannians/nomenclature.tex
-|2,0,1493677298,,"e /Users/raeez/proj/mathematica/generalized-grassmannians/nomenclature.tex"
-:vsp ../macros.tex
-|2,0,1493677179,,"vsp ../macros.tex"
-:re
-|2,0,1493677126,,"re"
-:'<,'>%le
-|2,0,1493676948,,"'<,'>%le"
-:%le
-|2,0,1493676941,,"%le"
-:sp /Users/raeez/proj/mathematica/generalized-grassmannians/sections/classformations.tex
-|2,0,1493676927,,"sp /Users/raeez/proj/mathematica/generalized-grassmannians/sections/classformations.tex"
-:e /Users/raeez/proj/mathematica/mirklecs/sections/lec2.tex
-|2,0,1493676914,,"e /Users/raeez/proj/mathematica/mirklecs/sections/lec2.tex"
-:e ../../mirklecs/
-|2,0,1493676907,,"e ../../mirklecs/"
-:e ~/.teq
-|2,0,1493676660,,"e ~/.teq"
-:help macro
-|2,0,1493676493,,"help macro"
-:e classformations.tex
-|2,0,1493676453,,"e classformations.tex"
-:vsp cohomology.tex
-|2,0,1493676391,,"vsp cohomology.tex"
-:e sections/intro.tex
-|2,0,1493676379,,"e sections/intro.tex"
-:sp ~/.vim/ftplugin/tex.vim
-|2,0,1493676289,,"sp ~/.vim/ftplugin/tex.vim"
-:e ../out/glg.log
-|2,0,1493676204,,"e ../out/glg.log"
-:vsp out/glg.log
-|2,0,1493676182,,"vsp out/glg.log"
-:vsp out/
-|2,0,1493676178,,"vsp out/"
-:!ls out/
-|2,0,1493676168,,"!ls out/"
-:543
-|2,0,1493676027,,"543"
-:29
-|2,0,1493675749,,"29"
-:54
-|2,0,1493675397,,"54"
-:qa
-|2,0,1493674346,,"qa"
-:vsp ~/.vim/ftplugin/tex.vim
-|2,0,1493674330,,"vsp ~/.vim/ftplugin/tex.vim"
-:X@
-|2,0,1493674137,,"X@"
-::w
-|2,0,1493674091,,":w"
-:205
-|2,0,1493673940,,"205"
-:244
-|2,0,1493673882,,"244"
-:set invfu
-|2,0,1493673798,,"set invfu"
-:!jjkk
-|2,0,1493673407,,"!jjkk"
-:e ../lectures.tex
-|2,0,1493673154,,"e ../lectures.tex"
-:e sections/lec1.tex
-|2,0,1493673081,,"e sections/lec1.tex"
-:%s/g://g
-|2,0,1493672935,,"%s/g://g"
-:%s/lec2/g
-|2,0,1493672926,,"%s/lec2/g"
-:228
-|2,0,1493672766,,"228"
-:set paste
-|2,0,1493672699,,"set paste"
-:e sections/introduction.tex
-|2,0,1493672695,,"e sections/introduction.tex"
-:e authors.tex
-|2,0,1493672613,,"e authors.tex"
-:set inv
-|2,0,1493672594,,"set inv"
-:vsp ../generalized-grassmannians/glg.tex
-|2,0,1493672554,,"vsp ../generalized-grassmannians/glg.tex"
-:%s/lectures/glg/g
-|2,0,1493673369,,"%s/lectures/glg/g"
-:328
-|2,0,1493612946,,"328"
-:365
-|2,0,1493612936,,"365"
-:230
-|2,0,1493612932,,"230"
-:387
-|2,0,1493612915,,"387"
-:358
-|2,0,1493608012,,"358"
-:221
-|2,0,1493607861,,"221"
-:182
-|2,0,1493607188,,"182"
-:215
-|2,0,1493607067,,"215"
-:184
-|2,0,1493607053,,"184"
-:174
-|2,0,1493607026,,"174"
-:287
-|2,0,1493606913,,"287"
-:239
-|2,0,1493606863,,"239"
-:290
-|2,0,1493606822,,"290"
-:267
-|2,0,1493606704,,"267"
-:261
-|2,0,1493606562,,"261"
-:231
-|2,0,1493606351,,"231"
-:241
-|2,0,1493606348,,"241"
-:264
-|2,0,1493606270,,"264"
-:270
-|2,0,1493606092,,"270"
-:242
-|2,0,1493605606,,"242"
-:240
-|2,0,1493605589,,"240"
-:326
-|2,0,1493605562,,"326"
-:288
-|2,0,1493605544,,"288"
-:113
-|2,0,1493605298,,"113"
-:57
-|2,0,1493605034,,"57"
-:e lec2.tex
-|2,0,1493605029,,"e lec2.tex"
-:W
-|2,0,1493604980,,"W"
-:266
-|2,0,1493604442,,"266"
-:262
-|2,0,1493603414,,"262"
-:253
-|2,0,1493602790,,"253"
-:177
-|2,0,1493600688,,"177"
-:vsp macros
-|2,0,1493600673,,"vsp macros"
-:180
-|2,0,1493600476,,"180"
-:183
-|2,0,1493599964,,"183"
-:190
-|2,0,1493599940,,"190"
-:160
-|2,0,1493599928,,"160"
-:88
-|2,0,1493599709,,"88"
-:126
-|2,0,1493599059,,"126"
-:104
-|2,0,1493598430,,"104"
-:87
-|2,0,1493597189,,"87"
-:vsp lec2.tex
-|2,0,1493597157,,"vsp lec2.tex"
-:86
-|2,0,1493596946,,"86"
-:199
-|2,0,1493596934,,"199"
-:141
-|2,0,1493596924,,"141"
-:e lec1.tex
-|2,0,1493596894,,"e lec1.tex"
-:42
-|2,0,1493596142,,"42"
-:398
-|2,0,1493595392,,"398"
+|2,0,1493837146,,"xa!"
+:w
+|2,0,1493837129,,"w"
+:q
+|2,0,1493837076,,"q"
+:help wm
+|2,0,1493837069,,"help wm"
 :sp ~/.teq
-|2,0,1493595319,,"sp ~/.teq"
-:257
-|2,0,1493595261,,"257"
-:85
-|2,0,1493595235,,"85"
-:e sections/lec3.tex
-|2,0,1493594762,,"e sections/lec3.tex"
-::cd
-|2,0,1493594727,,":cd"
-:cd $M
-|2,0,1493594723,,"cd $M"
-:e sections/lec2.tex
-|2,0,1493584019,,"e sections/lec2.tex"
-:e /Users/raeez/proj/mathematica/mirklecs/authors.tex
-|2,0,1493584007,,"e /Users/raeez/proj/mathematica/mirklecs/authors.tex"
-:!open out/glg.pdf
-|2,0,1493583153,,"!open out/glg.pdf"
-:vsp /Users/raeez/proj/mathematica/generalized-grassmannians/glg.tex
-|2,0,1493583091,,"vsp /Users/raeez/proj/mathematica/generalized-grassmannians/glg.tex"
-:64
-|2,0,1493581974,,"64"
-:303
-|2,0,1493593970,,"303"
-:296
-|2,0,1493582561,,"296"
-:e /Users/raeez/proj/mathematica/mirklecs/latexmk.vimrc
-|2,0,1493582430,,"e /Users/raeez/proj/mathematica/mirklecs/latexmk.vimrc"
-:e proj/mathematica/
-|2,0,1493582421,,"e proj/mathematica/"
-:help gq}
-|2,0,1493582285,,"help gq}"
-:help gq
-|2,0,1493582260,,"help gq"
-:sp <F2><F2><F2><F2><F2>
-|2,0,1493582186,,"sp <F2><F2><F2><F2><F2>"
-:help <c-r>
-|2,0,1493582086,,"help <c-r>"
-:help register
-|2,0,1493582077,,"help register"
-:help <F2><F2><F2><F2>
-|2,0,1493582075,,"help <F2><F2><F2><F2>"
-:help
-|2,0,1493582065,,"help"
-:'<,'>s/cp/$(CP)/g
-|2,0,1493585617,,"'<,'>s/cp/$(CP)/g"
-:%s
-|2,0,1493585608,,"%s"
-:xn
-|2,0,1493585510,,"xn"
-:p 	
-|2,0,1493581304,,"p 	"
-:e /Users/raeez/proj/mathematica/generalized-grassmannians/../q
-|2,0,1493581268,,"e /Users/raeez/proj/mathematica/generalized-grassmannians/../q"
-:verbose map <f5>
-|2,0,1493581157,,"verbose map <f5>"
-:help <f6>
-|2,0,1493581072,,"help <f6>"
-:!mv proj/mathematica/generalized-grassmannians/.teq ~
-|2,0,1493580896,,"!mv proj/mathematica/generalized-grassmannians/.teq ~"
-:sp proj/mathematica/generalized-grassmannians/k
-|2,0,1493580888,,"sp proj/mathematica/generalized-grassmannians/k"
-:
-|2,0,1493580765,,""
-:so %
-|2,0,1493580759,,"so %"
-:313
-|2,0,1493580754,,"313"
-:530
-|2,0,1493580722,,"530"
-:help vimrc
-|2,0,1493580668,,"help vimrc"
-:e proj/mathematica/generalized-grassmannians/.teq
-|2,0,1493580589,,"e proj/mathematica/generalized-grassmannians/.teq"
-:sp $G/.teq
-|2,0,1493580581,,"sp $G/.teq"
-:sp proj/mathematica/tex-mathematica/tmp.tex
-|2,0,1493580523,,"sp proj/mathematica/tex-mathematica/tmp.tex"
-:e proj/mathematica/tex-mathematica/tmp.tex
-|2,0,1493576498,,"e proj/mathematica/tex-mathematica/tmp.tex"
-:sp proj/mathematica/tex-mathematica/tmp
-|2,0,1493576490,,"sp proj/mathematica/tex-mathematica/tmp"
-:99
-|2,0,1493576469,,"99"
-:e proj/mathematica/tex-mathematica/tutorials/latex-suite-quickstart.txt
-|2,0,1493576427,,"e proj/mathematica/tex-mathematica/tutorials/latex-suite-quickstart.txt"
-:e jjkk
-|2,0,1493581625,,"e jjkk"
-:44
-|2,0,1493579624,,"44"
-:34
-|2,0,1493579597,,"34"
-:e lectures.tex
-|2,0,1493579221,,"e lectures.tex"
-:sp sections/lec2.tex
-|2,0,1493579154,,"sp sections/lec2.tex"
-:124
-|2,0,1493578882,,"124"
-:93
-|2,0,1493578706,,"93"
-:147
-|2,0,1493578610,,"147"
-:191
-|2,0,1493578551,,"191"
-:60
-|2,0,1493578417,,"60"
-:80
-|2,0,1493578387,,"80"
-:39
-|2,0,1493578363,,"39"
-:vsp sections/lec2.tex
-|2,0,1493578286,,"vsp sections/lec2.tex"
-:166
-|2,0,1493578266,,"166"
-:150
-|2,0,1493578257,,"150"
-:123
-|2,0,1493578251,,"123"
-:45
-|2,0,1493578189,,"45"
-:90
-|2,0,1493577921,,"90"
-:31
-|2,0,1493577832,,"31"
-:3
-|2,0,1493577830,,"3"
-:setfu
-|2,0,1493577632,,"setfu"
-:201
-|2,0,1493577559,,"201"
-:169
-|2,0,1493577556,,"169"
-:82
-|2,0,1493577541,,"82"
-:353
-|2,0,1493577494,,"353"
-:286
-|2,0,1493577337,,"286"
-:276
-|2,0,1493577333,,"276"
-:14
-|2,0,1493577200,,"14"
-:140
-|2,0,1493577187,,"140"
-:128
-|2,0,1493577178,,"128"
-:388
-|2,0,1493577116,,"388"
-:186
-|2,0,1493577053,,"186"
-:154
-|2,0,1493576170,,"154"
-:254
-|2,0,1493576079,,"254"
-:cd 
-|2,0,1493575797,,"cd "
-:cd ~/proj/mathematica/ggj
-|2,0,1493575795,,"cd ~/proj/mathematica/ggj"
-:vsp latex
-|2,0,1493573620,,"vsp latex"
-:12
-|2,0,1493573464,,"12"
-:cd $PROJ
-|2,0,1493573056,,"cd $PROJ"
-:help latex
-|2,0,1493573033,,"help latex"
-:362
-|2,0,1493568420,,"362"
-:22
-|2,0,1493568190,,"22"
-:!ls $PROJ/mathematica
-|2,0,1493568104,,"!ls $PROJ/mathematica"
-:7
-|2,0,1493568059,,"7"
-:33
-|2,0,1493568055,,"33"
-:e hh
-|2,0,1493565243,,"e hh"
-:346
-|2,0,1493565196,,"346"
-:23
-|2,0,1493563631,,"23"
-:e glg
-|2,0,1493563510,,"e glg"
-:13
-|2,0,1493563475,,"13"
-:146
-|2,0,1493562910,,"146"
-:vsp sections/lec1.tex
-|2,0,1493562872,,"vsp sections/lec1.tex"
-:e sec
-|2,0,1493562821,,"e sec"
-:!ohhh
-|2,0,1493562647,,"!ohhh"
-:!open %
-|2,0,1493562619,,"!open %"
-:10
-|2,0,1493562397,,"10"
-:!k
-|2,0,1493560845,,"!k"
-:kk
-|2,0,1493560815,,"kk"
-:134
-|2,0,1493560567,,"134"
-:122
-|2,0,1493560265,,"122"
-:127
-|2,0,1493560113,,"127"
-:135
-|2,0,1493559676,,"135"
-:58
-|2,0,1493559558,,"58"
-:!open index.html
-|2,0,1493559546,,"!open index.html"
-:74
-|2,0,1493559404,,"74"
-:52
-|2,0,1493559249,,"52"
-:56
-|2,0,1493559078,,"56"
-:silent !open %
-|2,0,1493558532,,"silent !open %"
-:103
-|2,0,1493557910,,"103"
-:161
-|2,0,1493557899,,"161"
-:sp /Users/raeez/proj/mathematica/generalized-grassmannians/../mirklecs/.teq
-|2,0,1493557797,,"sp /Users/raeez/proj/mathematica/generalized-grassmannians/../mirklecs/.teq"
-:!%
-|2,0,1493557487,,"!%"
-:194
-|2,0,1493557421,,"194"
-:e index.html
-|2,0,1493557329,,"e index.html"
-:16
-|2,0,1493557265,,"16"
-:vsp ~/.vim/tests/
-|2,0,1493557242,,"vsp ~/.vim/tests/"
-:53
-|2,0,1493557036,,"53"
-:set autoreload
-|2,0,1493556598,,"set autoreload"
-: esections
-|2,0,1493556504,," esections"
-:E sections
-|2,0,1493556487,,"E sections"
-:resize 10	
-|2,0,1493556361,,"resize 10	"
-:vertical resize 10
-|2,0,1493556359,,"vertical resize 10"
-:vertical resize 20
-|2,0,1493556356,,"vertical resize 20"
-:vsp lectures.tex
-|2,0,1493556101,,"vsp lectures.tex"
-:sp lectures.tex
-|2,0,1493556097,,"sp lectures.tex"
-:make
-|2,0,1493554313,,"make"
-:vsp preamble.tex
-|2,0,1493554195,,"vsp preamble.tex"
-:17
-|2,0,1493554171,,"17"
-:%s/sectionload/loadsection/g
-|2,0,1493554165,,"%s/sectionload/loadsection/g"
-:24
-|2,0,1493554137,,"24"
-:11
-|2,0,1493546665,,"11"
-:46
-|2,0,1493546128,,"46"
-:e out/texput.log
-|2,0,1493553750,,"e out/texput.log"
-:vsp out/lectures.log
-|2,0,1493553650,,"vsp out/lectures.log"
-:%s/\[\]//g
-|2,0,1493553539,,"%s/\\[\\]//g"
-:%s/\\nm\[\]
-|2,0,1493553533,,"%s/\\\\nm\\[\\]"
-:204
-|2,0,1493553462,,"204"
-:75
-|2,0,1493553323,,"75"
-:65
-|2,0,1493553315,,"65"
-:e out/lectures.log
-|2,0,1493553258,,"e out/lectures.log"
-:79
-|2,0,1493553195,,"79"
-:98
-|2,0,1493553076,,"98"
-:149
-|2,0,1493552979,,"149"
-:218
-|2,0,1493552969,,"218"
-:19
-|2,0,1493552901,,"19"
-:246
-|2,0,1493552869,,"246"
-:vsp 
-|2,0,1493552591,,"vsp "
-:!rm abstract.tex
-|2,0,1493552446,,"!rm abstract.tex"
-:sp preamble.tex
-|2,0,1493552316,,"sp preamble.tex"
-:61
-|2,0,1493552229,,"61"
-:%s/\\nm\[\\\+.*\]/\\nm\[\]/g
-|2,0,1493552162,,"%s/\\\\nm\\[\\\\\\+.*\\]/\\\\nm\\[\\]/g"
-:%s/\\nm[\<i\>]/g
-|2,0,1493551965,,"%s/\\\\nm[\\<i\\>]/g"
-:20
-|2,0,1493551810,,"20"
-:%s/\\nm[\.*\]/g
-|2,0,1493551396,,"%s/\\\\nm[\\.*\\]/g"
-:%s/nm[\.*\]/nm[]/g
-|2,0,1493551351,,"%s/nm[\\.*\\]/nm[]/g"
-:%s/nm[\.*\]
-|2,0,1493551339,,"%s/nm[\\.*\\]"
-:%s\\nm[/.*/]/\\nm/g
-|2,0,1493551325,,"%s\\\\nm[/.*/]/\\\\nm/g"
-:%s/\\
-|2,0,1493551307,,"%s/\\\\"
-:%s/
-|2,0,1493551300,,"%s/"
-:%s/\\nm[.*]/\\nm[]/g
-|2,0,1493551231,,"%s/\\\\nm[.*]/\\\\nm[]/g"
-:%s/\\seccfm//g
-|2,0,1493551197,,"%s/\\\\seccfm//g"
-:%s\\secgaugetheory//g
-|2,0,1493551187,,"%s\\\\secgaugetheory//g"
-:sp commands.tex
-|2,0,1493551120,,"sp commands.tex"
-:kkjj
-|2,0,1493551080,,"kkjj"
-:hhhh
-|2,0,1493551017,,"hhhh"
-:e sections/classfieldtheory.tex
-|2,0,1493550983,,"e sections/classfieldtheory.tex"
-:sp sections/classf
-|2,0,1493550978,,"sp sections/classf"
-:!make quickfull
-|2,0,1493550925,,"!make quickfull"
-:!make quick
-|2,0,1493550922,,"!make quick"
-:ke :q
-|2,0,1493550919,,"ke :q"
-:62
-|2,0,1493550734,,"62"
-:48
-|2,0,1493550553,,"48"
-:91
-|2,0,1493550526,,"91"
-:41
-|2,0,1493550489,,"41"
-:49
-|2,0,1493550356,,"49"
-:43
-|2,0,1493550259,,"43"
-:vsp abstract.tex
-|2,0,1493550108,,"vsp abstract.tex"
-:autoread
-|2,0,1493549888,,"autoread"
-:78
-|2,0,1493549860,,"78"
-:%s/lecs/lectures/g
-|2,0,1493549706,,"%s/lecs/lectures/g"
-:%s/lecs/lectures.tex
-|2,0,1493549698,,"%s/lecs/lectures.tex"
-:89
-|2,0,1493548949,,"89"
-:25
-|2,0,1493547913,,"25"
-:e com
-|2,0,1493547762,,"e com"
-:e out/glg.log
-|2,0,1493547713,,"e out/glg.log"
-:72
-|2,0,1493547656,,"72"
-:71
-|2,0,1493547640,,"71"
-:6
-|2,0,1493547577,,"6"
-:30
-|2,0,1493547566,,"30"
-:26
-|2,0,1493547557,,"26"
-:28
-|2,0,1493547524,,"28"
-:e toc
-|2,0,1493547422,,"e toc"
-:e ~/.zshrc
-|2,0,1493548453,,"e ~/.zshrc"
-:id
-|2,0,1493547249,,"id"
-:!rm -rf out/*
-|2,0,1493547224,,"!rm -rf out/*"
-:e make
-|2,0,1493545972,,"e make"
-:5
-|2,0,1493545929,,"5"
-:e abstr
-|2,0,1493545883,,"e abstr"
-:76
-|2,0,1493545709,,"76"
-:108
-|2,0,1493545684,,"108"
-:vertical
-|2,0,1493545317,,"vertical"
-:224
-|2,0,1493545202,,"224"
-:vertical resize 5
-|2,0,1493545054,,"vertical resize 5"
-:sp .teq
-|2,0,1493545035,,"sp .teq"
-:298
-|2,0,1493544777,,"298"
-:e .teq
-|2,0,1493544752,,"e .teq"
-:vsp commands.tex
-|2,0,1493544565,,"vsp commands.tex"
-:8
-|2,0,1493543794,,"8"
-:151
-|2,0,1493543624,,"151"
-:102
-|2,0,1493543619,,"102"
-:81
-|2,0,1493543590,,"81"
-:'<,'>160
-|2,0,1493543557,,"'<,'>160"
-:115
-|2,0,1493543551,,"115"
-:95
-|2,0,1493543526,,"95"
-:69
-|2,0,1493543506,,"69"
-:35
-|2,0,1493542728,,"35"
-:114
-|2,0,1493542539,,"114"
-:38
-|2,0,1493542401,,"38"
-:101
-|2,0,1493542261,,"101"
-:37
-|2,0,1493541645,,"37"
-:'<,'>13
-|2,0,1493541516,,"'<,'>13"
-:!make full
-|2,0,1493541478,,"!make full"
-:227
-|2,0,1493541059,,"227"
-:vsp sections/cfm.tex
-|2,0,1493540764,,"vsp sections/cfm.tex"
-:sp not
-|2,0,1493540115,,"sp not"
-:vsp classformations.tex
-|2,0,1493540003,,"vsp classformations.tex"
-:e sections/grassmannians.tex
-|2,0,1493539605,,"e sections/grassmannians.tex"
-:e index.hbs
-|2,0,1493497877,,"e index.hbs"
-:e gh
-|2,0,1493497867,,"e gh"
-:e default.hbs
-|2,0,1493497858,,"e default.hbs"
-:e post.hbs
-|2,0,1493497835,,"e post.hbs"
-:232
-|2,0,1493492952,,"232"
-:198
-|2,0,1493492909,,"198"
-:%s/textrm/mathrm/g
-|2,0,1493492794,,"%s/textrm/mathrm/g"
-:%s/\\textrm\{End\}/\\End/g
-|2,0,1493492781,,"%s/\\\\textrm\\{End\\}/\\\\End/g"
-:179
-|2,0,1493492717,,"179"
-:197
-|2,0,1493492695,,"197"
-:e sections/cohomology.tex
-|2,0,1493492554,,"e sections/cohomology.tex"
-:vsp sections/algebraicsurfaces.tex
-|2,0,1493492517,,"vsp sections/algebraicsurfaces.tex"
-:176
-|2,0,1493492426,,"176"
-:%s/mathfark/mathfrak/g
-|2,0,1493492297,,"%s/mathfark/mathfrak/g"
-:ake
-|2,0,1493492112,,"ake"
-:96
-|2,0,1493492012,,"96"
-:e .
-|2,0,1493491933,,"e ."
+|2,0,1493835957,,"sp ~/.teq"
+:x
+|2,0,1493835700,,"x"
+:qa!
+|2,0,1493835646,,"qa!"
+:vsp ~/.vimrc
+|2,0,1493835605,,"vsp ~/.vimrc"
+:!ls -la ~/.vim/bundle
+|2,0,1493835589,,"!ls -la ~/.vim/bundle"
+:!ll ~/.vim/bundle
+|2,0,1493835579,,"!ll ~/.vim/bundle"
+:sp abstract.tex
+|2,0,1493835555,,"sp abstract.tex"
+:e 
+|2,0,1493835553,,"e "
+:set background=dark
+|2,0,1493835529,,"set background=dark"
+:x!
+|2,0,1493835504,,"x!"
+:resize 10
+|2,0,1493835084,,"resize 10"
+:set fu
+|2,0,1493834963,,"set fu"
+:set background = light
+|2,0,1493834958,,"set background = light"
+:W
+|2,0,1493834045,,"W"
+:e :q!
+|2,0,1493832469,,"e :q!"
+:!make
+|2,0,1493751851,,"!make"
+:!make clean
+|2,0,1493751755,,"!make clean"
+:e subsections.tex
+|2,0,1493751729,,"e subsections.tex"
+:vsp sections/galoistheory.tex
+|2,0,1493739224,,"vsp sections/galoistheory.tex"
+:%s/subsection/section/g
+|2,0,1493739219,,"%s/subsection/section/g"
+:sp glg.tex
+|2,0,1493739203,,"sp glg.tex"
+:sp glg.
+|2,0,1493739198,,"sp glg."
+:e sections/gaugetheory.tex
+|2,0,1493739185,,"e sections/gaugetheory.tex"
+:sp sections/the\ invariants/invariants.tex
+|2,0,1493768288,,"sp sections/the\\ invariants/invariants.tex"
+:e sections/indobjects.tex
+|2,0,1493768271,,"e sections/indobjects.tex"
+:e sections/intro.tex
+|2,0,1493768257,,"e sections/intro.tex"
+:sp gg-prime.html
+|2,0,0,,"sp gg-prime.html"
+:q!
+|2,0,0,,"q!"
+:e ~/.plan
+|2,0,0,,"e ~/.plan"
+:262
+|2,0,0,,"262"
+:vsp out/glg.log
+|2,0,0,,"vsp out/glg.log"
+:263
+|2,0,0,,"263"
+:248
+|2,0,0,,"248"
+:help conceallevel
+|2,0,0,,"help conceallevel"
+:e ~/.vim/ftplugin/tex.vim
+|2,0,0,,"e ~/.vim/ftplugin/tex.vim"
+:verbose set conceallevel?
+|2,0,0,,"verbose set conceallevel?"
 :50
-|2,0,1493491862,,"50"
-:47
-|2,0,1493491785,,"47"
-:\\C
-|2,0,1493491714,,"\\\\C"
-:36
-|2,0,1493491467,,"36"
-:e sections/algebraicsurfaces.tex
-|2,0,1493491369,,"e sections/algebraicsurfaces.tex"
-:e not
-|2,0,1493490605,,"e not"
-:e sections/cfm.tex
-|2,0,1493490593,,"e sections/cfm.tex"
-:e 16\ Jan\ 2017\ 12:44:28\ pm.amr
-|2,0,1493490504,,"e 16\\ Jan\\ 2017\\ 12:44:28\\ pm.amr"
-:4
-|2,0,1493489835,,"4"
-:set fuinv
-|2,0,1493489795,,"set fuinv"
-:1make full
-|2,0,1493489737,,"1make full"
-:40
-|2,0,1493488098,,"40"
-:sp sections/gaugetheory.tex
-|2,0,1493466963,,"sp sections/gaugetheory.tex"
-:sp sections/gaug
-|2,0,1493466958,,"sp sections/gaug"
-:e $GG/glg.tex
-|2,0,1493466049,,"e $GG/glg.tex"
-:145
-|2,0,1493464543,,"145"
-:273
-|2,0,1493463807,,"273"
-:e sections/equivariant-index.tex
-|2,0,1493462689,,"e sections/equivariant-index.tex"
-:sp sections/khovanov.tex
-|2,0,1493460273,,"sp sections/khovanov.tex"
-:e sections/khovanov.tex
-|2,0,1493459942,,"e sections/khovanov.tex"
-:100
-|2,0,1493457426,,"100"
-:372
-|2,0,1493456873,,"372"
-:371
-|2,0,1493456866,,"371"
-:373
-|2,0,1493456698,,"373"
-:364
-|2,0,1493456663,,"364"
-:e sections/tqft.tex
-|2,0,1493456555,,"e sections/tqft.tex"
-:e sections/ap-furuta.tex
-|2,0,1493456548,,"e sections/ap-furuta.tex"
-:e sections/furuta.tex
-|2,0,1493456532,,"e sections/furuta.tex"
-:.,.+4e
-|2,0,1493456500,,".,.+4e"
-:e $GG
-|2,0,1493465673,,"e $GG"
-:cd $GG
-|2,0,1493465669,,"cd $GG"
-:cd $G
-|2,0,1493465665,,"cd $G"
-:e $GG/../bridges/lectures.tex
-|2,0,1493456448,,"e $GG/../bridges/lectures.tex"
-:cd $GG../bridges
-|2,0,1493456426,,"cd $GG../bridges"
-:qa@
-|2,0,1493456475,,"qa@"
-:e ../bridges/sections/:q!
-|2,0,1493456463,,"e ../bridges/sections/:q!"
-:e /Users/raeez/proj/mathematica/generalized-grassmannians/../
-|2,0,1493443233,,"e /Users/raeez/proj/mathematica/generalized-grassmannians/../"
+|2,0,0,,"50"
+:ww
+|2,0,0,,"ww"
+:e email.plan
+|2,0,0,,"e email.plan"
+:w email.plan
+|2,0,0,,"w email.plan"
+:e glg.tex
+|2,0,0,,"e glg.tex"
+:sp sections/indobjects.tex
+|2,0,0,,"sp sections/indobjects.tex"
+:e sections/surfaces.tex
+|2,0,0,,"e sections/surfaces.tex"
+:e sections/in
+|2,0,0,,"e sections/in"
+:sp ~/.vim/ftplugin/tex.vim
+|2,0,0,,"sp ~/.vim/ftplugin/tex.vim"
+:sp Makefile
+|2,0,0,,"sp Makefile"
+:%s/section/subsection/g
+|2,0,0,,"%s/section/subsection/g"
+:e sections/confspaces.tex
+|2,0,0,,"e sections/confspaces.tex"
+:vsp sections/indobjects.tex
+|2,0,0,,"vsp sections/indobjects.tex"
+:vsp glg.tex
+|2,0,0,,"vsp glg.tex"
+:e Makefile
+|2,0,0,,"e Makefile"
+:!make index
+|2,0,0,,"!make index"
 :vsp sections/gaugetheory.tex
-|2,0,1493443201,,"vsp sections/gaugetheory.tex"
+|2,0,0,,"vsp sections/gaugetheory.tex"
+:%s/texturl/url/g
+|2,0,0,,"%s/texturl/url/g"
+:resize0
+|2,0,0,,"resize0"
+:sp out/glg.log
+|2,0,0,,"sp out/glg.log"
+:e sections/classformations.tex
+|2,0,0,,"e sections/classformations.tex"
+:e out/glg.log
+|2,0,0,,"e out/glg.log"
+:vsp out/glg.out
+|2,0,0,,"vsp out/glg.out"
+:sp
+|2,0,0,,"sp"
+:'<,'>s/nc/newcommand/g
+|2,0,0,,"'<,'>s/nc/newcommand/g"
+:%s/nc/newcommand/g
+|2,0,0,,"%s/nc/newcommand/g"
+:e macros.tex
+|2,0,0,,"e macros.tex"
+:cd $GG
+|2,0,0,,"cd $GG"
+:e /Users/raeez/proj/mathematica/generalized-grassmannians/notation.tex
+|2,0,0,,"e /Users/raeez/proj/mathematica/generalized-grassmannians/notation.tex"
+:vsp macr
+|2,0,0,,"vsp macr"
+:sp macr
+|2,0,0,,"sp macr"
+:e ~/.vimrc
+|2,0,0,,"e ~/.vimrc"
+:resize 1
+|2,0,0,,"resize 1"
+:resize 5
+|2,0,0,,"resize 5"
+:%s
+|2,0,0,,"%s"
+:w!
+|2,0,0,,"w!"
+:e notation.tex
+|2,0,0,,"e notation.tex"
+:%s/\\Cx/\\C/g
+|2,0,0,,"%s/\\\\Cx/\\\\C/g"
+:e ~/.zshrc
+|2,0,0,,"e ~/.zshrc"
+:sp ~/.vimrc
+|2,0,0,,"sp ~/.vimrc"
+:e sections/
+|2,0,0,,"e sections/"
+:e pr
+|2,0,0,,"e pr"
+:vsp subsections.tex
+|2,0,0,,"vsp subsections.tex"
+:sp sections/cohomology.tex
+|2,0,0,,"sp sections/cohomology.tex"
+:e sections/configurationspaces.tex
+|2,0,0,,"e sections/configurationspaces.tex"
+:e alg
+|2,0,0,,"e alg"
+:!
+|2,0,0,,"!"
+:e nomenclature.tex
+|2,0,0,,"e nomenclature.tex"
+:e sections/glg-construction.tex
+|2,0,0,,"e sections/glg-construction.tex"
+:vsp nomenclature.tex
+|2,0,0,,"vsp nomenclature.tex"
+:vertical resize 85
+|2,0,0,,"vertical resize 85"
+:vsp 
+|2,0,0,,"vsp "
+:e
+|2,0,0,,"e"
+:resize 20
+|2,0,0,,"resize 20"
+:sp notation.tex
+|2,0,0,,"sp notation.tex"
+:set autoread
+|2,0,0,,"set autoread"
+:e set
+|2,0,0,,"e set"
+:set background=light
+|2,0,0,,"set background=light"
+:e ~/
+|2,0,0,,"e ~/"
+:e hhhh
+|2,0,0,,"e hhhh"
+:! open %
+|2,0,0,,"! open %"
+:cd $PROJ/www/raeez.com/index.html
+|2,0,0,,"cd $PROJ/www/raeez.com/index.html"
+:1
+|2,0,0,,"1"
+:vsp test.js
+|2,0,0,,"vsp test.js"
+:319
+|2,0,0,,"319"
+:help weight
+|2,0,0,,"help weight"
+:help signify_sign_weight
+|2,0,0,,"help signify_sign_weight"
+:set invlist
+|2,0,0,,"set invlist"
+:set list
+|2,0,0,,"set list"
+:help termtrans
+|2,0,0,,"help termtrans"
+:vsp
+|2,0,0,,"vsp"
+:help solarized-hitrail
+|2,0,0,,"help solarized-hitrail"
+:help solarized-termtrans
+|2,0,0,,"help solarized-termtrans"
+:source %
+|2,0,0,,"source %"
+:X!
+|2,0,0,,"X!"
+:e /Users/raeez/proj/mathematica/generalized-grassmannians/glg.tex
+|2,0,0,,"e /Users/raeez/proj/mathematica/generalized-grassmannians/glg.tex"
+:help transparency
+|2,0,0,,"help transparency"
+:306
+|2,0,0,,"306"
+:314
+|2,0,0,,"314"
+:311
+|2,0,0,,"311"
+:help <c-w>
+|2,0,0,,"help <c-w>"
+:help solarized
+|2,0,0,,"help solarized"
+:!make q
+|2,0,0,,"!make q"
+:e preamble.tex
+|2,0,0,,"e preamble.tex"
+:e /Users/raeez/proj/mathematica/mirklecs/lectures.tex
+|2,0,0,,"e /Users/raeez/proj/mathematica/mirklecs/lectures.tex"
+:e commands.tex
+|2,0,0,,"e commands.tex"
+:e!
+|2,0,0,,"e!"
+:.!jj
+|2,0,0,,".!jj"
+:Vj
+|2,0,0,,"Vj"
+:!mke
+|2,0,0,,"!mke"
+:164
+|2,0,0,,"164"
+:sp nomenclature.tex
+|2,0,0,,"sp nomenclature.tex"
+:e sections/galoistheory.tex
+|2,0,0,,"e sections/galoistheory.tex"
+:21
+|2,0,0,,"21"
+:e sections/
+|2,0,0,,"e sections/"
+:e abstract.tex
+|2,0,0,,"e abstract.tex"
+:!open out/
+|2,0,0,,"!open out/"
+:!git mv sections/introduction.tex sections/galoistheory.tex
+|2,0,0,,"!git mv sections/introduction.tex sections/galoistheory.tex"
+:vsp sections/introduction.tex
+|2,0,0,,"vsp sections/introduction.tex"
+:e sections
+|2,0,0,,"e sections"
+:%s/chapter/part/g
+|2,0,0,,"%s/chapter/part/g"
+:!make 
+|2,0,0,,"!make "
+:help latex-suite
+|2,0,0,,"help latex-suite"
+:vsp notation.tex
+|2,0,0,,"vsp notation.tex"
+:!make clean && make
+|2,0,0,,"!make clean && make"
+:sp ../notation.tex
+|2,0,0,,"sp ../notation.tex"
+:e ../no
+|2,0,0,,"e ../no"
+:sp 
+|2,0,0,,"sp "
+:e ../notation.tex
+|2,0,0,,"e ../notation.tex"
+:vsp ../preamble.tex
+|2,0,0,,"vsp ../preamble.tex"
+::vsp glg.
+|2,0,0,,":vsp glg."
+:!:e
+|2,0,0,,"!:e"
+:e sp ~/.vimrc
+|2,0,0,,"e sp ~/.vimrc"
+:set reload
+|2,0,0,,"set reload"
+:set autoload
+|2,0,0,,"set autoload"
+:.,.+1e
+|2,0,0,,".,.+1e"
+:e ../
+|2,0,0,,"e ../"
+:E
+|2,0,0,,"E"
+:e %
+|2,0,0,,"e %"
+:resize 4
+|2,0,0,,"resize 4"
+:vsp macro
+|2,0,0,,"vsp macro"
+:sp ../glg.tex
+|2,0,0,,"sp ../glg.tex"
+:sp glg-construction.tex
+|2,0,0,,"sp glg-construction.tex"
+:v
+|2,0,0,,"v"
+:vsp ../glg.tex
+|2,0,0,,"vsp ../glg.tex"
+:e ../glg
+|2,0,0,,"e ../glg"
+:e ../glg.tex
+|2,0,0,,"e ../glg.tex"
+:e /Users/raeez/proj/mathematica/mirklecs/sections/lec3.tex
+|2,0,0,,"e /Users/raeez/proj/mathematica/mirklecs/sections/lec3.tex"
+:'<,'>s/\\nc/\\rc/g
+|2,0,0,,"'<,'>s/\\\\nc/\\\\rc/g"
+:234
+|2,0,0,,"234"
+:%s/\\nm/%\\nm/g
+|2,0,0,,"%s/\\\\nm/%\\\\nm/g"
+:!:
+|2,0,0,,"!:"
+:%s/%\\nc/\\nc/g
+|2,0,0,,"%s/%\\\\nc/\\\\nc/g"
+:%s%\\nc/\\nc/g
+|2,0,0,,"%s%\\\\nc/\\\\nc/g"
+:%s/\%\\nc/\\nc/g
+|2,0,0,,"%s/\\%\\\\nc/\\\\nc/g"
+:%s\%\\nc/\\nc/g
+|2,0,0,,"%s\\%\\\\nc/\\\\nc/g"
+:18
+|2,0,0,,"18"
+:sp macros.tex
+|2,0,0,,"sp macros.tex"
+:!make clean && make && make index
+|2,0,0,,"!make clean && make && make index"
+:.!\ll
+|2,0,0,,".!\\ll"
+:%s/\\nc/\%\\nc/g
+|2,0,0,,"%s/\\\\nc/\\%\\\\nc/g"
+:%snc
+|2,0,0,,"%snc"
+:e glg-construction.tex
+|2,0,0,,"e glg-construction.tex"
+:e /Users/raeez/proj/mathematica/generalized-grassmannians/macros.tex
+|2,0,0,,"e /Users/raeez/proj/mathematica/generalized-grassmannians/macros.tex"
+:e /Users/raeez/proj/mathematica/mirklecs/preamble.tex
+|2,0,0,,"e /Users/raeez/proj/mathematica/mirklecs/preamble.tex"
+:15
+|2,0,0,,"15"
+:!ajjjk
+|2,0,0,,"!ajjjk"
+:vsp ../notation.tex
+|2,0,0,,"vsp ../notation.tex"
+:e /Users/raeez/proj/mathematica/generalized-grassmannians/nomenclature.tex
+|2,0,0,,"e /Users/raeez/proj/mathematica/generalized-grassmannians/nomenclature.tex"
+:vsp ../macros.tex
+|2,0,0,,"vsp ../macros.tex"
+:re
+|2,0,0,,"re"
+:'<,'>%le
+|2,0,0,,"'<,'>%le"
+:%le
+|2,0,0,,"%le"
+:sp /Users/raeez/proj/mathematica/generalized-grassmannians/sections/classformations.tex
+|2,0,0,,"sp /Users/raeez/proj/mathematica/generalized-grassmannians/sections/classformations.tex"
+:e /Users/raeez/proj/mathematica/mirklecs/sections/lec2.tex
+|2,0,0,,"e /Users/raeez/proj/mathematica/mirklecs/sections/lec2.tex"
+:e ../../mirklecs/
+|2,0,0,,"e ../../mirklecs/"
+:e ~/.teq
+|2,0,0,,"e ~/.teq"
+:help macro
+|2,0,0,,"help macro"
+:e classformations.tex
+|2,0,0,,"e classformations.tex"
+:vsp cohomology.tex
+|2,0,0,,"vsp cohomology.tex"
+:e ../out/glg.log
+|2,0,0,,"e ../out/glg.log"
+:vsp out/
+|2,0,0,,"vsp out/"
+:!ls out/
+|2,0,0,,"!ls out/"
+:543
+|2,0,0,,"543"
+:29
+|2,0,0,,"29"
+:54
+|2,0,0,,"54"
+:qa
+|2,0,0,,"qa"
+:vsp ~/.vim/ftplugin/tex.vim
+|2,0,0,,"vsp ~/.vim/ftplugin/tex.vim"
+:X@
+|2,0,0,,"X@"
+::w
+|2,0,0,,":w"
+:205
+|2,0,0,,"205"
+:244
+|2,0,0,,"244"
+:set invfu
+|2,0,0,,"set invfu"
+:!jjkk
+|2,0,0,,"!jjkk"
+:e ../lectures.tex
+|2,0,0,,"e ../lectures.tex"
+:e sections/lec1.tex
+|2,0,0,,"e sections/lec1.tex"
+:%s/g://g
+|2,0,0,,"%s/g://g"
+:%s/lec2/g
+|2,0,0,,"%s/lec2/g"
+:228
+|2,0,0,,"228"
+:set paste
+|2,0,0,,"set paste"
+:e sections/introduction.tex
+|2,0,0,,"e sections/introduction.tex"
+:e authors.tex
+|2,0,0,,"e authors.tex"
+:set inv
+|2,0,0,,"set inv"
+:vsp ../generalized-grassmannians/glg.tex
+|2,0,0,,"vsp ../generalized-grassmannians/glg.tex"
+:%s/lectures/glg/g
+|2,0,0,,"%s/lectures/glg/g"
+:328
+|2,0,0,,"328"
+:365
+|2,0,0,,"365"
+:230
+|2,0,0,,"230"
+:387
+|2,0,0,,"387"
+:358
+|2,0,0,,"358"
+:221
+|2,0,0,,"221"
+:182
+|2,0,0,,"182"
+:215
+|2,0,0,,"215"
+:184
+|2,0,0,,"184"
+:174
+|2,0,0,,"174"
+:287
+|2,0,0,,"287"
+:239
+|2,0,0,,"239"
+:290
+|2,0,0,,"290"
+:267
+|2,0,0,,"267"
+:261
+|2,0,0,,"261"
+:231
+|2,0,0,,"231"
+:241
+|2,0,0,,"241"
+:264
+|2,0,0,,"264"
+:270
+|2,0,0,,"270"
+:242
+|2,0,0,,"242"
+:240
+|2,0,0,,"240"
+:326
+|2,0,0,,"326"
+:288
+|2,0,0,,"288"
+:113
+|2,0,0,,"113"
+:57
+|2,0,0,,"57"
+:e lec2.tex
+|2,0,0,,"e lec2.tex"
+:266
+|2,0,0,,"266"
+:253
+|2,0,0,,"253"
+:177
+|2,0,0,,"177"
+:vsp macros
+|2,0,0,,"vsp macros"
+:180
+|2,0,0,,"180"
+:183
+|2,0,0,,"183"
+:190
+|2,0,0,,"190"
+:160
+|2,0,0,,"160"
+:88
+|2,0,0,,"88"
+:126
+|2,0,0,,"126"
+:104
+|2,0,0,,"104"
+:87
+|2,0,0,,"87"
+:vsp lec2.tex
+|2,0,0,,"vsp lec2.tex"
+:86
+|2,0,0,,"86"
+:199
+|2,0,0,,"199"
+:141
+|2,0,0,,"141"
+:e lec1.tex
+|2,0,0,,"e lec1.tex"
+:42
+|2,0,0,,"42"
+:398
+|2,0,0,,"398"
+:257
+|2,0,0,,"257"
+:85
+|2,0,0,,"85"
+:e sections/lec3.tex
+|2,0,0,,"e sections/lec3.tex"
+::cd
+|2,0,0,,":cd"
+:cd $M
+|2,0,0,,"cd $M"
+:e sections/lec2.tex
+|2,0,0,,"e sections/lec2.tex"
+:e /Users/raeez/proj/mathematica/mirklecs/authors.tex
+|2,0,0,,"e /Users/raeez/proj/mathematica/mirklecs/authors.tex"
+:!open out/glg.pdf
+|2,0,0,,"!open out/glg.pdf"
+:vsp /Users/raeez/proj/mathematica/generalized-grassmannians/glg.tex
+|2,0,0,,"vsp /Users/raeez/proj/mathematica/generalized-grassmannians/glg.tex"
+:64
+|2,0,0,,"64"
+:303
+|2,0,0,,"303"
+:296
+|2,0,0,,"296"
+:e /Users/raeez/proj/mathematica/mirklecs/latexmk.vimrc
+|2,0,0,,"e /Users/raeez/proj/mathematica/mirklecs/latexmk.vimrc"
+:e proj/mathematica/
+|2,0,0,,"e proj/mathematica/"
+:help gq}
+|2,0,0,,"help gq}"
+:help gq
+|2,0,0,,"help gq"
+:sp <F2><F2><F2><F2><F2>
+|2,0,0,,"sp <F2><F2><F2><F2><F2>"
+:help <c-r>
+|2,0,0,,"help <c-r>"
+:help register
+|2,0,0,,"help register"
+:help <F2><F2><F2><F2>
+|2,0,0,,"help <F2><F2><F2><F2>"
+:help
+|2,0,0,,"help"
+:'<,'>s/cp/$(CP)/g
+|2,0,0,,"'<,'>s/cp/$(CP)/g"
+:xn
+|2,0,0,,"xn"
+:p 	
+|2,0,0,,"p 	"
+:e /Users/raeez/proj/mathematica/generalized-grassmannians/../q
+|2,0,0,,"e /Users/raeez/proj/mathematica/generalized-grassmannians/../q"
+:verbose map <f5>
+|2,0,0,,"verbose map <f5>"
+:help <f6>
+|2,0,0,,"help <f6>"
+:!mv proj/mathematica/generalized-grassmannians/.teq ~
+|2,0,0,,"!mv proj/mathematica/generalized-grassmannians/.teq ~"
+:sp proj/mathematica/generalized-grassmannians/k
+|2,0,0,,"sp proj/mathematica/generalized-grassmannians/k"
+:
+|2,0,0,,""
+:so %
+|2,0,0,,"so %"
+:313
+|2,0,0,,"313"
+:530
+|2,0,0,,"530"
+:help vimrc
+|2,0,0,,"help vimrc"
+:e proj/mathematica/generalized-grassmannians/.teq
+|2,0,0,,"e proj/mathematica/generalized-grassmannians/.teq"
+:sp $G/.teq
+|2,0,0,,"sp $G/.teq"
+:sp proj/mathematica/tex-mathematica/tmp.tex
+|2,0,0,,"sp proj/mathematica/tex-mathematica/tmp.tex"
+:e proj/mathematica/tex-mathematica/tmp.tex
+|2,0,0,,"e proj/mathematica/tex-mathematica/tmp.tex"
+:sp proj/mathematica/tex-mathematica/tmp
+|2,0,0,,"sp proj/mathematica/tex-mathematica/tmp"
+:99
+|2,0,0,,"99"
+:e proj/mathematica/tex-mathematica/tutorials/latex-suite-quickstart.txt
+|2,0,0,,"e proj/mathematica/tex-mathematica/tutorials/latex-suite-quickstart.txt"
+:e jjkk
+|2,0,0,,"e jjkk"
+:44
+|2,0,0,,"44"
+:34
+|2,0,0,,"34"
+:e lectures.tex
+|2,0,0,,"e lectures.tex"
+:sp sections/lec2.tex
+|2,0,0,,"sp sections/lec2.tex"
+:124
+|2,0,0,,"124"
+:93
+|2,0,0,,"93"
+:147
+|2,0,0,,"147"
+:191
+|2,0,0,,"191"
+:60
+|2,0,0,,"60"
+:80
+|2,0,0,,"80"
+:39
+|2,0,0,,"39"
+:vsp sections/lec2.tex
+|2,0,0,,"vsp sections/lec2.tex"
+:166
+|2,0,0,,"166"
+:150
+|2,0,0,,"150"
+:123
+|2,0,0,,"123"
+:45
+|2,0,0,,"45"
+:90
+|2,0,0,,"90"
+:31
+|2,0,0,,"31"
+:3
+|2,0,0,,"3"
+:setfu
+|2,0,0,,"setfu"
+:201
+|2,0,0,,"201"
+:169
+|2,0,0,,"169"
+:82
+|2,0,0,,"82"
+:353
+|2,0,0,,"353"
+:286
+|2,0,0,,"286"
+:276
+|2,0,0,,"276"
+:14
+|2,0,0,,"14"
+:140
+|2,0,0,,"140"
+:128
+|2,0,0,,"128"
+:388
+|2,0,0,,"388"
+:186
+|2,0,0,,"186"
+:154
+|2,0,0,,"154"
+:254
+|2,0,0,,"254"
+:cd 
+|2,0,0,,"cd "
+:cd ~/proj/mathematica/ggj
+|2,0,0,,"cd ~/proj/mathematica/ggj"
+:vsp latex
+|2,0,0,,"vsp latex"
+:12
+|2,0,0,,"12"
+:cd $PROJ
+|2,0,0,,"cd $PROJ"
+:help latex
+|2,0,0,,"help latex"
+:362
+|2,0,0,,"362"
+:22
+|2,0,0,,"22"
+:!ls $PROJ/mathematica
+|2,0,0,,"!ls $PROJ/mathematica"
+:7
+|2,0,0,,"7"
+:33
+|2,0,0,,"33"
+:e hh
+|2,0,0,,"e hh"
+:346
+|2,0,0,,"346"
+:23
+|2,0,0,,"23"
+:e glg
+|2,0,0,,"e glg"
+:13
+|2,0,0,,"13"
+:146
+|2,0,0,,"146"
+:vsp sections/lec1.tex
+|2,0,0,,"vsp sections/lec1.tex"
+:e sec
+|2,0,0,,"e sec"
+:!ohhh
+|2,0,0,,"!ohhh"
+:!open %
+|2,0,0,,"!open %"
+:10
+|2,0,0,,"10"
+:!k
+|2,0,0,,"!k"
+:kk
+|2,0,0,,"kk"
+:134
+|2,0,0,,"134"
+:122
+|2,0,0,,"122"
+:127
+|2,0,0,,"127"
+:135
+|2,0,0,,"135"
+:58
+|2,0,0,,"58"
+:!open index.html
+|2,0,0,,"!open index.html"
+:74
+|2,0,0,,"74"
+:52
+|2,0,0,,"52"
+:56
+|2,0,0,,"56"
+:silent !open %
+|2,0,0,,"silent !open %"
+:103
+|2,0,0,,"103"
+:161
+|2,0,0,,"161"
+:sp /Users/raeez/proj/mathematica/generalized-grassmannians/../mirklecs/.teq
+|2,0,0,,"sp /Users/raeez/proj/mathematica/generalized-grassmannians/../mirklecs/.teq"
+:!%
+|2,0,0,,"!%"
+:194
+|2,0,0,,"194"
+:e index.html
+|2,0,0,,"e index.html"
+:16
+|2,0,0,,"16"
+:vsp ~/.vim/tests/
+|2,0,0,,"vsp ~/.vim/tests/"
+:53
+|2,0,0,,"53"
+:set autoreload
+|2,0,0,,"set autoreload"
+: esections
+|2,0,0,," esections"
+:E sections
+|2,0,0,,"E sections"
+:resize 10	
+|2,0,0,,"resize 10	"
+:vertical resize 10
+|2,0,0,,"vertical resize 10"
+:vertical resize 20
+|2,0,0,,"vertical resize 20"
+:vsp lectures.tex
+|2,0,0,,"vsp lectures.tex"
+:sp lectures.tex
+|2,0,0,,"sp lectures.tex"
+:make
+|2,0,0,,"make"
+:vsp preamble.tex
+|2,0,0,,"vsp preamble.tex"
+:17
+|2,0,0,,"17"
+:%s/sectionload/loadsection/g
+|2,0,0,,"%s/sectionload/loadsection/g"
+:24
+|2,0,0,,"24"
+:11
+|2,0,0,,"11"
+:46
+|2,0,0,,"46"
+:e out/texput.log
+|2,0,0,,"e out/texput.log"
+:vsp out/lectures.log
+|2,0,0,,"vsp out/lectures.log"
+:%s/\[\]//g
+|2,0,0,,"%s/\\[\\]//g"
+:%s/\\nm\[\]
+|2,0,0,,"%s/\\\\nm\\[\\]"
+:204
+|2,0,0,,"204"
+:75
+|2,0,0,,"75"
+:65
+|2,0,0,,"65"
+:e out/lectures.log
+|2,0,0,,"e out/lectures.log"
+:79
+|2,0,0,,"79"
+:98
+|2,0,0,,"98"
+:149
+|2,0,0,,"149"
+:218
+|2,0,0,,"218"
+:19
+|2,0,0,,"19"
+:246
+|2,0,0,,"246"
+:!rm abstract.tex
+|2,0,0,,"!rm abstract.tex"
+:sp preamble.tex
+|2,0,0,,"sp preamble.tex"
+:61
+|2,0,0,,"61"
+:%s/\\nm\[\\\+.*\]/\\nm\[\]/g
+|2,0,0,,"%s/\\\\nm\\[\\\\\\+.*\\]/\\\\nm\\[\\]/g"
+:%s/\\nm[\<i\>]/g
+|2,0,0,,"%s/\\\\nm[\\<i\\>]/g"
+:20
+|2,0,0,,"20"
+:%s/\\nm[\.*\]/g
+|2,0,0,,"%s/\\\\nm[\\.*\\]/g"
+:%s/nm[\.*\]/nm[]/g
+|2,0,0,,"%s/nm[\\.*\\]/nm[]/g"
+:%s/nm[\.*\]
+|2,0,0,,"%s/nm[\\.*\\]"
+:%s\\nm[/.*/]/\\nm/g
+|2,0,0,,"%s\\\\nm[/.*/]/\\\\nm/g"
+:%s/\\
+|2,0,0,,"%s/\\\\"
+:%s/
+|2,0,0,,"%s/"
+:%s/\\nm[.*]/\\nm[]/g
+|2,0,0,,"%s/\\\\nm[.*]/\\\\nm[]/g"
+:%s/\\seccfm//g
+|2,0,0,,"%s/\\\\seccfm//g"
+:%s\\secgaugetheory//g
+|2,0,0,,"%s\\\\secgaugetheory//g"
+:sp commands.tex
+|2,0,0,,"sp commands.tex"
+:kkjj
+|2,0,0,,"kkjj"
+:hhhh
+|2,0,0,,"hhhh"
+:e sections/classfieldtheory.tex
+|2,0,0,,"e sections/classfieldtheory.tex"
+:sp sections/classf
+|2,0,0,,"sp sections/classf"
+:!make quickfull
+|2,0,0,,"!make quickfull"
+:!make quick
+|2,0,0,,"!make quick"
+:ke :q
+|2,0,0,,"ke :q"
+:62
+|2,0,0,,"62"
+:48
+|2,0,0,,"48"
+:91
+|2,0,0,,"91"
+:41
+|2,0,0,,"41"
+:49
+|2,0,0,,"49"
+:43
+|2,0,0,,"43"
+:vsp abstract.tex
+|2,0,0,,"vsp abstract.tex"
+:autoread
+|2,0,0,,"autoread"
+:78
+|2,0,0,,"78"
+:%s/lecs/lectures/g
+|2,0,0,,"%s/lecs/lectures/g"
+:%s/lecs/lectures.tex
+|2,0,0,,"%s/lecs/lectures.tex"
+:89
+|2,0,0,,"89"
+:25
+|2,0,0,,"25"
+:e com
+|2,0,0,,"e com"
+:72
+|2,0,0,,"72"
+:71
+|2,0,0,,"71"
+:6
+|2,0,0,,"6"
+:30
+|2,0,0,,"30"
+:26
+|2,0,0,,"26"
+:28
+|2,0,0,,"28"
+:e toc
+|2,0,0,,"e toc"
+:id
+|2,0,0,,"id"
+:!rm -rf out/*
+|2,0,0,,"!rm -rf out/*"
+:e make
+|2,0,0,,"e make"
+:5
+|2,0,0,,"5"
+:e abstr
+|2,0,0,,"e abstr"
+:76
+|2,0,0,,"76"
+:108
+|2,0,0,,"108"
+:vertical
+|2,0,0,,"vertical"
+:224
+|2,0,0,,"224"
+:vertical resize 5
+|2,0,0,,"vertical resize 5"
+:sp .teq
+|2,0,0,,"sp .teq"
+:298
+|2,0,0,,"298"
+:e .teq
+|2,0,0,,"e .teq"
+:vsp commands.tex
+|2,0,0,,"vsp commands.tex"
+:8
+|2,0,0,,"8"
+:151
+|2,0,0,,"151"
+:102
+|2,0,0,,"102"
+:81
+|2,0,0,,"81"
+:'<,'>160
+|2,0,0,,"'<,'>160"
+:115
+|2,0,0,,"115"
+:95
+|2,0,0,,"95"
+:69
+|2,0,0,,"69"
+:35
+|2,0,0,,"35"
+:114
+|2,0,0,,"114"
+:38
+|2,0,0,,"38"
+:101
+|2,0,0,,"101"
+:37
+|2,0,0,,"37"
+:'<,'>13
+|2,0,0,,"'<,'>13"
+:!make full
+|2,0,0,,"!make full"
+:227
+|2,0,0,,"227"
+:vsp sections/cfm.tex
+|2,0,0,,"vsp sections/cfm.tex"
+:sp not
+|2,0,0,,"sp not"
+:vsp classformations.tex
+|2,0,0,,"vsp classformations.tex"
+:e sections/grassmannians.tex
+|2,0,0,,"e sections/grassmannians.tex"
+:e index.hbs
+|2,0,0,,"e index.hbs"
+:e gh
+|2,0,0,,"e gh"
+:e default.hbs
+|2,0,0,,"e default.hbs"
+:e post.hbs
+|2,0,0,,"e post.hbs"
+:232
+|2,0,0,,"232"
+:198
+|2,0,0,,"198"
+:%s/textrm/mathrm/g
+|2,0,0,,"%s/textrm/mathrm/g"
+:%s/\\textrm\{End\}/\\End/g
+|2,0,0,,"%s/\\\\textrm\\{End\\}/\\\\End/g"
+:179
+|2,0,0,,"179"
+:197
+|2,0,0,,"197"
+:e sections/cohomology.tex
+|2,0,0,,"e sections/cohomology.tex"
+:vsp sections/algebraicsurfaces.tex
+|2,0,0,,"vsp sections/algebraicsurfaces.tex"
+:176
+|2,0,0,,"176"
+:%s/mathfark/mathfrak/g
+|2,0,0,,"%s/mathfark/mathfrak/g"
+:ake
+|2,0,0,,"ake"
+:96
+|2,0,0,,"96"
+:e .
+|2,0,0,,"e ."
+:47
+|2,0,0,,"47"
+:\\C
+|2,0,0,,"\\\\C"
+:36
+|2,0,0,,"36"
+:e sections/algebraicsurfaces.tex
+|2,0,0,,"e sections/algebraicsurfaces.tex"
+:e not
+|2,0,0,,"e not"
+:e sections/cfm.tex
+|2,0,0,,"e sections/cfm.tex"
+:e 16\ Jan\ 2017\ 12:44:28\ pm.amr
+|2,0,0,,"e 16\\ Jan\\ 2017\\ 12:44:28\\ pm.amr"
+:4
+|2,0,0,,"4"
+:set fuinv
+|2,0,0,,"set fuinv"
+:1make full
+|2,0,0,,"1make full"
+:40
+|2,0,0,,"40"
+:sp sections/gaugetheory.tex
+|2,0,0,,"sp sections/gaugetheory.tex"
+:sp sections/gaug
+|2,0,0,,"sp sections/gaug"
+:e $GG/glg.tex
+|2,0,0,,"e $GG/glg.tex"
+:145
+|2,0,0,,"145"
+:273
+|2,0,0,,"273"
+:e sections/equivariant-index.tex
+|2,0,0,,"e sections/equivariant-index.tex"
+:sp sections/khovanov.tex
+|2,0,0,,"sp sections/khovanov.tex"
+:e sections/khovanov.tex
+|2,0,0,,"e sections/khovanov.tex"
+:100
+|2,0,0,,"100"
+:372
+|2,0,0,,"372"
+:371
+|2,0,0,,"371"
+:373
+|2,0,0,,"373"
+:364
+|2,0,0,,"364"
+:e sections/tqft.tex
+|2,0,0,,"e sections/tqft.tex"
+:e sections/ap-furuta.tex
+|2,0,0,,"e sections/ap-furuta.tex"
+:e sections/furuta.tex
+|2,0,0,,"e sections/furuta.tex"
+:.,.+4e
+|2,0,0,,".,.+4e"
+:e $GG
+|2,0,0,,"e $GG"
+:cd $G
+|2,0,0,,"cd $G"
+:e $GG/../bridges/lectures.tex
+|2,0,0,,"e $GG/../bridges/lectures.tex"
+:cd $GG../bridges
+|2,0,0,,"cd $GG../bridges"
+:qa@
+|2,0,0,,"qa@"
+:e ../bridges/sections/:q!
+|2,0,0,,"e ../bridges/sections/:q!"
+:e /Users/raeez/proj/mathematica/generalized-grassmannians/../
+|2,0,0,,"e /Users/raeez/proj/mathematica/generalized-grassmannians/../"
 :e glg.tex
-|2,0,1493443124,,"e glg.tex"
+|2,0,0,,"e glg.tex"
 :sp ktheory.tex
-|2,0,1493441883,,"sp ktheory.tex"
+|2,0,0,,"sp ktheory.tex"
 :e milnor.tex
-|2,0,1493441860,,"e milnor.tex"
+|2,0,0,,"e milnor.tex"
 :77
-|2,0,1493441849,,"77"
+|2,0,0,,"77"
 :e lecture
-|2,0,1493437215,,"e lecture"
+|2,0,0,,"e lecture"
 :e khovanov.tex
-|2,0,1493436754,,"e khovanov.tex"
+|2,0,0,,"e khovanov.tex"
 :9
-|2,0,1493435666,,"9"
+|2,0,0,,"9"
 :%s/\%/\\\%/g
-|2,0,1493435457,,"%s/\\%/\\\\\\%/g"
+|2,0,0,,"%s/\\%/\\\\\\%/g"
 :%s/%/\%/g
-|2,0,1493435429,,"%s/%/\\%/g"
+|2,0,0,,"%s/%/\\%/g"
 :e sections/ktheory.tex
-|2,0,1493434821,,"e sections/ktheory.tex"
+|2,0,0,,"e sections/ktheory.tex"
 :sp sections/perimeter.tex
-|2,0,1493434803,,"sp sections/perimeter.tex"
+|2,0,0,,"sp sections/perimeter.tex"
 :sp sections/furuta
-|2,0,1493434432,,"sp sections/furuta"
+|2,0,0,,"sp sections/furuta"
 :sp sections/furuta.tex
-|2,0,1493434242,,"sp sections/furuta.tex"
+|2,0,0,,"sp sections/furuta.tex"
 :e sections/perimeter.tex
-|2,0,1493433402,,"e sections/perimeter.tex"
+|2,0,0,,"e sections/perimeter.tex"
 :e sections/floerhomotopy.tex
-|2,0,1493433397,,"e sections/floerhomotopy.tex"
+|2,0,0,,"e sections/floerhomotopy.tex"
 :e sections/ncmotives.tex
-|2,0,1493433367,,"e sections/ncmotives.tex"
+|2,0,0,,"e sections/ncmotives.tex"
 :sp bridges.tex
-|2,0,1493433043,,"sp bridges.tex"
+|2,0,0,,"sp bridges.tex"
 :!pwd
-|2,0,1493432829,,"!pwd"
+|2,0,0,,"!pwd"
 :%s/glg/bridges/g
-|2,0,1493432825,,"%s/glg/bridges/g"
+|2,0,0,,"%s/glg/bridges/g"
 :e bridges/floertheory.tex
-|2,0,1493431537,,"e bridges/floertheory.tex"
+|2,0,0,,"e bridges/floertheory.tex"
 :set jjj
-|2,0,1493409131,,"set jjj"
+|2,0,0,,"set jjj"
 :e .zshrc
-|2,0,1493412372,,"e .zshrc"
+|2,0,0,,"e .zshrc"
 :e vimrc
-|2,0,1493409050,,"e vimrc"
+|2,0,0,,"e vimrc"
 :236
-|2,0,1493408732,,"236"
+|2,0,0,,"236"
 :vsp ~/.vim/ftplugin/plan.tex
-|2,0,1493408586,,"vsp ~/.vim/ftplugin/plan.tex"
+|2,0,0,,"vsp ~/.vim/ftplugin/plan.tex"
 :2651
-|2,0,1493406756,,"2651"
+|2,0,0,,"2651"
 :sp ~/.zshrc
 |2,0,0,,"sp ~/.zshrc"
 :55
 |2,0,0,,"55"
 :125
 |2,0,0,,"125"
-:e ~/.plan
-|2,0,0,,"e ~/.plan"
 :344
 |2,0,0,,"344"
 :2606
@@ -1398,8 +1480,6 @@ $
 |2,0,0,,"e bib/"
 :resize 25
 |2,0,0,,"resize 25"
-:resize 20
-|2,0,0,,"resize 20"
 :help motion.txt
 |2,0,0,,"help motion.txt"
 :help motion
@@ -1420,8 +1500,6 @@ $
 |2,0,0,,"!gs"
 :!git add .
 |2,0,0,,"!git add ."
-:!ls -la ~/.vim/bundle
-|2,0,0,,"!ls -la ~/.vim/bundle"
 :!ls -l1 sections/
 |2,0,0,,"!ls -l1 sections/"
 :!ll sections/
@@ -1448,8 +1526,6 @@ $
 |2,0,0,,"vsp Makefile"
 :e epigraph.tex
 |2,0,0,,"e epigraph.tex"
-:sp abstract.tex
-|2,0,0,,"sp abstract.tex"
 :%s/\\nomenclature/\\nm/g
 |2,0,0,,"%s/\\\\nomenclature/\\\\nm/g"
 :%s/\\newcommand/\\nc/g
@@ -1526,8 +1602,6 @@ $
 |2,0,0,,"e sections/gl"
 :w sec
 |2,0,0,,"w sec"
-:%s/section/subsection/g
-|2,0,0,,"%s/section/subsection/g"
 :%s/itemize/enumerate/g
 |2,0,0,,"%s/itemize/enumerate/g"
 :e sections/functorpoints.tex
@@ -1842,8 +1916,6 @@ $
 |2,0,0,,"%s/rc/renewcommand/g"
 :%s/nomenewcommandlature/nomenclature/g
 |2,0,0,,"%s/nomenewcommandlature/nomenclature/g"
-:%s/nc/newcommand/g
-|2,0,0,,"%s/nc/newcommand/g"
 :e sty-glg/gl
 |2,0,0,,"e sty-glg/gl"
 :%s/tate
@@ -2076,8 +2148,6 @@ $
 |2,0,0,,"!open"
 :vertical resize 86
 |2,0,0,,"vertical resize 86"
-:vertical resize 85
-|2,0,0,,"vertical resize 85"
 :vertical resize 80
 |2,0,0,,"vertical resize 80"
 :resize 100
@@ -2466,8 +2536,6 @@ $
 |2,0,0,,"sp kkkkkjjjjjjjjk"
 :.,.+1!kj
 |2,0,0,,".,.+1!kj"
-:resize 1
-|2,0,0,,"resize 1"
 :e tex/lec3
 |2,0,0,,"e tex/lec3"
 :e tex/toc.tex
@@ -2520,8 +2588,6 @@ $
 |2,0,0,,"1make"
 :vsp tex/questions.tex
 |2,0,0,,"vsp tex/questions.tex"
-:sp Makefile
-|2,0,0,,"sp Makefile"
 :sp tex/Make
 |2,0,0,,"sp tex/Make"
 :%s/section/part/g
@@ -2540,8 +2606,6 @@ $
 |2,0,0,,"203"
 :!makep
 |2,0,0,,"!makep"
-:248
-|2,0,0,,"248"
 :!make u
 |2,0,0,,"!make u"
 :e scripts/create-git-repos
@@ -2600,8 +2664,6 @@ $
 |2,0,0,,"'<,'>28"
 :'<,'>8
 |2,0,0,,"'<,'>8"
-:ww
-|2,0,0,,"ww"
 :sp sys/
 |2,0,0,,"sp sys/"
 :vsp www/README.md
@@ -2658,8 +2720,6 @@ $
 |2,0,0,,"%s/\\.png//g"
 :%s/png//g
 |2,0,0,,"%s/png//g"
-:263
-|2,0,0,,"263"
 :%s/\[here\]/\[h\]/g
 |2,0,0,,"%s/\\[here\\]/\\[h\\]/g"
 :%s/\[here\]/\[H\]/g
@@ -2933,785 +2993,885 @@ $
 
 # Search String History (newest to oldest):
 ? \s\+$
-|2,1,1493710920,,"\\s\\+$"
-?/gui
-|2,1,1493710846,47,"gui"
-?/disclaimer
-|2,1,1493710421,47,"disclaimer"
-?/trans
-|2,1,1493710235,47,"trans"
-?/solarized
-|2,1,1493709614,47,"solarized"
-?/Inconsolata
-|2,1,1493709334,47,"Inconsolata"
-?/Font
-|2,1,1493709325,47,"Font"
-?/syntax enable
-|2,1,1493709311,47,"syntax enable"
-?/weight
-|2,1,1493708593,47,"weight"
-?/Inconsola
-|2,1,1493708558,47,"Inconsola"
-?/Consolas
-|2,1,1493708197,47,"Consolas"
-?/termtrans
-|2,1,1493707780,47,"termtrans"
-?/term-trans
-|2,1,1493707774,47,"term-trans"
-?/fancy
-|2,1,1493707714,47,"fancy"
-?/light
-|2,1,1493707619,47,"light"
-?/zolari
-|2,1,1493705742,47,"zolari"
-?/printnomenclature
-|2,1,1493684064,47,"printnomenclature"
-?/nomencl
-|2,1,1493684055,47,"nomencl"
-?/image
-|2,1,1493683835,47,"image"
-?/immage
-|2,1,1493683834,47,"immage"
-?/\\SL
-|2,1,1493683771,47,"\\\\SL"
-?/\\Cat
-|2,1,1493683522,47,"\\\\Cat"
-?/\\rc\\Cat
-|2,1,1493683513,47,"\\\\rc\\\\Cat"
-?/\\DMod
-|2,1,1493683448,47,"\\\\DMod"
-?/\\Dmod
-|2,1,1493683138,47,"\\\\Dmod"
-?/\\nc\\Cat
-|2,1,1493683093,47,"\\\\nc\\\\Cat"
-?/IndSchemes
-|2,1,1493682930,47,"IndSchemes"
-?/\\end
-|2,1,1493682832,47,"\\\\end"
-?/realization on
-|2,1,1493682742,47,"realization on"
-?/mathsc
-|2,1,1493682700,47,"mathsc"
-?/\\D
-|2,1,1493682646,47,"\\\\D"
-?/mathbf
-|2,1,1493682550,47,"mathbf"
-?/DMod
-|2,1,1493682517,47,"DMod"
-?/Dmod
-|2,1,1493682513,47,"Dmod"
-?/textsc
-|2,1,1493682386,47,"textsc"
-?/mathrm
-|2,1,1493682166,47,"mathrm"
-?/main
-|2,1,1493682139,47,"main"
-?/table
-|2,1,1493682027,47,"table"
+|2,1,1493837129,,"\\s\\+$"
+? \<enable\>
+|2,1,1493835115,,"\\<enable\\>"
+? \<syntax\>
+|2,1,1493835110,,"\\<syntax\\>"
+? \<let\>
+|2,1,1493835097,,"\\<let\\>"
+?/hi
+|2,1,1493835091,47,"hi"
+?/_
+|2,1,1493751963,47,"_"
 ? subsection
-|2,1,1493681210,,"subsection"
-?/subsection
-|2,1,1493681103,47,"subsection"
-?/Galois
-|2,1,1493680858,47,"Galois"
-?/galois
-|2,1,1493680849,47,"galois"
-?/Joke
-|2,1,1493680593,47,"Joke"
-?/Joke/
-|2,1,1493680590,47,"Joke/"
-?/secintro
-|2,1,1493680429,47,"secintro"
-? chapter
-|2,1,1493680398,,"chapter"
-?/quickfull
-|2,1,1493680132,47,"quickfull"
-?/pazo
-|2,1,1493705348,47,"pazo"
-?/tr
-|2,1,1493704918,47,"tr"
-?/dark
-|2,1,1493704821,47,"dark"
-?/lock
-|2,1,1493704806,47,"lock"
-?/\\IndSch
-|2,1,1493704608,47,"\\\\IndSch"
-?/\\Schemes
-|2,1,1493704562,47,"\\\\Schemes"
-?/!
-|2,1,1493704516,47,"!"
-?/ensure
-|2,1,1493704454,47,"ensure"
-?/IndSt
-|2,1,1493704437,47,"IndSt"
-?/\\Sche
-|2,1,1493704377,47,"\\\\Sche"
-?/\\TateCat
-|2,1,1493684224,47,"\\\\TateCat"
-?/Error
-|2,1,1493684169,47,"Error"
-?/IndSch
-|2,1,1493684100,47,"IndSch"
-?/textbf{SL
-|2,1,1493683732,47,"textbf{SL"
-?/textbf{
-|2,1,1493683717,47,"textbf{"
-?/autoread
-|2,1,1493682443,47,"autoread"
-?//auto
-|2,1,1493682442,47,"/auto"
-?/load
-|2,1,1493682436,47,"load"
-?/Warning
-|2,1,1493679841,47,"Warning"
-?/\\A
-|2,1,1493679362,47,"\\\\A"
-?/AJ
-|2,1,1493679354,47,"AJ"
-?/Pic
-|2,1,1493679351,47,"Pic"
-?/Undefined
-|2,1,1493677757,47,"Undefined"
-?/chd
-|2,1,1493680086,47,"chd"
-?/drinfeld
-|2,1,1493679905,47,"drinfeld"
-?/solovay-kitaev
-|2,1,1493679902,47,"solovay-kitaev"
-?/label
-|2,1,1493679796,47,"label"
-?/fig:fibtree
-|2,1,1493679768,47,"fig:fibtree"
-?/computation
-|2,1,1493679721,47,"computation"
-?/fibtree
-|2,1,1493679683,47,"fibtree"
-?/laurentpoly
-|2,1,1493679488,47,"laurentpoly"
-? \\nc
-|2,1,1493679378,,"\\\\nc"
-?/\\projline
-|2,1,1493679192,47,"\\\\projline"
-?/\\idshf
-|2,1,1493679166,47,"\\\\idshf"
-?/idshf
-|2,1,1493679163,47,"idshf"
-?/\\shf
-|2,1,1493679140,47,"\\\\shf"
-?/shf
-|2,1,1493679126,47,"shf"
-?/restr
-|2,1,1493679122,47,"restr"
-?/\\ov
-|2,1,1493679110,47,"\\\\ov"
-?/\\isom
-|2,1,1493679094,47,"\\\\isom"
-? \\nm
-|2,1,1493678731,,"\\\\nm"
-?/\\nm
-|2,1,1493678691,47,"\\\\nm"
-?/\\Spec
-|2,1,1493678553,47,"\\\\Spec"
-? %\\nc
-|2,1,1493678532,,"%\\\\nc"
-? \\nc/\\nc/g
-|2,1,1493678524,,"\\\\nc/\\\\nc/g"
-?/%
-|2,1,1493678515,47,"%"
-?/\%
-|2,1,1493678508,47,"\\%"
-?/\%nc
-|2,1,1493678503,47,"\\%nc"
-? \%\\nc
-|2,1,1493678491,,"\\%\\\\nc"
-?/\\ageom
-|2,1,1493678387,47,"\\\\ageom"
-?/\\Bun
-|2,1,1493678228,47,"\\\\Bun"
-?/\\nc
-|2,1,1493677980,47,"\\\\nc"
-?/newcommand
-|2,1,1493677816,47,"newcommand"
-?/\\CC
-|2,1,1493677789,47,"\\\\CC"
-?/\\nc/\\CC
-|2,1,1493677606,47,"\\\\nc/\\\\CC"
-?/\\nc\\S
-|2,1,1493677500,47,"\\\\nc\\\\S"
-?/\\/
-|2,1,1493677447,47,"\\\\/"
-?/nc
-|2,1,1493677438,47,"nc"
-?/\\s
-|2,1,1493677435,47,"\\\\s"
-?/nm
-|2,1,1493677315,47,"nm"
-?/\\S
-|2,1,1493677160,47,"\\\\S"
-?/section
-|2,1,1493676463,47,"section"
-?/error
-|2,1,1493675928,47,"error"
-?/warning
-|2,1,1493675926,47,"warning"
-?/log
-|2,1,1493675919,47,"log"
-?/refresh
-|2,1,1493675655,47,"refresh"
-?/ll
-|2,1,1493675188,47,"ll"
-?/airline
-|2,1,1493674308,47,"airline"
-?/arline
-|2,1,1493674305,47,"arline"
-? g:
-|2,1,1493672935,,"g:"
-? lec2
-|2,1,1493672926,,"lec2"
-? lectures
-|2,1,1493673369,,"lectures"
-?/case
-|2,1,1493607897,47,"case"
-?/disc
-|2,1,1493607893,47,"disc"
-?/Hilb
-|2,1,1493605586,47,"Hilb"
-?/rmk
-|2,1,1493605203,47,"rmk"
-?/rest
-|2,1,1493601932,47,"rest"
-?/ideal
-|2,1,1493600815,47,"ideal"
-?/kalg
-|2,1,1493600679,47,"kalg"
-?/fundamental
-|2,1,1493600049,47,"fundamental"
-?/Hilbert
-|2,1,1493595415,47,"Hilbert"
-?/fold
-|2,1,1493595288,47,"fold"
-?/se
-|2,1,1493595197,47,"se"
-?/inconsal
-|2,1,1493593969,47,"inconsal"
-?/save
-|2,1,1493585633,47,"save"
-? cp
-|2,1,1493585617,,"cp"
-?/tmux-conf
-|2,1,1493585539,47,"tmux-conf"
+|2,1,1493739219,,"subsection"
 ?/plugin
-|2,1,1493582744,47,"plugin"
-?/pathogen
-|2,1,1493582740,47,"pathogen"
-?/256
-|2,1,1493580747,47,"256"
-?/reload
-|2,1,1493580674,47,"reload"
-?/iab
-|2,1,1493580647,47,"iab"
-?/move
-|2,1,1493576448,47,"move"
-?/footnotetext
-|2,1,1493579596,47,"footnotetext"
-?/defn
-|2,1,1493578702,47,"defn"
-?/finite scheme
-|2,1,1493578601,47,"finite scheme"
-?/formal disc
-|2,1,1493577961,47,"formal disc"
-?/ind
-|2,1,1493577863,47,"ind"
-?/ind syst
-|2,1,1493577862,47,"ind syst"
-?/cartier duality
-|2,1,1493577278,47,"cartier duality"
-?/cart
-|2,1,1493577049,47,"cart"
-?/dual
-|2,1,1493577046,47,"dual"
-?/can cancel
-|2,1,1493577044,47,"can cancel"
-?/double dual
-|2,1,1493568478,47,"double dual"
-?/now on
-|2,1,1493568472,47,"now on"
-?/algebro
-|2,1,1493568272,47,"algebro"
+|2,1,1493759187,47,"plugin"
+?/head
+|2,1,0,47,"head"
+?/trans
+|2,1,0,47,"trans"
+?/alias trans
+|2,1,0,47,"alias trans"
+?/hutching
+|2,1,0,47,"hutching"
 ?/export
-|2,1,1493568001,47,"export"
-?/Category
-|2,1,1493565077,47,"Category"
-?/Tate Cate
-|2,1,1493565075,47,"Tate Cate"
-?/Tate Category
-|2,1,1493562907,47,"Tate Category"
-?/Tate
-|2,1,1493562864,47,"Tate"
-?/liable
-|2,1,1493562492,47,"liable"
-?/root
-|2,1,1493562483,47,"root"
-?/raeez
-|2,1,1493562475,47,"raeez"
-?/teaching
-|2,1,1493562409,47,"teaching"
-?/raeez lorgat
-|2,1,1493562379,47,"raeez lorgat"
-? @$
-|2,1,1493562366,,"@$"
-?/Computer
-|2,1,1493561917,47,"Computer"
-?/Linear Graph
-|2,1,1493561860,47,"Linear Graph"
-?/18.721
-|2,1,1493561806,47,"18.721"
-?/Mathematical
-|2,1,1493561795,47,"Mathematical"
-?/Passing
-|2,1,1493561779,47,"Passing"
-?/Computation
-|2,1,1493561771,47,"Computation"
-?/	
-|2,1,1493561761,47,"	"
-?/root_raeez
-|2,1,1493561552,47,"root_raeez"
-?/reading list
-|2,1,1493561459,47,"reading list"
-?/twitter
-|2,1,1493561237,47,"twitter"
-?/h2
-|2,1,1493560502,47,"h2"
-?/dmx
-|2,1,1493560372,47,"dmx"
-?/decaf
-|2,1,1493560329,47,"decaf"
-?/under
-|2,1,1493560287,47,"under"
-?/under construction
-|2,1,1493560283,47,"under construction"
-?/vimeo
-|2,1,1493560257,47,"vimeo"
-?/software
-|2,1,1493560252,47,"software"
-?/videos
-|2,1,1493560230,47,"videos"
-?/photogr
-|2,1,1493560106,47,"photogr"
-?/photography
-|2,1,1493560095,47,"photography"
-?/h1
-|2,1,1493559750,47,"h1"
-?/mone
-|2,1,1493559652,47,"mone"
-?/a reading
-|2,1,1493559628,47,"a reading"
-?/presently reading
-|2,1,1493559621,47,"presently reading"
-?/reading
-|2,1,1493559612,47,"reading"
-?/public key
-|2,1,1493559531,47,"public key"
-?/writing
-|2,1,1493559232,47,"writing"
-?/science
-|2,1,1493559218,47,"science"
-?/computer language
-|2,1,1493559092,47,"computer language"
-?/teachingjjjjjj/
-|2,1,1493558351,47,"teachingjjjjjj/"
-?/--
-|2,1,1493558036,47,"--"
-?/\<-
-|2,1,1493558034,47,"\\<-"
-?/<--
-|2,1,1493558031,47,"<--"
-?/massachusetts
-|2,1,1493557829,47,"massachusetts"
-?/a person
-|2,1,1493557549,47,"a person"
-?/setupWrapping
-|2,1,1493557383,47,"setupWrapping"
-?/html
-|2,1,1493557362,47,"html"
-?/au
-|2,1,1493557272,47,"au"
-?/width
-|2,1,1493557233,47,"width"
-?/music
-|2,1,1493556878,47,"music"
-?/*.tex
-|2,1,1493556641,47,"*.tex"
-?/global
-|2,1,1493556507,47,"global"
-?/\\right
-|2,1,1493556500,47,"\\\\right"
-?/\\nc\\rp
-|2,1,1493556376,47,"\\\\nc\\\\rp"
-?/llp
-|2,1,1493556208,47,"llp"
-?/laurentser
-|2,1,1493556191,47,"laurentser"
-?/serrecl
-|2,1,1493556157,47,"serrecl"
-?/serre
-|2,1,1493556153,47,"serre"
-?/\\rc
-|2,1,1493556109,47,"\\\\rc"
-?/rcc
-|2,1,1493556108,47,"rcc"
-?/import
-|2,1,1493554219,47,"import"
-?/leca
-|2,1,1493554214,47,"leca"
-?/loadsection
-|2,1,1493554200,47,"loadsection"
-? sectionload
-|2,1,1493554165,,"sectionload"
-?/euler
-|2,1,1493554122,47,"euler"
-?/quick
-|2,1,1493553939,47,"quick"
-?/pdflatex
-|2,1,1493553928,47,"pdflatex"
-?/lectures.tex
-|2,1,1493553847,47,"lectures.tex"
-?/\\
-|2,1,1493553821,47,"\\\\"
-?/full
-|2,1,1493546673,47,"full"
-?/all:
-|2,1,1493546663,47,"all:"
-?/make
-|2,1,1493546659,47,"make"
-?/Vec
-|2,1,1493546329,47,"Vec"
-?/indsch
-|2,1,1493546299,47,"indsch"
-?/given by the 
-|2,1,1493546288,47,"given by the "
-?/duality
-|2,1,1493546233,47,"duality"
-?/(
-|2,1,1493546068,47,"("
-?/tex
-|2,1,1493553775,47,"tex"
-?/reductive group
-|2,1,1493553613,47,"reductive group"
-?/notation
-|2,1,1493553606,47,"notation"
-?/reductive
-|2,1,1493553552,47,"reductive"
-?/G
-|2,1,1493553550,47,"G"
-? \[\]
-|2,1,1493553539,,"\\[\\]"
-?/\\grk
-|2,1,1493553144,47,"\\\\grk"
-?/\\K
-|2,1,1493553140,47,"\\\\K"
-?/polyring
-|2,1,1493553033,47,"polyring"
-?/projl
-|2,1,1493553013,47,"projl"
-?/lim
-|2,1,1493552981,47,"lim"
-?/grk
-|2,1,1493552534,47,"grk"
-?/fpowerser
-|2,1,1493552528,47,"fpowerser"
-?/klocint
-|2,1,1493552519,47,"klocint"
-?/abstract
-|2,1,1493552417,47,"abstract"
-?/r
-|2,1,1493552337,47,"r"
-?/input
-|2,1,1493552319,47,"input"
-?/class
-|2,1,1493552295,47,"class"
-?/\\nc\\Z
-|2,1,1493552260,47,"\\\\nc\\\\Z"
-?/\\Z
-|2,1,1493552248,47,"\\\\Z"
-?/p
-|2,1,1493552215,47,"p"
-? \\nm\[\\\+.*\]
-|2,1,1493552162,,"\\\\nm\\[\\\\\\+.*\\]"
-?/nm\[\\\+.*\]
-|2,1,1493552139,47,"nm\\[\\\\\\+.*\\]"
-?/nm\[\<\>\]
-|2,1,1493552071,47,"nm\\[\\<\\>\\]"
-?/nm\[\<i\>
-|2,1,1493552039,47,"nm\\[\\<i\\>"
-?/nm\[\<i\>\]
-|2,1,1493552030,47,"nm\\[\\<i\\>\\]"
-?/nm\[\.*\]
-|2,1,1493551999,47,"nm\\[\\.*\\]"
-?/nm[\<i\>]
-|2,1,1493551973,47,"nm[\\<i\\>]"
-? \\nm[\<i\>]
-|2,1,1493551965,,"\\\\nm[\\<i\\>]"
-?/nm[
-|2,1,1493551892,47,"nm["
-?/nm[\.*\]
-|2,1,1493551873,47,"nm[\\.*\\]"
-?/nm[\.*]
-|2,1,1493551863,47,"nm[\\.*]"
-?/\\nm[\.*\]
-|2,1,1493551850,47,"\\\\nm[\\.*\\]"
-?/mathematics
-|2,1,1493551787,47,"mathematics"
-?/cr
-|2,1,1493551766,47,"cr"
-?/graphics
-|2,1,1493551684,47,"graphics"
-?/usepackage
-|2,1,1493551549,47,"usepackage"
-?/usepakage
-|2,1,1493551544,47,"usepakage"
-?/usepkage
-|2,1,1493551511,47,"usepkage"
-?/\\nm?:!mak
-|2,1,1493551422,47,"\\\\nm?:!mak"
-? \\nm[\.*\]/g
-|2,1,1493551396,,"\\\\nm[\\.*\\]/g"
-? nm[\.*\]/nm[]
-|2,1,1493551351,,"nm[\\.*\\]/nm[]"
-? nm[\.*\]
-|2,1,1493551339,,"nm[\\.*\\]"
-?/\\nm[
-|2,1,1493551309,47,"\\\\nm["
-? \\nm[.*]
-|2,1,1493551231,,"\\\\nm[.*]"
-? \\seccfm
-|2,1,1493551197,,"\\\\seccfm"
-?/\.tex
-|2,1,1493550963,47,"\\.tex"
-?/index:
-|2,1,1493550876,47,"index:"
-?/sectionload
-|2,1,1493550807,47,"sectionload"
-?/lecc
-|2,1,1493550464,47,"lecc"
-?/nc\\Z
-|2,1,1493549956,47,"nc\\\\Z"
-?/KO
-|2,1,1493549906,47,"KO"
-?/kom
-|2,1,1493549901,47,"kom"
-?/patch
-|2,1,1493549899,47,"patch"
-?/tar
-|2,1,1493549743,47,"tar"
-? lecs
-|2,1,1493549706,,"lecs"
-?/lecs
-|2,1,1493549693,47,"lecs"
-?/nomenc
-|2,1,1493548934,47,"nomenc"
-?/makeno
-|2,1,1493548930,47,"makeno"
-?/makenom
-|2,1,1493548922,47,"makenom"
-?/nomen
-|2,1,1493548904,47,"nomen"
-?/tree
-|2,1,1493547812,47,"tree"
-?/fusion
-|2,1,1493547810,47,"fusion"
-?/imagecap
-|2,1,1493547770,47,"imagecap"
-?/fig:fusion
-|2,1,1493547747,47,"fig:fusion"
-?/undef
-|2,1,1493547731,47,"undef"
-?/l
-|2,1,1493547479,47,"l"
-?/print
-|2,1,1493547475,47,"print"
-?/tableof
-|2,1,1493547438,47,"tableof"
-?/toc
-|2,1,1493547426,47,"toc"
-?/grep
-|2,1,1493548663,47,"grep"
-?/alias
-|2,1,1493548455,47,"alias"
-?/idgen
-|2,1,1493547169,47,"idgen"
-?/gen
-|2,1,1493547128,47,"gen"
-?/idgenby
-|2,1,1493547124,47,"idgenby"
-?/694
-|2,1,1493547120,47,"694"
-?/er
-|2,1,1493546969,47,"er"
-? (\(\f\|\[\|]\|\s\)*cohomology.tex
-|2,1,1493545285,,"(\\(\\f\\|\\[\\|]\\|\\s\\)*cohomology.tex"
-?/relative stable
-|2,1,1493545155,47,"relative stable"
+|2,1,0,47,"export"
+?/fractional
+|2,1,0,47,"fractional"
+? section
+|2,1,0,,"section"
 ? (\(\f\|\[\|]\|\s\)*sections
-|2,1,1493545027,,"(\\(\\f\\|\\[\\|]\\|\\s\\)*sections"
-?/Z
-|2,1,1493544985,47,"Z"
-?/ageom
-|2,1,1493544712,47,"ageom"
-?/left
-|2,1,1493544690,47,"left"
-?/poly
-|2,1,1493544169,47,"poly"
-?/seccoh
-|2,1,1493543904,47,"seccoh"
-?/makenomenclature
-|2,1,1493543572,47,"makenomenclature"
-?/grpring
-|2,1,1493543298,47,"grpring"
-?/Mat
-|2,1,1493543231,47,"Mat"
-?/lec 2
-|2,1,1493542522,47,"lec 2"
-?/nonstopmode
-|2,1,1493542098,47,"nonstopmode"
-?/clean
-|2,1,1493542023,47,"clean"
-?/surf
-|2,1,1493541740,47,"surf"
-?/secalg
-|2,1,1493541737,47,"secalg"
-?/seccfm
-|2,1,1493541585,47,"seccfm"
-?/cfm.tex
-|2,1,1493541575,47,"cfm.tex"
-?/commands
-|2,1,1493541506,47,"commands"
-?/subsections
-|2,1,1493541400,47,"subsections"
-?/read and then write
-|2,1,1493541246,47,"read and then write"
-?/definition
-|2,1,1493541192,47,"definition"
-?/cfm
-|2,1,1493541011,47,"cfm"
-?/pro
-|2,1,1493497880,47,"pro"
-?/pic
-|2,1,1493497839,47,"pic"
-?/body_class
-|2,1,1493497830,47,"body_class"
-?/profi
-|2,1,1493497816,47,"profi"
-?/khovanov
-|2,1,1493493296,47,"khovanov"
-?/quantize
-|2,1,1493493260,47,"quantize"
-?/quantum group
-|2,1,1493493083,47,"quantum group"
-?/some
-|2,1,1493493080,47,"some"
-?/\\C
-|2,1,1493492880,47,"\\\\C"
-? textrm
-|2,1,1493492794,,"textrm"
-?/textrm
-|2,1,1493492785,47,"textrm"
-? \\textrm\{End\}
-|2,1,1493492781,,"\\\\textrm\\{End\\}"
-?/foont
-|2,1,1493492681,47,"foont"
-?/foontnote
-|2,1,1493492677,47,"foontnote"
-?/jjjjjkkk
-|2,1,1493492591,47,"jjjjjkkk"
-?/footnet
-|2,1,1493492556,47,"footnet"
-?/footnote
-|2,1,1493492521,47,"footnote"
-?/princip
-|2,1,1493492445,47,"princip"
-?/princple
-|2,1,1493492440,47,"princple"
-?/fibtre
-|2,1,1493492420,47,"fibtre"
-?/\\ket
-|2,1,1493492311,47,"\\\\ket"
-? mathfark
-|2,1,1493492297,,"mathfark"
-?/locked
-|2,1,1493492231,47,"locked"
-?/Afib
-|2,1,1493492181,47,"Afib"
-?/lambda
-|2,1,1493491966,47,"lambda"
-?/equivariant
-|2,1,1493491881,47,"equivariant"
-?/appears
-|2,1,1493491659,47,"appears"
+|2,1,0,,"(\\(\\f\\|\\[\\|]\\|\\s\\)*sections"
+? (\(\f\|\[\|]\|\s\)*galoistheory.tex
+|2,1,0,,"(\\(\\f\\|\\[\\|]\\|\\s\\)*galoistheory.tex"
+?/\
+|2,1,0,47,"\\"
+?/section
+|2,1,0,47,"section"
 ?/it
-|2,1,1493491656,47,"it"
-?/Bun
-|2,1,1493490595,47,"Bun"
-?/so_4
-|2,1,1493477327,47,"so_4"
-?/mathfrak
-|2,1,1493477318,47,"mathfrak"
-?/so
-|2,1,1493477304,47,"so"
-?/frak
-|2,1,1493477291,47,"frak"
-?//
-|2,1,1493477043,47,"/"
-? \<document\>
-|2,1,1493466308,,"\\<document\\>"
-?/2012
-|2,1,1493464655,47,"2012"
-?/lectures on know homo
-|2,1,1493464653,47,"lectures on know homo"
-?/gukov
-|2,1,1493464649,47,"gukov"
-?/2006
-|2,1,1493464132,47,"2006"
-?/lawson
-|2,1,1493460420,47,"lawson"
-?/2.8
-|2,1,1493457244,47,"2.8"
-?/homotopy theory
-|2,1,1493457199,47,"homotopy theory"
-?/manif
-|2,1,1493456519,47,"manif"
-?/essay
-|2,1,1493439418,47,"essay"
-?/resolution
-|2,1,1493435807,47,"resolution"
-? \%
-|2,1,1493435457,,"\\%"
-?/:%s/\%/\\%/g
-|2,1,1493435439,47,":%s/\\%/\\\\%/g"
-? %
-|2,1,1493435429,,"%"
-?/floer-homotopy
-|2,1,1493432848,47,"floer-homotopy"
-? glg
-|2,1,1493432825,,"glg"
-?/the co
-|2,1,1493412857,47,"the co"
-?/plan
-|2,1,1493408551,47,"plan"
-?/mutt
-|2,1,1493408060,47,"mutt"
-?/__-
-|2,1,1493406634,47,"__-"
-?/ab
-|2,1,1493406628,47,"ab"
-?/Darwin
-|2,1,1493406461,47,"Darwin"
-?/GG
-|2,1,1493406106,47,"GG"
-?/rm -rf
-|2,1,1493401791,47,"rm -rf"
+|2,1,0,47,"it"
+?/imageref
+|2,1,0,47,"imageref"
+? texturl
+|2,1,0,,"texturl"
+?/url
+|2,1,0,47,"url"
+?/fig3
+|2,1,0,47,"fig3"
+?/space of
+|2,1,0,47,"space of"
+?/Jones
+|2,1,0,47,"Jones"
+?/Cohen
+|2,1,0,47,"Cohen"
+?/maps
+|2,1,0,47,"maps"
+?/rational ma
+|2,1,0,47,"rational ma"
+?/!
+|2,1,0,47,"!"
+?/Error
+|2,1,0,47,"Error"
+?/ll
+|2,1,0,47,"ll"
+?/setpresent
+|2,1,0,47,"setpresent"
+? nc
+|2,1,0,,"nc"
+?/hitrail
+|2,1,0,47,"hitrail"
+?/line
+|2,1,0,47,"line"
+?/error
+|2,1,0,47,"error"
+?/rational
+|2,1,0,47,"rational"
+?/rational \url
+|2,1,0,47,"rational \\url"
+?/image
+|2,1,0,47,"image"
+?/imagefac
+|2,1,0,47,"imagefac"
+? (\(\f\|\[\|]\|\s\)*glg.tex
+|2,1,0,,"(\\(\\f\\|\\[\\|]\\|\\s\\)*glg.tex"
+?/ii
+|2,1,0,47,"ii"
+?/html
+|2,1,0,47,"html"
+? \\Cx
+|2,1,0,,"\\\\Cx"
+?/\\Cx
+|2,1,0,47,"\\\\Cx"
+?/alias gr
+|2,1,0,47,"alias gr"
+?/gr
+|2,1,0,47,"gr"
+?/indproj
+|2,1,0,47,"indproj"
+?/grep
+|2,1,0,47,"grep"
+?/secconf
+|2,1,0,47,"secconf"
+?/for a theory of
+|2,1,0,47,"for a theory of"
+?/realize
+|2,1,0,47,"realize"
+?/for a theory
+|2,1,0,47,"for a theory"
+?/class
+|2,1,0,47,"class"
+?/a theory of class
+|2,1,0,47,"a theory of class"
+?/imagecap
+|2,1,0,47,"imagecap"
+?/\\maps
+|2,1,0,47,"\\\\maps"
+?/\\Z
+|2,1,0,47,"\\\\Z"
+?/familiar
+|2,1,0,47,"familiar"
+?/\\gr 
+|2,1,0,47,"\\\\gr "
+?/\\kAlg
+|2,1,0,47,"\\\\kAlg"
+?/restr
+|2,1,0,47,"restr"
+?/group 
+|2,1,0,47,"group "
+?/\\Schemes
+|2,1,0,47,"\\\\Schemes"
+?/let
+|2,1,0,47,"let"
+?/make
+|2,1,0,47,"make"
+?/root
+|2,1,0,47,"root"
+?/SITE
+|2,1,0,47,"SITE"
+?/nginx
+|2,1,0,47,"nginx"
 ?/clean-nginx
-|2,1,1493401788,47,"clean-nginx"
+|2,1,0,47,"clean-nginx"
+?/sites-enabled
+|2,1,0,47,"sites-enabled"
+?/form and functio
+|2,1,0,47,"form and functio"
+?/gui
+|2,1,0,47,"gui"
+?/disclaimer
+|2,1,0,47,"disclaimer"
+?/solarized
+|2,1,0,47,"solarized"
+?/Inconsolata
+|2,1,0,47,"Inconsolata"
+?/Font
+|2,1,0,47,"Font"
+?/syntax enable
+|2,1,0,47,"syntax enable"
+?/weight
+|2,1,0,47,"weight"
+?/Inconsola
+|2,1,0,47,"Inconsola"
+?/Consolas
+|2,1,0,47,"Consolas"
+?/termtrans
+|2,1,0,47,"termtrans"
+?/term-trans
+|2,1,0,47,"term-trans"
+?/fancy
+|2,1,0,47,"fancy"
+?/light
+|2,1,0,47,"light"
+?/zolari
+|2,1,0,47,"zolari"
+?/printnomenclature
+|2,1,0,47,"printnomenclature"
+?/nomencl
+|2,1,0,47,"nomencl"
+?/immage
+|2,1,0,47,"immage"
+?/\\SL
+|2,1,0,47,"\\\\SL"
+?/\\Cat
+|2,1,0,47,"\\\\Cat"
+?/\\rc\\Cat
+|2,1,0,47,"\\\\rc\\\\Cat"
+?/\\DMod
+|2,1,0,47,"\\\\DMod"
+?/\\Dmod
+|2,1,0,47,"\\\\Dmod"
+?/\\nc\\Cat
+|2,1,0,47,"\\\\nc\\\\Cat"
+?/IndSchemes
+|2,1,0,47,"IndSchemes"
+?/\\end
+|2,1,0,47,"\\\\end"
+?/realization on
+|2,1,0,47,"realization on"
+?/mathsc
+|2,1,0,47,"mathsc"
+?/\\D
+|2,1,0,47,"\\\\D"
+?/mathbf
+|2,1,0,47,"mathbf"
+?/DMod
+|2,1,0,47,"DMod"
+?/Dmod
+|2,1,0,47,"Dmod"
+?/textsc
+|2,1,0,47,"textsc"
+?/mathrm
+|2,1,0,47,"mathrm"
+?/main
+|2,1,0,47,"main"
+?/table
+|2,1,0,47,"table"
+?/subsection
+|2,1,0,47,"subsection"
+?/Galois
+|2,1,0,47,"Galois"
+?/galois
+|2,1,0,47,"galois"
+?/Joke
+|2,1,0,47,"Joke"
+?/Joke/
+|2,1,0,47,"Joke/"
+?/secintro
+|2,1,0,47,"secintro"
+? chapter
+|2,1,0,,"chapter"
+?/quickfull
+|2,1,0,47,"quickfull"
+?/pazo
+|2,1,0,47,"pazo"
+?/tr
+|2,1,0,47,"tr"
+?/dark
+|2,1,0,47,"dark"
+?/lock
+|2,1,0,47,"lock"
+?/\\IndSch
+|2,1,0,47,"\\\\IndSch"
+?/ensure
+|2,1,0,47,"ensure"
+?/IndSt
+|2,1,0,47,"IndSt"
+?/\\Sche
+|2,1,0,47,"\\\\Sche"
+?/\\TateCat
+|2,1,0,47,"\\\\TateCat"
+?/IndSch
+|2,1,0,47,"IndSch"
+?/textbf{SL
+|2,1,0,47,"textbf{SL"
+?/textbf{
+|2,1,0,47,"textbf{"
+?/autoread
+|2,1,0,47,"autoread"
+?//auto
+|2,1,0,47,"/auto"
+?/load
+|2,1,0,47,"load"
+?/Warning
+|2,1,0,47,"Warning"
+?/\\A
+|2,1,0,47,"\\\\A"
+?/AJ
+|2,1,0,47,"AJ"
+?/Pic
+|2,1,0,47,"Pic"
+?/Undefined
+|2,1,0,47,"Undefined"
+?/chd
+|2,1,0,47,"chd"
+?/drinfeld
+|2,1,0,47,"drinfeld"
+?/solovay-kitaev
+|2,1,0,47,"solovay-kitaev"
+?/label
+|2,1,0,47,"label"
+?/fig:fibtree
+|2,1,0,47,"fig:fibtree"
+?/computation
+|2,1,0,47,"computation"
+?/fibtree
+|2,1,0,47,"fibtree"
+?/laurentpoly
+|2,1,0,47,"laurentpoly"
+? \\nc
+|2,1,0,,"\\\\nc"
+?/\\projline
+|2,1,0,47,"\\\\projline"
+?/\\idshf
+|2,1,0,47,"\\\\idshf"
+?/idshf
+|2,1,0,47,"idshf"
+?/\\shf
+|2,1,0,47,"\\\\shf"
+?/shf
+|2,1,0,47,"shf"
+?/\\ov
+|2,1,0,47,"\\\\ov"
+?/\\isom
+|2,1,0,47,"\\\\isom"
+? \\nm
+|2,1,0,,"\\\\nm"
+?/\\nm
+|2,1,0,47,"\\\\nm"
+?/\\Spec
+|2,1,0,47,"\\\\Spec"
+? %\\nc
+|2,1,0,,"%\\\\nc"
+? \\nc/\\nc/g
+|2,1,0,,"\\\\nc/\\\\nc/g"
+?/%
+|2,1,0,47,"%"
+?/\%
+|2,1,0,47,"\\%"
+?/\%nc
+|2,1,0,47,"\\%nc"
+? \%\\nc
+|2,1,0,,"\\%\\\\nc"
+?/\\ageom
+|2,1,0,47,"\\\\ageom"
+?/\\Bun
+|2,1,0,47,"\\\\Bun"
+?/\\nc
+|2,1,0,47,"\\\\nc"
+?/newcommand
+|2,1,0,47,"newcommand"
+?/\\CC
+|2,1,0,47,"\\\\CC"
+?/\\nc/\\CC
+|2,1,0,47,"\\\\nc/\\\\CC"
+?/\\nc\\S
+|2,1,0,47,"\\\\nc\\\\S"
+?/\\/
+|2,1,0,47,"\\\\/"
+?/nc
+|2,1,0,47,"nc"
+?/\\s
+|2,1,0,47,"\\\\s"
+?/nm
+|2,1,0,47,"nm"
+?/\\S
+|2,1,0,47,"\\\\S"
+?/warning
+|2,1,0,47,"warning"
+?/log
+|2,1,0,47,"log"
+?/refresh
+|2,1,0,47,"refresh"
+?/airline
+|2,1,0,47,"airline"
+?/arline
+|2,1,0,47,"arline"
+? g:
+|2,1,0,,"g:"
+? lec2
+|2,1,0,,"lec2"
+? lectures
+|2,1,0,,"lectures"
+?/case
+|2,1,0,47,"case"
+?/disc
+|2,1,0,47,"disc"
+?/Hilb
+|2,1,0,47,"Hilb"
+?/rmk
+|2,1,0,47,"rmk"
+?/rest
+|2,1,0,47,"rest"
+?/ideal
+|2,1,0,47,"ideal"
+?/kalg
+|2,1,0,47,"kalg"
+?/fundamental
+|2,1,0,47,"fundamental"
+?/Hilbert
+|2,1,0,47,"Hilbert"
+?/fold
+|2,1,0,47,"fold"
+?/se
+|2,1,0,47,"se"
+?/inconsal
+|2,1,0,47,"inconsal"
+?/save
+|2,1,0,47,"save"
+? cp
+|2,1,0,,"cp"
+?/tmux-conf
+|2,1,0,47,"tmux-conf"
+?/pathogen
+|2,1,0,47,"pathogen"
+?/256
+|2,1,0,47,"256"
+?/reload
+|2,1,0,47,"reload"
+?/iab
+|2,1,0,47,"iab"
+?/move
+|2,1,0,47,"move"
+?/footnotetext
+|2,1,0,47,"footnotetext"
+?/defn
+|2,1,0,47,"defn"
+?/finite scheme
+|2,1,0,47,"finite scheme"
+?/formal disc
+|2,1,0,47,"formal disc"
+?/ind
+|2,1,0,47,"ind"
+?/ind syst
+|2,1,0,47,"ind syst"
+?/cartier duality
+|2,1,0,47,"cartier duality"
+?/cart
+|2,1,0,47,"cart"
+?/dual
+|2,1,0,47,"dual"
+?/can cancel
+|2,1,0,47,"can cancel"
+?/double dual
+|2,1,0,47,"double dual"
+?/now on
+|2,1,0,47,"now on"
+?/algebro
+|2,1,0,47,"algebro"
+?/Category
+|2,1,0,47,"Category"
+?/Tate Cate
+|2,1,0,47,"Tate Cate"
+?/Tate Category
+|2,1,0,47,"Tate Category"
+?/Tate
+|2,1,0,47,"Tate"
+?/liable
+|2,1,0,47,"liable"
+?/raeez
+|2,1,0,47,"raeez"
+?/teaching
+|2,1,0,47,"teaching"
+?/raeez lorgat
+|2,1,0,47,"raeez lorgat"
+? @$
+|2,1,0,,"@$"
+?/Computer
+|2,1,0,47,"Computer"
+?/Linear Graph
+|2,1,0,47,"Linear Graph"
+?/18.721
+|2,1,0,47,"18.721"
+?/Mathematical
+|2,1,0,47,"Mathematical"
+?/Passing
+|2,1,0,47,"Passing"
+?/Computation
+|2,1,0,47,"Computation"
+?/	
+|2,1,0,47,"	"
+?/root_raeez
+|2,1,0,47,"root_raeez"
+?/reading list
+|2,1,0,47,"reading list"
+?/twitter
+|2,1,0,47,"twitter"
+?/h2
+|2,1,0,47,"h2"
+?/dmx
+|2,1,0,47,"dmx"
+?/decaf
+|2,1,0,47,"decaf"
+?/under
+|2,1,0,47,"under"
+?/under construction
+|2,1,0,47,"under construction"
+?/vimeo
+|2,1,0,47,"vimeo"
+?/software
+|2,1,0,47,"software"
+?/videos
+|2,1,0,47,"videos"
+?/photogr
+|2,1,0,47,"photogr"
+?/photography
+|2,1,0,47,"photography"
+?/h1
+|2,1,0,47,"h1"
+?/mone
+|2,1,0,47,"mone"
+?/a reading
+|2,1,0,47,"a reading"
+?/presently reading
+|2,1,0,47,"presently reading"
+?/reading
+|2,1,0,47,"reading"
+?/public key
+|2,1,0,47,"public key"
+?/writing
+|2,1,0,47,"writing"
+?/science
+|2,1,0,47,"science"
+?/computer language
+|2,1,0,47,"computer language"
+?/teachingjjjjjj/
+|2,1,0,47,"teachingjjjjjj/"
+?/--
+|2,1,0,47,"--"
+?/\<-
+|2,1,0,47,"\\<-"
+?/<--
+|2,1,0,47,"<--"
+?/massachusetts
+|2,1,0,47,"massachusetts"
+?/a person
+|2,1,0,47,"a person"
+?/setupWrapping
+|2,1,0,47,"setupWrapping"
+?/au
+|2,1,0,47,"au"
+?/width
+|2,1,0,47,"width"
+?/music
+|2,1,0,47,"music"
+?/*.tex
+|2,1,0,47,"*.tex"
+?/global
+|2,1,0,47,"global"
+?/\\right
+|2,1,0,47,"\\\\right"
+?/\\nc\\rp
+|2,1,0,47,"\\\\nc\\\\rp"
+?/llp
+|2,1,0,47,"llp"
+?/laurentser
+|2,1,0,47,"laurentser"
+?/serrecl
+|2,1,0,47,"serrecl"
+?/serre
+|2,1,0,47,"serre"
+?/\\rc
+|2,1,0,47,"\\\\rc"
+?/rcc
+|2,1,0,47,"rcc"
+?/import
+|2,1,0,47,"import"
+?/leca
+|2,1,0,47,"leca"
+?/loadsection
+|2,1,0,47,"loadsection"
+? sectionload
+|2,1,0,,"sectionload"
+?/euler
+|2,1,0,47,"euler"
+?/quick
+|2,1,0,47,"quick"
+?/pdflatex
+|2,1,0,47,"pdflatex"
+?/lectures.tex
+|2,1,0,47,"lectures.tex"
+?/\\
+|2,1,0,47,"\\\\"
+?/full
+|2,1,0,47,"full"
+?/all:
+|2,1,0,47,"all:"
+?/Vec
+|2,1,0,47,"Vec"
+?/indsch
+|2,1,0,47,"indsch"
+?/given by the 
+|2,1,0,47,"given by the "
+?/duality
+|2,1,0,47,"duality"
+?/(
+|2,1,0,47,"("
+?/tex
+|2,1,0,47,"tex"
+?/reductive group
+|2,1,0,47,"reductive group"
+?/notation
+|2,1,0,47,"notation"
+?/reductive
+|2,1,0,47,"reductive"
+?/G
+|2,1,0,47,"G"
+? \[\]
+|2,1,0,,"\\[\\]"
+?/\\grk
+|2,1,0,47,"\\\\grk"
+?/\\K
+|2,1,0,47,"\\\\K"
+?/polyring
+|2,1,0,47,"polyring"
+?/projl
+|2,1,0,47,"projl"
+?/lim
+|2,1,0,47,"lim"
+?/grk
+|2,1,0,47,"grk"
+?/fpowerser
+|2,1,0,47,"fpowerser"
+?/klocint
+|2,1,0,47,"klocint"
+?/abstract
+|2,1,0,47,"abstract"
+?/r
+|2,1,0,47,"r"
+?/input
+|2,1,0,47,"input"
+?/\\nc\\Z
+|2,1,0,47,"\\\\nc\\\\Z"
+?/p
+|2,1,0,47,"p"
+? \\nm\[\\\+.*\]
+|2,1,0,,"\\\\nm\\[\\\\\\+.*\\]"
+?/nm\[\\\+.*\]
+|2,1,0,47,"nm\\[\\\\\\+.*\\]"
+?/nm\[\<\>\]
+|2,1,0,47,"nm\\[\\<\\>\\]"
+?/nm\[\<i\>
+|2,1,0,47,"nm\\[\\<i\\>"
+?/nm\[\<i\>\]
+|2,1,0,47,"nm\\[\\<i\\>\\]"
+?/nm\[\.*\]
+|2,1,0,47,"nm\\[\\.*\\]"
+?/nm[\<i\>]
+|2,1,0,47,"nm[\\<i\\>]"
+? \\nm[\<i\>]
+|2,1,0,,"\\\\nm[\\<i\\>]"
+?/nm[
+|2,1,0,47,"nm["
+?/nm[\.*\]
+|2,1,0,47,"nm[\\.*\\]"
+?/nm[\.*]
+|2,1,0,47,"nm[\\.*]"
+?/\\nm[\.*\]
+|2,1,0,47,"\\\\nm[\\.*\\]"
+?/mathematics
+|2,1,0,47,"mathematics"
+?/cr
+|2,1,0,47,"cr"
+?/graphics
+|2,1,0,47,"graphics"
+?/usepackage
+|2,1,0,47,"usepackage"
+?/usepakage
+|2,1,0,47,"usepakage"
+?/usepkage
+|2,1,0,47,"usepkage"
+?/\\nm?:!mak
+|2,1,0,47,"\\\\nm?:!mak"
+? \\nm[\.*\]/g
+|2,1,0,,"\\\\nm[\\.*\\]/g"
+? nm[\.*\]/nm[]
+|2,1,0,,"nm[\\.*\\]/nm[]"
+? nm[\.*\]
+|2,1,0,,"nm[\\.*\\]"
+?/\\nm[
+|2,1,0,47,"\\\\nm["
+? \\nm[.*]
+|2,1,0,,"\\\\nm[.*]"
+? \\seccfm
+|2,1,0,,"\\\\seccfm"
+?/\.tex
+|2,1,0,47,"\\.tex"
+?/index:
+|2,1,0,47,"index:"
+?/sectionload
+|2,1,0,47,"sectionload"
+?/lecc
+|2,1,0,47,"lecc"
+?/nc\\Z
+|2,1,0,47,"nc\\\\Z"
+?/KO
+|2,1,0,47,"KO"
+?/kom
+|2,1,0,47,"kom"
+?/patch
+|2,1,0,47,"patch"
+?/tar
+|2,1,0,47,"tar"
+? lecs
+|2,1,0,,"lecs"
+?/lecs
+|2,1,0,47,"lecs"
+?/nomenc
+|2,1,0,47,"nomenc"
+?/makeno
+|2,1,0,47,"makeno"
+?/makenom
+|2,1,0,47,"makenom"
+?/nomen
+|2,1,0,47,"nomen"
+?/tree
+|2,1,0,47,"tree"
+?/fusion
+|2,1,0,47,"fusion"
+?/fig:fusion
+|2,1,0,47,"fig:fusion"
+?/undef
+|2,1,0,47,"undef"
+?/l
+|2,1,0,47,"l"
+?/print
+|2,1,0,47,"print"
+?/tableof
+|2,1,0,47,"tableof"
+?/toc
+|2,1,0,47,"toc"
+?/alias
+|2,1,0,47,"alias"
+?/idgen
+|2,1,0,47,"idgen"
+?/gen
+|2,1,0,47,"gen"
+?/idgenby
+|2,1,0,47,"idgenby"
+?/694
+|2,1,0,47,"694"
+?/er
+|2,1,0,47,"er"
+? (\(\f\|\[\|]\|\s\)*cohomology.tex
+|2,1,0,,"(\\(\\f\\|\\[\\|]\\|\\s\\)*cohomology.tex"
+?/relative stable
+|2,1,0,47,"relative stable"
+?/Z
+|2,1,0,47,"Z"
+?/ageom
+|2,1,0,47,"ageom"
+?/left
+|2,1,0,47,"left"
+?/poly
+|2,1,0,47,"poly"
+?/seccoh
+|2,1,0,47,"seccoh"
+?/makenomenclature
+|2,1,0,47,"makenomenclature"
+?/grpring
+|2,1,0,47,"grpring"
+?/Mat
+|2,1,0,47,"Mat"
+?/lec 2
+|2,1,0,47,"lec 2"
+?/nonstopmode
+|2,1,0,47,"nonstopmode"
+?/clean
+|2,1,0,47,"clean"
+?/surf
+|2,1,0,47,"surf"
+?/secalg
+|2,1,0,47,"secalg"
+?/seccfm
+|2,1,0,47,"seccfm"
+?/cfm.tex
+|2,1,0,47,"cfm.tex"
+?/commands
+|2,1,0,47,"commands"
+?/subsections
+|2,1,0,47,"subsections"
+?/read and then write
+|2,1,0,47,"read and then write"
+?/definition
+|2,1,0,47,"definition"
+?/cfm
+|2,1,0,47,"cfm"
+?/pro
+|2,1,0,47,"pro"
+?/pic
+|2,1,0,47,"pic"
+?/body_class
+|2,1,0,47,"body_class"
+?/profi
+|2,1,0,47,"profi"
+?/khovanov
+|2,1,0,47,"khovanov"
+?/quantize
+|2,1,0,47,"quantize"
+?/quantum group
+|2,1,0,47,"quantum group"
+?/some
+|2,1,0,47,"some"
+?/\\C
+|2,1,0,47,"\\\\C"
+? textrm
+|2,1,0,,"textrm"
+?/textrm
+|2,1,0,47,"textrm"
+? \\textrm\{End\}
+|2,1,0,,"\\\\textrm\\{End\\}"
+?/foont
+|2,1,0,47,"foont"
+?/foontnote
+|2,1,0,47,"foontnote"
+?/jjjjjkkk
+|2,1,0,47,"jjjjjkkk"
+?/footnet
+|2,1,0,47,"footnet"
+?/footnote
+|2,1,0,47,"footnote"
+?/princip
+|2,1,0,47,"princip"
+?/princple
+|2,1,0,47,"princple"
+?/fibtre
+|2,1,0,47,"fibtre"
+?/\\ket
+|2,1,0,47,"\\\\ket"
+? mathfark
+|2,1,0,,"mathfark"
+?/locked
+|2,1,0,47,"locked"
+?/Afib
+|2,1,0,47,"Afib"
+?/lambda
+|2,1,0,47,"lambda"
+?/equivariant
+|2,1,0,47,"equivariant"
+?/appears
+|2,1,0,47,"appears"
+?/Bun
+|2,1,0,47,"Bun"
+?/so_4
+|2,1,0,47,"so_4"
+?/mathfrak
+|2,1,0,47,"mathfrak"
+?/so
+|2,1,0,47,"so"
+?/frak
+|2,1,0,47,"frak"
+?//
+|2,1,0,47,"/"
+? \<document\>
+|2,1,0,,"\\<document\\>"
+?/2012
+|2,1,0,47,"2012"
+?/lectures on know homo
+|2,1,0,47,"lectures on know homo"
+?/gukov
+|2,1,0,47,"gukov"
+?/2006
+|2,1,0,47,"2006"
+?/lawson
+|2,1,0,47,"lawson"
+?/2.8
+|2,1,0,47,"2.8"
+?/homotopy theory
+|2,1,0,47,"homotopy theory"
+?/manif
+|2,1,0,47,"manif"
+?/essay
+|2,1,0,47,"essay"
+?/resolution
+|2,1,0,47,"resolution"
+? \%
+|2,1,0,,"\\%"
+?/:%s/\%/\\%/g
+|2,1,0,47,":%s/\\%/\\\\%/g"
+? %
+|2,1,0,,"%"
+?/floer-homotopy
+|2,1,0,47,"floer-homotopy"
+? glg
+|2,1,0,,"glg"
+?/the co
+|2,1,0,47,"the co"
+?/plan
+|2,1,0,47,"plan"
+?/mutt
+|2,1,0,47,"mutt"
+?/__-
+|2,1,0,47,"__-"
+?/ab
+|2,1,0,47,"ab"
+?/Darwin
+|2,1,0,47,"Darwin"
+?/GG
+|2,1,0,47,"GG"
+?/rm -rf
+|2,1,0,47,"rm -rf"
 ?/index
 |2,1,0,47,"index"
 ?/public
@@ -4172,8 +4332,6 @@ $
 |2,1,0,47,"We first restrict to the"
 ?/imagefaccap
 |2,1,0,47,"imagefaccap"
-?/imagefac
-|2,1,0,47,"imagefac"
 ? imagesmall
 |2,1,0,,"imagesmall"
 ?/FnS
@@ -4288,8 +4446,6 @@ $
 |2,1,0,47,"classfieldtheory"
 ?/Tate cohomology groups
 |2,1,0,47,"Tate cohomology groups"
-? section
-|2,1,0,,"section"
 ? itemize
 |2,1,0,,"itemize"
 ?/ex
@@ -4342,8 +4498,6 @@ $
 |2,1,0,47,"ovr"
 ? (\(\f\|\[\|]\|\s\)*
 |2,1,0,,"(\\(\\f\\|\\[\\|]\\|\\s\\)*"
-? (\(\f\|\[\|]\|\s\)*glg.tex
-|2,1,0,,"(\\(\\f\\|\\[\\|]\\|\\s\\)*glg.tex"
 ? (\(\f\|\[\|]\|\s\)*lec3.tex
 |2,1,0,,"(\\(\\f\\|\\[\\|]\\|\\s\\)*lec3.tex"
 ? (\(\f\|\[\|]\|\s\)*sty
@@ -4726,8 +4880,6 @@ $
 |2,1,0,,"rc"
 ? nomenewcommandlature
 |2,1,0,,"nomenewcommandlature"
-? nc
-|2,1,0,,"nc"
 ?/tik
 |2,1,0,47,"tik"
 ? (\(\f\|\[\|]\|\s\)*sty-glg
@@ -4870,8 +5022,6 @@ $
 |2,1,0,,"glg-"
 ?/Tex_CompileRule_pdf
 |2,1,0,47,"Tex_CompileRule_pdf"
-?/let
-|2,1,0,47,"let"
 ?/letkkkk
 |2,1,0,47,"letkkkk"
 ?/texrc
@@ -4904,8 +5054,6 @@ $
 |2,1,0,47,"autocmd FileType"
 ?/todo
 |2,1,0,47,"todo"
-?/line
-|2,1,0,47,"line"
 ?/file
 |2,1,0,47,"file"
 ?/begin{document}
@@ -5188,8 +5336,6 @@ $
 |2,1,0,47,"amsmath"
 ? kgr
 |2,1,0,,"kgr"
-?/gr
-|2,1,0,47,"gr"
 ?/reductive algebraic
 |2,1,0,47,"reductive algebraic"
 ?/wl
@@ -5212,8 +5358,6 @@ $
 |2,1,0,47,"coloneqq"
 ?/cl
 |2,1,0,47,"cl"
-?/realize
-|2,1,0,47,"realize"
 ?/modeline
 |2,1,0,47,"modeline"
 ?/modelines
@@ -5444,8 +5588,6 @@ $
 |2,1,0,47,"the gene"
 ?/\over
 |2,1,0,47,"\\over"
-?/\
-|2,1,0,47,"\\"
 ?/ck
 |2,1,0,47,"ck"
 ?/classfomation
@@ -5884,8 +6026,6 @@ $
 |2,1,0,47,"div \\."
 ?/br
 |2,1,0,47,"br"
-?/head
-|2,1,0,47,"head"
 ?/radix
 |2,1,0,47,"radix"
 ?/is a researcher
@@ -6487,7 +6627,7 @@ $
 
 # Input Line History (newest to oldest):
 @5
-|2,3,1493539892,,"5"
+|2,3,0,,"5"
 @1
 |2,3,0,,"1"
 @q
@@ -6502,223 +6642,39 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	endif
-|3,0,0,1,1,0,1493710865,"endif"
+"0	CHAR	0
+	[03/05/17 19:44:11] https://github.com/terryma/vim-expand-region
+|3,0,0,0,1,0,1493833617,"[03/05/17 19:44:11] https://github.com/terryma/vim-expand-region"
 ""1	LINE	0
-	if has('gui_running')
-	  call togglebg#map("<F2>")
-	
-	  " lazy method of appending this onto your .vimrc ":w! >> ~/.vimrc"
-	  " ------------------------------------------------------------------
-	  " this block of commands has been autogenerated by solarized.vim and
-	  " includes the current, non-default Solarized option values.
-	  " To use, place these commands in your .vimrc file (replacing any
-	  " existing colorscheme commands). See also ":help solarized"
-	
-	  set guifont=InconsolataForPowerline\ Nerd\ Font:h14
-	  " ------------------------------------------------------------------
-	  " Solarized Colorscheme Config
-	  " ------------------------------------------------------------------
-	  "let g:solarized_contrast="high"    "default value is normal
-	  "let g:solarized_diffmode="high"    "default value is normal
-	  syntax enable
-	  set background=light
-	  colorscheme solarized
-	  let g:solarized_visibility="high"
-	  " ------------------------------------------------------------------
-	
-	  " The following items are available options, but do not need to be
-	  " included in your .vimrc as they are currently set to their defaults.
-	
-	  " let g:solarized_termtrans=0
-	  " let g:solarized_degrade=0
-	  " let g:solarized_bold=1
-	  " let g:solarized_underline=1
-	  " let g:solarized_italic=1
-	  " let g:solarized_termcolors=16
-	  " let g:solarized_hitrail=0
-	  " let g:solarized_menu=1
-	
-	    "map <F11> <Esc>:call ToggleGUICruft()<cr>
-	    " TODO establish <c-v> vs <c-q> macvim
-	    " TODO try changing osx keyboard layout
-	    " TODO <F2>:
-	    " by default, hide gui menus
-	    set guioptions=i
-	    "let s:uname = system("uname")
-	    "if s:uname == "Darwin\n"
-	    set guioptions-=m " menubar
-	    set guioptions-=T " taskbar
-	    set guioptions-=r " right scrollbar
-	    set guioptions-=l " left scrollbar
-	    "set guioptions+=g " make inactive menu items grey
-	    set guioptions-=t " ?
-	    set guioptions-=e " ???
-	    set guioptions-=L " ???
-|3,1,1,1,50,0,1493710915,"if has('gui_running')","  call togglebg#map(\"<F2>\")","","  \" lazy method of appending this onto your .vimrc \":w! >> ~/.vimrc\"","  \" ------------------------------------------------------------------","  \" this block of commands has been autogenerated by solarized.vim and","  \" includes the current, non-default Solarized option values.","  \" To use, place these commands in your .vimrc file (replacing any",>67
-|<"  \" existing colorscheme commands). See also \":help solarized\"","","  set guifont=InconsolataForPowerline\\ Nerd\\ Font:h14","  \" ------------------------------------------------------------------","  \" Solarized Colorscheme Config","  \" ------------------------------------------------------------------","  \"let g:solarized_contrast=\"high\"    \"default value is normal","  \"let g:solarized_diffmode=\"high\"    \"default value is normal","  syntax enable",>24
-|<"  set background=light","  colorscheme solarized","  let g:solarized_visibility=\"high\"","  \" ------------------------------------------------------------------","","  \" The following items are available options, but do not need to be","  \" included in your .vimrc as they are currently set to their defaults.","","  \" let g:solarized_termtrans=0","  \" let g:solarized_degrade=0","  \" let g:solarized_bold=1","  \" let g:solarized_underline=1","  \" let g:solarized_italic=1",>36
-|<"  \" let g:solarized_termcolors=16","  \" let g:solarized_hitrail=0","  \" let g:solarized_menu=1","","    \"map <F11> <Esc>:call ToggleGUICruft()<cr>","    \" TODO establish <c-v> vs <c-q> macvim","    \" TODO try changing osx keyboard layout","    \" TODO <F2>:","    \" by default, hide gui menus","    set guioptions=i","    \"let s:uname = system(\"uname\")","    \"if s:uname == \"Darwin\\n\"","    set guioptions-=m \" menubar","    set guioptions-=T \" taskbar",>42
-|<"    set guioptions-=r \" right scrollbar","    set guioptions-=l \" left scrollbar","    \"set guioptions+=g \" make inactive menu items grey","    set guioptions-=t \" ?","    set guioptions-=e \" ???","    set guioptions-=L \" ???"
+	" TODO
+|3,1,1,1,1,0,1493837118,"\" TODO"
 "2	LINE	0
-	if has('gui_running')
-	  call togglebg#map("<F2>")
 	
-	  " lazy method of appending this onto your .vimrc ":w! >> ~/.vimrc"
-	  " ------------------------------------------------------------------
-	  " this block of commands has been autogenerated by solarized.vim and
-	  " includes the current, non-default Solarized option values.
-	  " To use, place these commands in your .vimrc file (replacing any
-	  " existing colorscheme commands). See also ":help solarized"
-	
-	  set guifont=InconsolataForPowerline\ Nerd\ Font:h14
-	  " ------------------------------------------------------------------
-	  " Solarized Colorscheme Config
-	  " ------------------------------------------------------------------
-	  "let g:solarized_contrast="high"    "default value is normal
-	  "let g:solarized_diffmode="high"    "default value is normal
-	  syntax enable
-	  set background=light
-	  colorscheme solarized
-	  let g:solarized_visibility="high"
-	  " ------------------------------------------------------------------
-	
-	  " The following items are available options, but do not need to be
-	  " included in your .vimrc as they are currently set to their defaults.
-	
-	  " let g:solarized_termtrans=0
-	  " let g:solarized_degrade=0
-	  " let g:solarized_bold=1
-	  " let g:solarized_underline=1
-	  " let g:solarized_italic=1
-	  " let g:solarized_termcolors=16
-	  " let g:solarized_hitrail=0
-	  " let g:solarized_menu=1
-	
-	    "map <F11> <Esc>:call ToggleGUICruft()<cr>
-	    " TODO establish <c-v> vs <c-q> macvim
-	    " TODO try changing osx keyboard layout
-	    " TODO <F2>:
-	    " by default, hide gui menus
-	    set guioptions=i
-	    "let s:uname = system("uname")
-	    "if s:uname == "Darwin\n"
-	    set guioptions-=m " menubar
-	    set guioptions-=T " taskbar
-	    set guioptions-=r " right scrollbar
-	    set guioptions-=l " left scrollbar
-	    "set guioptions+=g " make inactive menu items grey
-	    set guioptions-=t " ?
-	    set guioptions-=e " ???
-	    set guioptions-=L " ???
-|3,0,2,1,50,0,1493710890,"if has('gui_running')","  call togglebg#map(\"<F2>\")","","  \" lazy method of appending this onto your .vimrc \":w! >> ~/.vimrc\"","  \" ------------------------------------------------------------------","  \" this block of commands has been autogenerated by solarized.vim and","  \" includes the current, non-default Solarized option values.","  \" To use, place these commands in your .vimrc file (replacing any",>67
-|<"  \" existing colorscheme commands). See also \":help solarized\"","","  set guifont=InconsolataForPowerline\\ Nerd\\ Font:h14","  \" ------------------------------------------------------------------","  \" Solarized Colorscheme Config","  \" ------------------------------------------------------------------","  \"let g:solarized_contrast=\"high\"    \"default value is normal","  \"let g:solarized_diffmode=\"high\"    \"default value is normal","  syntax enable",>24
-|<"  set background=light","  colorscheme solarized","  let g:solarized_visibility=\"high\"","  \" ------------------------------------------------------------------","","  \" The following items are available options, but do not need to be","  \" included in your .vimrc as they are currently set to their defaults.","","  \" let g:solarized_termtrans=0","  \" let g:solarized_degrade=0","  \" let g:solarized_bold=1","  \" let g:solarized_underline=1","  \" let g:solarized_italic=1",>36
-|<"  \" let g:solarized_termcolors=16","  \" let g:solarized_hitrail=0","  \" let g:solarized_menu=1","","    \"map <F11> <Esc>:call ToggleGUICruft()<cr>","    \" TODO establish <c-v> vs <c-q> macvim","    \" TODO try changing osx keyboard layout","    \" TODO <F2>:","    \" by default, hide gui menus","    set guioptions=i","    \"let s:uname = system(\"uname\")","    \"if s:uname == \"Darwin\\n\"","    set guioptions-=m \" menubar","    set guioptions-=T \" taskbar",>42
-|<"    set guioptions-=r \" right scrollbar","    set guioptions-=l \" left scrollbar","    \"set guioptions+=g \" make inactive menu items grey","    set guioptions-=t \" ?","    set guioptions-=e \" ???","    set guioptions-=L \" ???"
+|3,0,2,1,1,0,1493837047,""
 "3	LINE	0
-	if has('gui_running')
-	  call togglebg#map("<F2>")
 	
-	  " lazy method of appending this onto your .vimrc ":w! >> ~/.vimrc"
-	  " ------------------------------------------------------------------
-	  " this block of commands has been autogenerated by solarized.vim and
-	  " includes the current, non-default Solarized option values.
-	  " To use, place these commands in your .vimrc file (replacing any
-	  " existing colorscheme commands). See also ":help solarized"
-	
-	  set guifont=InconsolataForPowerline\ Nerd\ Font:h14
-	  " ------------------------------------------------------------------
-	  " Solarized Colorscheme Config
-	  " ------------------------------------------------------------------
-	  "let g:solarized_contrast="high"    "default value is normal
-	  "let g:solarized_diffmode="high"    "default value is normal
-	  syntax enable
-	  set background=light
-	  colorscheme solarized
-	  let g:solarized_visibility="high"
-	  " ------------------------------------------------------------------
-	
-	  " The following items are available options, but do not need to be
-	  " included in your .vimrc as they are currently set to their defaults.
-	
-	  " let g:solarized_termtrans=0
-	  " let g:solarized_degrade=0
-	  " let g:solarized_bold=1
-	  " let g:solarized_underline=1
-	  " let g:solarized_italic=1
-	  " let g:solarized_termcolors=16
-	  " let g:solarized_hitrail=0
-	  " let g:solarized_menu=1
-	
-	    "map <F11> <Esc>:call ToggleGUICruft()<cr>
-	    " TODO establish <c-v> vs <c-q> macvim
-	    " TODO try changing osx keyboard layout
-	    " TODO <F2>:
-	    " by default, hide gui menus
-	    set guioptions=i
-	    "let s:uname = system("uname")
-	    "if s:uname == "Darwin\n"
-	    set guioptions-=m " menubar
-	    set guioptions-=T " taskbar
-	    set guioptions-=r " right scrollbar
-	    set guioptions-=l " left scrollbar
-	    "set guioptions+=g " make inactive menu items grey
-	    set guioptions-=t " ?
-	    set guioptions-=e " ???
-	    set guioptions-=L " ???
-|3,0,3,1,50,0,1493710882,"if has('gui_running')","  call togglebg#map(\"<F2>\")","","  \" lazy method of appending this onto your .vimrc \":w! >> ~/.vimrc\"","  \" ------------------------------------------------------------------","  \" this block of commands has been autogenerated by solarized.vim and","  \" includes the current, non-default Solarized option values.","  \" To use, place these commands in your .vimrc file (replacing any",>67
-|<"  \" existing colorscheme commands). See also \":help solarized\"","","  set guifont=InconsolataForPowerline\\ Nerd\\ Font:h14","  \" ------------------------------------------------------------------","  \" Solarized Colorscheme Config","  \" ------------------------------------------------------------------","  \"let g:solarized_contrast=\"high\"    \"default value is normal","  \"let g:solarized_diffmode=\"high\"    \"default value is normal","  syntax enable",>24
-|<"  set background=light","  colorscheme solarized","  let g:solarized_visibility=\"high\"","  \" ------------------------------------------------------------------","","  \" The following items are available options, but do not need to be","  \" included in your .vimrc as they are currently set to their defaults.","","  \" let g:solarized_termtrans=0","  \" let g:solarized_degrade=0","  \" let g:solarized_bold=1","  \" let g:solarized_underline=1","  \" let g:solarized_italic=1",>36
-|<"  \" let g:solarized_termcolors=16","  \" let g:solarized_hitrail=0","  \" let g:solarized_menu=1","","    \"map <F11> <Esc>:call ToggleGUICruft()<cr>","    \" TODO establish <c-v> vs <c-q> macvim","    \" TODO try changing osx keyboard layout","    \" TODO <F2>:","    \" by default, hide gui menus","    set guioptions=i","    \"let s:uname = system(\"uname\")","    \"if s:uname == \"Darwin\\n\"","    set guioptions-=m \" menubar","    set guioptions-=T \" taskbar",>42
-|<"    set guioptions-=r \" right scrollbar","    set guioptions-=l \" left scrollbar","    \"set guioptions+=g \" make inactive menu items grey","    set guioptions-=t \" ?","    set guioptions-=e \" ???","    set guioptions-=L \" ???"
+|3,0,3,1,1,0,1493837044,""
 "4	LINE	0
-	    "let g:solarized_termtrans = 1
-	    "let g:solarized_visibility = "high" " trailing characters etc.
-	    " try inspecting :set list
-	    "let g:solarized_contrast = "high"
-	    "let g:signify_sign_weight = 'none'
 	
-	else
-	    "set background=light
-	    set background=dark
-	    colorscheme solarized
-	    "let g:solarized_termcolors=16
-	    "let g:solarized_termcolors=256
-	    "let g:solarized_visibility = "low"
-	    let g:solarized_visibility = "high"
-	    "let g:solarized_termtrans = 1
-	    "let g:solarized_contrast = "high"
-	    "let g:signify_sign_weight = 'none'
-	    "set term=xterm-256color
-	    "set t_Co=256
-	    "set noeb vb t_vb=
-	    "set t_Co=256
-	endif
-|3,0,4,1,22,0,1493710875,"    \"let g:solarized_termtrans = 1","    \"let g:solarized_visibility = \"high\" \" trailing characters etc.","    \" try inspecting :set list","    \"let g:solarized_contrast = \"high\"","    \"let g:signify_sign_weight = 'none'","","else","    \"set background=light","    set background=dark","    colorscheme solarized","    \"let g:solarized_termcolors=16","    \"let g:solarized_termcolors=256",>44
-|<"    \"let g:solarized_visibility = \"low\"","    let g:solarized_visibility = \"high\"","    \"let g:solarized_termtrans = 1","    \"let g:solarized_contrast = \"high\"","    \"let g:signify_sign_weight = 'none'","    \"set term=xterm-256color","    \"set t_Co=256","    \"set noeb vb t_vb=","    \"set t_Co=256","endif"
+|3,0,4,1,1,0,1493836012,""
 "5	LINE	0
-	set t_Co=256
-|3,0,5,1,1,0,1493710844,"set t_Co=256"
+	[03/05/17 20:26:00] i I a A $ ^ v r x u d . = y p g ctrl-u ctrl-d
+|3,0,5,1,1,0,1493835969,"[03/05/17 20:26:00] i I a A $ ^ v r x u d . = y p g ctrl-u ctrl-d"
 "6	LINE	0
-	    set guifont=InconsolataForPowerline\ Nerd\ Font:h14
-|3,0,6,1,1,0,1493710799,"    set guifont=InconsolataForPowerline\\ Nerd\\ Font:h14"
-"7	LINE	0
-	    set guifont=InconsolataForPowerline\ Nerd\ Font:h14
-|3,0,7,1,1,0,1493710794,"    set guifont=InconsolataForPowerline\\ Nerd\\ Font:h14"
-"8	LINE	0
-	  " let g:solarized_visibility="normal"
-|3,0,8,1,1,0,1493710746,"  \" let g:solarized_visibility=\"normal\""
-"9	LINE	0
 	
-	    set background=dark
-	    set background=light
-	    colorscheme solarized
-|3,0,9,1,4,0,1493710646,"","    set background=dark","    set background=light","    colorscheme solarized"
+|3,0,6,1,1,0,1493835962,""
+"7	LINE	0
+	
+|3,0,7,1,1,0,1493835533,""
+"8	LINE	0
+	
+|3,0,8,1,1,0,1493835495,""
+"9	LINE	0
+	" Vundle git repo: git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+|3,0,9,1,1,0,1493835494,"\" Vundle git repo: git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim"
 "a	CHAR	0
 	jjjkk
-|3,0,10,0,1,0,1493704687,"jjjkk"
+|3,0,10,0,1,0,1493753287,"jjjkk"
 "b	CHAR	0
 	bb:!make\lljj\ll
 |3,0,11,0,1,0,1493554285,"bb:!make\\lljj\\ll"
@@ -6749,332 +6705,1875 @@ $
 |<d -e 's/(.*lhha [a-z0-0€kb9laha+llhha/bbbbbbhi(hha\\llxeeeeeehhha\\)hhha)hhhakA)jI€kb€kb€kb€kb€kb€kb€kblllhha\\1llVypxxxxhafirst$bbbbbbbbbbbllv%ld$hhhhhpbb:wlllla kbbbbb:wjoecho $last€kb€kb€kb€kb€kb€kb last_word €kb; $€kb€kb€kb: $last_wordVypwwbcwfirst_wordwwlxxxxhaifirst:woecho €kb€kb€kb€kb€kboutput_stdt€kb€kb€kbudt€kb€kb€kbtudt = €kb€kb€kb=$(echo kkkkkjkjVdkuVykpvedipro€kbewwewewewewlllha\\llllha\\$Vyjjpcwposthkkkwwwwwbvedhabefore_gtjbcwbefore_hthcgrgjkr
 |<gjbcwatefter_gtucwafter_gtjbbwcwafter_gth:wbbbbboddjj$ha$pre >€kbl€kb$last_word >€kb< $bbbwcwfirst_word$halast_word $postlljddkkkkkkkkkkkkjjwkkkjo$TEXT€kb€kb€kb€kb€kbTEXT=$output_std€kbudtkbbbjVdkkpwjwwwwcwTEXT$vbdakoecho $€kbTXT€kb€kbEXT >fljA€kbflkkotouch fljjjkjjwwwwbwcwfljbcwfljjjjjjkkkkjjjjjjjkbbbcwTEXTjVkkkkkkkkkkkkkkkyjjjjjjjjjjjjjjjpkojwwwk$hhxxxhaauaaffjjjjjjjjjjjjjjjjjjkkkormf  flbi-f h:w:make a1-grade"
 "-	CHAR	0
-	 
-|3,0,36,0,1,0,1493710802," "
+	parse
+|3,0,36,0,1,0,1493837099,"parse"
 
 # File marks:
-'0  10  0  ~/Dropbox (MIT)/sys/dotfiles/Makefile
-|4,48,10,0,1493710957,"~/Dropbox (MIT)/sys/dotfiles/Makefile"
-'1  12  0  ~/.vimrc
-|4,49,12,0,1493710922,"~/.vimrc"
-'2  368  3  ~/.vimrc
-|4,50,368,3,1493710820,"~/.vimrc"
-'3  332  3  ~/.vimrc
-|4,51,332,3,1493710820,"~/.vimrc"
-'4  368  32  ~/.vimrc
-|4,52,368,32,1493710752,"~/.vimrc"
-'5  368  32  ~/.vimrc
-|4,53,368,32,1493710752,"~/.vimrc"
-'6  305  32  ~/.vimrc
-|4,54,305,32,1493710752,"~/.vimrc"
-'7  304  32  ~/.vimrc
-|4,55,304,32,1493710752,"~/.vimrc"
-'8  1  0  ~/Dropbox (MIT)/www/raeez.com/index.html
-|4,56,1,0,1493710721,"~/Dropbox (MIT)/www/raeez.com/index.html"
-'9  1  0  ~/Dropbox (MIT)/www/raeez.com/index.html
-|4,57,1,0,1493710721,"~/Dropbox (MIT)/www/raeez.com/index.html"
+'0  1  0  ~/.teq
+|4,48,1,0,1493837146,"~/.teq"
+'1  1  0  ~/Dropbox (MIT)/dl/amssample.tex
+|4,49,1,0,1493836989,"~/Dropbox (MIT)/dl/amssample.tex"
+'2  19  0  ~/.gitconfig
+|4,50,19,0,1493835700,"~/.gitconfig"
+'3  14  1  ~/.vimrc
+|4,51,14,1,1493835646,"~/.vimrc"
+'4  11  1  ~/.vimrc
+|4,52,11,1,1493835646,"~/.vimrc"
+'5  400  0  ~/.teq
+|4,53,400,0,1493835506,"~/.teq"
+'6  400  0  ~/.teq
+|4,54,400,0,1493835506,"~/.teq"
+'7  1  0  ~/.vimrc
+|4,55,1,0,1493835474,"~/.vimrc"
+'8  1  0  ~/.vimrc
+|4,56,1,0,1493835474,"~/.vimrc"
+'9  1  0  ~/.vimrc
+|4,57,1,0,1493835474,"~/.vimrc"
 
 # Jumplist (newest first):
--'  10  0  ~/Dropbox (MIT)/sys/dotfiles/Makefile
-|4,39,10,0,1493710957,"~/Dropbox (MIT)/sys/dotfiles/Makefile"
--'  12  0  ~/.vimrc
-|4,39,12,0,1493710922,"~/.vimrc"
--'  12  0  ~/.vimrc
-|4,39,12,0,1493710922,"~/.vimrc"
--'  12  0  ~/.vimrc
-|4,39,12,0,1493710922,"~/.vimrc"
--'  12  0  ~/.vimrc
-|4,39,12,0,1493710922,"~/.vimrc"
--'  12  0  ~/.vimrc
-|4,39,12,0,1493710922,"~/.vimrc"
--'  12  0  ~/.vimrc
-|4,39,12,0,1493710922,"~/.vimrc"
--'  12  0  ~/.vimrc
-|4,39,12,0,1493710922,"~/.vimrc"
--'  12  0  ~/.vimrc
-|4,39,12,0,1493710922,"~/.vimrc"
--'  12  0  ~/.vimrc
-|4,39,12,0,1493710922,"~/.vimrc"
--'  12  0  ~/.vimrc
-|4,39,12,0,1493710922,"~/.vimrc"
--'  12  0  ~/.vimrc
-|4,39,12,0,1493710922,"~/.vimrc"
--'  12  0  ~/.vimrc
-|4,39,12,0,1493710922,"~/.vimrc"
--'  368  4  ~/.vimrc
-|4,39,368,4,1493710913,"~/.vimrc"
--'  368  4  ~/.vimrc
-|4,39,368,4,1493710913,"~/.vimrc"
--'  368  4  ~/.vimrc
-|4,39,368,4,1493710913,"~/.vimrc"
--'  368  4  ~/.vimrc
-|4,39,368,4,1493710913,"~/.vimrc"
--'  368  4  ~/.vimrc
-|4,39,368,4,1493710913,"~/.vimrc"
--'  368  4  ~/.vimrc
-|4,39,368,4,1493710913,"~/.vimrc"
--'  368  4  ~/.vimrc
-|4,39,368,4,1493710913,"~/.vimrc"
--'  368  4  ~/.vimrc
-|4,39,368,4,1493710913,"~/.vimrc"
--'  368  4  ~/.vimrc
-|4,39,368,4,1493710913,"~/.vimrc"
--'  368  4  ~/.vimrc
-|4,39,368,4,1493710913,"~/.vimrc"
--'  368  4  ~/.vimrc
-|4,39,368,4,1493710913,"~/.vimrc"
--'  368  4  ~/.vimrc
-|4,39,368,4,1493710913,"~/.vimrc"
--'  396  0  ~/.vimrc
-|4,39,396,0,1493710899,"~/.vimrc"
--'  396  0  ~/.vimrc
-|4,39,396,0,1493710899,"~/.vimrc"
--'  396  0  ~/.vimrc
-|4,39,396,0,1493710899,"~/.vimrc"
--'  396  0  ~/.vimrc
-|4,39,396,0,1493710899,"~/.vimrc"
--'  396  0  ~/.vimrc
-|4,39,396,0,1493710899,"~/.vimrc"
--'  396  0  ~/.vimrc
-|4,39,396,0,1493710899,"~/.vimrc"
--'  396  0  ~/.vimrc
-|4,39,396,0,1493710899,"~/.vimrc"
--'  396  0  ~/.vimrc
-|4,39,396,0,1493710899,"~/.vimrc"
--'  396  0  ~/.vimrc
-|4,39,396,0,1493710899,"~/.vimrc"
--'  396  0  ~/.vimrc
-|4,39,396,0,1493710899,"~/.vimrc"
--'  396  0  ~/.vimrc
-|4,39,396,0,1493710899,"~/.vimrc"
--'  396  0  ~/.vimrc
-|4,39,396,0,1493710899,"~/.vimrc"
--'  359  0  ~/.vimrc
-|4,39,359,0,1493710846,"~/.vimrc"
--'  359  0  ~/.vimrc
-|4,39,359,0,1493710846,"~/.vimrc"
--'  359  0  ~/.vimrc
-|4,39,359,0,1493710846,"~/.vimrc"
--'  359  0  ~/.vimrc
-|4,39,359,0,1493710846,"~/.vimrc"
--'  359  0  ~/.vimrc
-|4,39,359,0,1493710846,"~/.vimrc"
--'  359  0  ~/.vimrc
-|4,39,359,0,1493710846,"~/.vimrc"
--'  359  0  ~/.vimrc
-|4,39,359,0,1493710846,"~/.vimrc"
--'  359  0  ~/.vimrc
-|4,39,359,0,1493710846,"~/.vimrc"
--'  359  0  ~/.vimrc
-|4,39,359,0,1493710846,"~/.vimrc"
--'  359  0  ~/.vimrc
-|4,39,359,0,1493710846,"~/.vimrc"
--'  359  0  ~/.vimrc
-|4,39,359,0,1493710846,"~/.vimrc"
--'  359  0  ~/.vimrc
-|4,39,359,0,1493710846,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
--'  332  3  ~/.vimrc
-|4,39,332,3,1493710820,"~/.vimrc"
+-'  1  0  ~/.teq
+|4,39,1,0,1493837146,"~/.teq"
+-'  319  0  ~/.teq
+|4,39,319,0,1493837136,"~/.teq"
+-'  420  0  ~/.teq
+|4,39,420,0,1493837047,"~/.teq"
+-'  424  0  ~/.teq
+|4,39,424,0,1493837043,"~/.teq"
+-'  425  38  ~/.teq
+|4,39,425,38,1493837041,"~/.teq"
+-'  1  0  ~/Dropbox (MIT)/dl/amssample.tex
+|4,39,1,0,1493836989,"~/Dropbox (MIT)/dl/amssample.tex"
+-'  313  0  ~/Dropbox (MIT)/dl/amssample.tex
+|4,39,313,0,1493836988,"~/Dropbox (MIT)/dl/amssample.tex"
+-'  423  47  ~/.teq
+|4,39,423,47,1493836878,"~/.teq"
+-'  421  43  ~/.teq
+|4,39,421,43,1493836777,"~/.teq"
+-'  419  0  ~/.teq
+|4,39,419,0,1493836008,"~/.teq"
+-'  417  0  ~/.teq
+|4,39,417,0,1493835974,"~/.teq"
+-'  416  0  ~/.teq
+|4,39,416,0,1493835971,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835958,"~/.teq"
+-'  8  2  ~/.vimrc
+|4,39,8,2,1493835957,"~/.vimrc"
+-'  14  1  ~/.vimrc
+|4,39,14,1,1493835843,"~/.vimrc"
+-'  19  0  ~/.gitconfig
+|4,39,19,0,1493835700,"~/.gitconfig"
+-'  19  0  ~/.gitconfig
+|4,39,19,0,1493835700,"~/.gitconfig"
+-'  19  0  ~/.gitconfig
+|4,39,19,0,1493835700,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1493835694,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1493835694,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1493835694,"~/.gitconfig"
+-'  11  1  ~/.vimrc
+|4,39,11,1,1493835646,"~/.vimrc"
+-'  11  1  ~/.vimrc
+|4,39,11,1,1493835646,"~/.vimrc"
+-'  11  1  ~/.vimrc
+|4,39,11,1,1493835646,"~/.vimrc"
+-'  11  1  ~/.vimrc
+|4,39,11,1,1493835646,"~/.vimrc"
+-'  23  0  ~/.vimrc
+|4,39,23,0,1493835611,"~/.vimrc"
+-'  20  0  ~/.vimrc
+|4,39,20,0,1493835611,"~/.vimrc"
+-'  20  0  ~/.vimrc
+|4,39,20,0,1493835611,"~/.vimrc"
+-'  20  0  ~/.vimrc
+|4,39,20,0,1493835611,"~/.vimrc"
+-'  20  0  ~/.vimrc
+|4,39,20,0,1493835611,"~/.vimrc"
+-'  3  0  ~/.vimrc
+|4,39,3,0,1493835608,"~/.vimrc"
+-'  3  0  ~/.vimrc
+|4,39,3,0,1493835608,"~/.vimrc"
+-'  3  0  ~/.vimrc
+|4,39,3,0,1493835608,"~/.vimrc"
+-'  3  0  ~/.vimrc
+|4,39,3,0,1493835608,"~/.vimrc"
+-'  3  0  ~/.vimrc
+|4,39,3,0,1493835608,"~/.vimrc"
+-'  43  31  ~/.vimrc
+|4,39,43,31,1493835607,"~/.vimrc"
+-'  40  31  ~/.vimrc
+|4,39,40,31,1493835607,"~/.vimrc"
+-'  40  31  ~/.vimrc
+|4,39,40,31,1493835607,"~/.vimrc"
+-'  40  31  ~/.vimrc
+|4,39,40,31,1493835607,"~/.vimrc"
+-'  40  31  ~/.vimrc
+|4,39,40,31,1493835607,"~/.vimrc"
+-'  1  0  ~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex
+|4,39,1,0,1493835605,"~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex"
+-'  1  0  ~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex
+|4,39,1,0,1493835605,"~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex"
+-'  1  0  ~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex
+|4,39,1,0,1493835605,"~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex"
+-'  1  0  ~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex
+|4,39,1,0,1493835605,"~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex"
+-'  1  0  ~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex
+|4,39,1,0,1493835605,"~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex"
+-'  1  0  ~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex
+|4,39,1,0,1493835605,"~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex"
+-'  25  0  ~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex
+|4,39,25,0,1493835541,"~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex"
+-'  25  0  ~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex
+|4,39,25,0,1493835541,"~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex"
+-'  25  0  ~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex
+|4,39,25,0,1493835541,"~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex"
+-'  25  0  ~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex
+|4,39,25,0,1493835541,"~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex"
+-'  25  0  ~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex
+|4,39,25,0,1493835541,"~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex"
+-'  25  0  ~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex
+|4,39,25,0,1493835541,"~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex"
+-'  54  0  ~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex
+|4,39,54,0,1493835532,"~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex"
+-'  54  0  ~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex
+|4,39,54,0,1493835532,"~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex"
+-'  54  0  ~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex
+|4,39,54,0,1493835532,"~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex"
+-'  54  0  ~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex
+|4,39,54,0,1493835532,"~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex"
+-'  54  0  ~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex
+|4,39,54,0,1493835532,"~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex"
+-'  54  0  ~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex
+|4,39,54,0,1493835532,"~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
+-'  400  0  ~/.teq
+|4,39,400,0,1493835506,"~/.teq"
 
 # History of marks within files (newest to oldest):
 
-> ~/Dropbox (MIT)/sys/dotfiles/Makefile
-	*	1493710956	0
-	"	10	0
-	^	4	8
-	.	24	0
-	+	24	6
-	+	2	0
-	+	3	8
-	+	4	7
-	+	24	0
+> ~/.teq
+	*	1493837140	0
+	"	1	0
+	^	425	40
+	.	423	0
+	+	147	0
+	+	147	76
+	+	148	18
+	+	149	0
+	+	150	77
+	+	151	0
+	+	152	0
+	+	154	67
+	+	157	0
+	+	159	71
+	+	161	78
+	+	229	0
+	+	229	104
+	+	229	40
+	+	230	56
+	+	231	201
+	+	232	0
+	+	231	0
+	+	230	0
+	+	229	0
+	+	233	0
+	+	379	42
+	+	234	0
+	+	378	0
+	+	380	0
+	+	381	50
+	+	381	106
+	+	381	87
+	+	381	6
+	+	381	18
+	+	381	0
+	+	381	20
+	+	382	0
+	+	381	0
+	+	383	18
+	+	381	0
+	+	383	20
+	+	381	0
+	+	384	100
+	+	381	0
+	+	385	0
+	+	392	2
+	+	386	0
+	+	385	73
+	+	393	0
+	+	394	0
+	+	395	87
+	+	398	55
+	+	398	103
+	+	398	30
+	+	397	0
+	+	396	0
+	+	400	63
+	+	399	0
+	+	401	68
+	+	402	96
+	+	402	0
+	+	411	0
+	+	404	0
+	+	403	25
+	+	411	28
+	+	411	57
+	+	411	44
+	+	412	0
+	+	413	0
+	+	413	75
+	+	414	0
+	+	412	0
+	+	411	0
+	+	410	0
+	+	415	128
+	+	415	67
+	+	416	0
+	+	418	0
+	+	417	0
+	+	418	33
+	+	419	92
+	+	419	0
+	+	421	44
+	+	422	56
+	+	423	48
+	+	425	38
+	+	418	0
+	+	420	0
+	+	423	0
 
 > ~/.vimrc
-	*	1493710921	0
-	"	12	0
-	.	12	0
-	+	368	4
-	+	368	23
-	+	368	4
-	+	368	0
-	+	368	4
-	+	346	0
-	+	102	0
-	+	368	0
-	+	368	4
-	+	368	23
-	+	368	21
-	+	368	22
-	+	390	32
-	+	358	0
-	+	368	4
-	+	368	0
-	+	368	4
-	+	368	23
-	+	368	4
-	+	368	18
-	+	368	4
-	+	368	21
-	+	368	0
-	+	368	4
-	+	368	22
-	+	368	4
-	+	368	24
-	+	368	0
-	+	368	4
-	+	397	31
-	+	388	0
-	+	382	0
+	*	1493837130	0
+	"	2	26
+	^	2	28
+	.	2	27
+	+	383	0
+	+	383	4
+	+	383	23
+	+	383	4
+	+	383	18
+	+	383	4
+	+	383	21
+	+	383	0
+	+	383	4
+	+	383	22
+	+	383	4
+	+	383	24
+	+	383	0
+	+	383	4
+	+	412	31
+	+	403	0
 	+	397	0
-	+	386	0
-	+	396	31
-	+	395	0
-	+	386	0
-	+	387	0
-	+	396	0
-	+	388	0
-	+	378	0
-	+	377	0
-	+	368	0
-	+	368	39
-	+	368	4
-	+	368	0
-	+	368	5
-	+	368	0
-	+	368	4
-	+	368	22
-	+	368	0
-	+	368	37
-	+	368	0
-	+	368	65
-	+	368	4
-	+	368	29
-	+	368	4
-	+	368	50
-	+	368	0
-	+	363	373
-	+	365	21
-	+	366	26
-	+	367	0
-	+	368	23
-	+	368	0
-	+	368	23
-	+	368	4
-	+	368	2
-	+	368	21
-	+	368	0
-	+	368	33
-	+	368	0
-	+	368	2
-	+	368	4
-	+	359	0
-	+	368	0
+	+	412	0
+	+	401	0
+	+	411	31
+	+	410	0
+	+	401	0
+	+	402	0
+	+	411	0
+	+	403	0
+	+	393	0
+	+	392	0
+	+	383	0
+	+	383	39
+	+	383	4
+	+	383	0
+	+	383	5
+	+	383	0
+	+	383	4
+	+	383	22
+	+	383	0
+	+	383	37
+	+	383	0
+	+	383	65
+	+	383	4
+	+	383	29
+	+	383	4
+	+	383	50
+	+	383	0
+	+	378	373
+	+	380	21
+	+	381	26
+	+	382	0
+	+	383	23
+	+	383	0
+	+	383	23
+	+	383	4
+	+	383	2
+	+	383	21
+	+	383	0
+	+	383	33
+	+	383	0
+	+	383	2
+	+	383	4
+	+	374	0
+	+	383	0
+	+	29	0
+	+	242	0
+	+	34	0
+	+	32	0
+	+	33	0
+	+	412	28
+	+	415	11
+	+	11	1
+	+	16	0
+	+	26	0
+	+	12	1
+	+	16	2
+	+	24	0
+	+	16	0
+	+	24	0
+	+	16	26
+	+	23	0
+	+	25	0
+	+	26	0
+	+	22	0
+	+	23	1
+	+	24	1
+	+	25	1
+	+	19	1
+	+	18	1
+	+	11	0
+	+	10	0
 	+	12	0
+	+	22	0
+	+	15	0
+	+	16	0
+	+	13	0
+	+	41	52
+	+	14	1
+	+	14	0
+	+	8	0
+	+	412	43
+	+	1	0
+	+	2	27
+
+> /Applications/MacVim.app/Contents/Resources/vim/runtime/doc/options.txt
+	*	1493837073	0
+	"	9000	21
+
+> ~/Dropbox (MIT)/dl/amssample.tex
+	*	1493836988	0
+	"	1	0
+
+> ~/.gitconfig
+	*	1493835699	0
+	"	19	0
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex
+	*	1493835602	0
+	"	1	0
+	^	48	1
+	.	25	0
+	+	31	0
+	+	32	0
+	+	34	0
+	+	52	0
+	+	50	0
+	+	8	53
+	+	8	0
+	+	8	61
+	+	8	10
+	+	27	0
+	+	1	27
+	+	25	29
+	+	25	0
+	+	52	0
+	+	50	7
+	+	52	0
+	+	25	0
+	+	27	0
+	+	29	0
+	+	31	1
+	+	25	0
+	+	26	0
+	+	25	9
+	+	27	9
+	+	29	9
+	+	31	9
+	+	33	9
+	+	35	9
+	+	8	0
+	+	8	19
+	+	8	22
+	+	8	25
+	+	5	0
+	+	6	19
+	+	5	0
+	+	1	26
+	+	50	14
+	+	48	0
+	+	8	0
+	+	7	0
+	+	8	0
+	+	2	0
+	+	8	0
+	+	2	0
+	+	3	22
+	+	7	0
+	+	13	0
+	+	16	0
+	+	50	7
+	+	52	7
+	+	30	0
+	+	28	0
+	+	27	9
+	+	25	0
+	+	25	4
+	+	27	0
+	+	25	40
+	+	25	17
+	+	50	0
+	+	25	42
+	+	50	7
+	+	52	7
+	+	48	19
+	+	54	15
+	+	48	0
+	+	52	0
+	+	50	0
+	+	49	0
+	+	54	0
+	+	50	4
+	+	52	4
+	+	21	12
+	+	48	53
+	+	48	0
+	+	54	0
+	+	21	0
+	+	48	0
+	+	47	0
+	+	54	0
+	+	48	0
+	+	50	0
+	+	48	0
+	+	47	0
+	+	50	14
+	+	52	14
+	+	54	14
+	+	51	0
+	+	53	0
+	+	46	16
+	+	48	0
+	+	50	7
+	+	52	7
+	+	54	7
+	+	50	4
+	+	52	4
+	+	54	4
+	+	46	0
+	+	47	0
+	+	48	0
+	+	25	0
+	j	24	3
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/abstract.tex
+	*	1493835562	0
+	"	3	26
+	^	3	28
+	.	3	27
+	+	4	0
+	+	3	7
+	+	2	77
+	+	3	27
+
+> ~/.vmrc
+	*	1493834862	0
+	"	1	0
+
+> ~/Dropbox (MIT)/www/raeez.com/research/computation-tqft.html
+	*	1493832524	0
+	"	5	0
+	^	5	0
+	.	27	0
+	+	5	0
+	+	6	0
+	+	27	0
+
+> scp://raeez.com//proj/www/raeez.com/research/computation-tqft.html
+	*	1493832505	0
+	"	1	0
+
+> ~/Dropbox (MIT)/www/raeez.com/:q!
+	*	1493832469	0
+	"	1	0
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/subsections.tex
+	*	1493781866	0
+	"	16	0
+	^	9	8
+	.	9	7
+	+	2	75
+	+	21	58
+	+	1	0
+	+	4	32
+	+	5	23
+	+	4	20
+	+	30	0
+	+	29	0
+	+	30	39
+	+	31	31
+	+	31	50
+	+	30	37
+	+	9	7
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/gaugetheory.tex
+	*	1493781864	0
+	"	277	0
+	^	280	1
+	.	280	0
+	+	598	71
+	+	528	12
+	+	528	56
+	+	529	1175
+	+	530	0
+	+	532	56
+	+	534	0
+	+	535	73
+	+	536	10
+	+	536	37
+	+	537	0
+	+	536	0
+	+	552	0
+	+	546	29
+	+	561	24
+	+	562	0
+	+	572	72
+	+	573	0
+	+	582	21
+	+	587	88
+	+	583	0
+	+	550	90
+	+	547	0
+	+	599	0
+	+	597	2
+	+	595	1
+	+	593	2
+	+	592	2
+	+	590	2
+	+	589	2
+	+	595	0
+	+	587	90
+	+	587	48
+	+	550	60
+	+	538	0
+	+	545	81
+	+	581	77
+	+	587	0
+	+	586	17
+	+	587	0
+	+	585	2
+	+	586	14
+	+	587	0
+	+	589	39
+	+	588	40
+	+	558	17
+	+	550	39
+	+	549	1
+	+	551	1
+	+	548	18
+	+	531	50
+	+	533	40
+	+	243	0
+	+	526	3
+	+	528	3
+	+	270	5
+	+	272	133
+	+	276	18
+	+	277	20
+	+	443	4
+	+	444	21
+	+	460	36
+	+	467	9
+	+	473	74
+	+	489	42
+	+	436	64
+	+	442	1
+	+	430	24
+	+	423	33
+	+	421	4
+	+	3	0
+	+	535	3
+	+	247	34
+	+	252	34
+	+	247	40
+	+	252	0
+	+	248	0
+	+	250	40
+	+	253	78
+	+	254	74
+	+	255	7
+	+	339	1
+	+	340	35
+	+	344	24
+	+	346	35
+	+	358	53
+	+	372	79
+	+	371	77
+	+	375	53
+	+	377	30
+	+	371	25
+	+	379	78
+	+	390	48
+	+	390	76
+	+	393	57
+	+	399	9
+	+	400	72
+	+	401	14
+	+	411	35
+	+	280	0
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/questions.tex
+	*	1493777560	0
+	"	20	11
+	^	22	113
+	.	20	11
+	+	1	81
+	+	1	0
+	+	21	4
+	+	21	118
+	+	21	48
+	+	5	8
+	+	21	14
+	+	4	0
+	+	3	27
+	+	21	0
+	+	20	11
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/indobjects.tex
+	*	1493768383	0
+	"	1	0
+	^	170	1
+	.	175	0
+	+	3	20
+	+	122	0
+	+	68	0
+	+	19	46
+	+	23	0
+	+	172	35
+	+	3	0
+	+	2	0
+	+	3	0
+	+	174	0
+	+	177	0
+	+	175	0
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/the invariants/invariants.tex
+	*	1493768380	0
+	"	35	3
+	^	37	6
+	.	37	5
+	+	1	79
+	+	8	79
+	+	4	0
+	+	2	0
+	+	39	3
+	+	38	0
+	+	5	16
+	+	8	14
+	+	6	7
+	+	8	0
+	+	7	40
+	+	9	41
+	+	10	38
+	+	37	5
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/intro.tex
+	*	1493768257	0
+	"	1	0
+
+> ~/.zshrc
+	*	1493759193	0
+	"	173	9
+	^	1	1
+	.	174	9
+	+	176	0
+	+	175	0
+	+	176	0
+	+	177	0
+	+	346	0
+	+	346	52
+	+	346	0
+	+	253	21
+	+	46	0
+	+	123	0
+	+	36	0
+	+	35	0
+	+	36	0
+	+	7	0
+	+	5	39
+	+	8	75
+	+	304	26
+	+	346	0
+	+	304	0
+	+	302	13
+	+	303	32
+	+	305	16
+	+	314	50
+	+	319	82
+	+	318	24
+	+	307	18
+	+	306	15
+	+	309	84
+	+	311	76
+	+	311	0
+	+	314	0
+	+	310	0
+	+	312	10
+	+	320	0
+	+	346	0
+	+	346	2
+	+	346	4
+	+	346	2
+	+	346	6
+	+	346	0
+	+	346	4
+	+	346	2
+	+	346	6
+	+	346	2
+	+	236	62
+	+	346	0
+	+	173	84
+	+	177	0
+	+	173	0
+	+	174	69
+	+	244	5
+	+	185	0
+	+	236	0
+	+	201	28
+	+	202	0
+	+	208	0
+	+	205	0
+	+	206	0
+	+	202	0
+	+	203	0
+	+	209	0
+	+	205	0
+	+	235	36
+	+	236	0
+	+	240	9
+	+	239	11
+	+	240	35
+	+	231	34
+	+	8	59
+	+	10	0
+	+	39	38
+	+	40	33
+	+	41	40
+	+	251	0
+	+	252	39
+	+	290	1
+	+	289	0
+	+	252	0
+	+	38	0
+	+	13	0
+	+	17	34
+	+	18	33
+	+	36	0
+	+	35	0
+	+	36	0
+	+	35	0
+	+	228	0
+	+	211	0
+	+	210	49
+	+	291	24
+	+	19	51
+	+	231	0
+	+	1	9
+	+	4	0
+	+	3	0
+	+	1	18
+	+	174	16
+	+	2	0
+	+	1	0
+	+	174	9
+	m	173	69
+	w	173	69
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/galoistheory.tex
+	*	1493751725	0
+	"	237	0
+	^	167	26
+	.	169	43
+	+	21	29
+	+	40	68
+	+	21	10
+	+	38	14
+	+	42	3
+	+	38	0
+	+	42	51
+	+	139	63
+	+	142	0
+	+	144	13
+	+	143	67
+	+	141	57
+	+	139	0
+	+	53	0
+	+	144	0
+	+	145	0
+	+	143	0
+	+	140	0
+	+	143	67
+	+	142	63
+	+	181	0
+	+	42	52
+	+	43	8
+	+	41	59
+	+	38	9
+	+	43	7
+	+	42	34
+	+	39	63
+	+	40	60
+	+	42	33
+	+	41	8
+	+	38	10
+	+	43	0
+	+	51	0
+	+	41	0
+	+	61	70
+	+	62	10
+	+	54	57
+	+	61	11
+	+	75	0
+	+	75	28
+	+	76	0
+	+	74	72
+	+	75	50
+	+	122	23
+	+	75	55
+	+	159	64
+	+	167	25
+	+	169	43
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.
+	*	1493739198	0
+	"	1	0
+
+> /private/tmp/zshcMsZo4
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Dropbox (MIT)/www/raeez.com/research/gg-prime.html
+	*	1493751336	0
+	"	20	0
+
+> ~/.plan
+	*	1493749907	0
+	"	36	119
+	.	2700	0
+	+	2700	19
+	+	2700	0
+
+> ~/email.plan
+	*	1493729153	0
+	"	1	0
+	.	1	0
+	+	1	77
+	+	1	9
+	+	1	78
+	+	1	0
+	+	1	4
+	+	1	0
+	+	1	4
+	+	1	22
+	+	1	0
+	+	1	75
+	+	1	39
+	+	1	19
+	+	1	78
+	+	1	72
+	+	1	1
+	+	1	33
+	+	1	0
+	+	1	17
+	+	1	77
+	+	1	62
+	+	1	74
+	+	1	72
+	+	1	1
+	+	1	3
+	+	1	2
+	+	1	0
+	+	1	32
+	+	1	77
+	+	1	22
+	+	1	77
+	+	1	25
+	+	1	76
+	+	1	73
+	+	1	77
+	+	1	22
+	+	1	73
+	+	1	0
+	+	1	59
+	+	1	91
+	+	1	77
+	+	1	17
+	+	1	42
+	+	1	0
+	+	1	42
+	+	1	34
+	+	1	60
+	+	1	48
+	+	1	0
+	+	1	68
+	+	1	69
+	+	1	65
+	+	1	63
+	+	1	64
+	+	1	62
+	+	1	31
+	+	1	2
+	+	1	0
+	+	1	75
+	+	1	0
+	+	1	75
+	+	1	79
+	+	1	26
+	+	1	3
+	+	1	0
+	+	1	9
+	+	1	22
+	+	1	78
+	+	1	5
+	+	1	20
+	+	1	23
+	+	1	21
+	+	1	11
+	+	1	60
+	+	1	67
+	+	1	19
+	+	1	22
+	+	1	65
+	+	1	71
+	+	1	44
+	+	1	51
+	+	1	18
+	+	1	13
+	+	1	77
+	+	1	59
+	+	1	2
+	+	1	58
+	+	1	0
+	+	1	9
+	+	1	45
+	+	1	23
+	+	1	71
+	+	1	0
+
+> ~/email
+	*	1493729151	0
+	"	1	0
+	.	2	0
+	+	36	24
+	+	35	221
+	+	3	145
+	+	7	223
+	+	3	222
+	+	5	0
+	+	2	0
+
+> /Applications/MacVim.app/Contents/Resources/vim/runtime/doc/help.txt
+	*	1493724814	0
+	"	1	0
+
+> /private/tmp/zshR5wCyb
+	"	1	20
+	.	1	20
+	+	1	20
+
+> /private/tmp/zshsGtFn4
+	"	1	0
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/out/glg.log
+	*	1493731232	0
+	"	1046	0
+	^	1075	0
+	.	1075	0
+	+	1	0
+	+	563	0
+	+	1075	0
+
+> ~/.vim/ftplugin/tex.vim
+	*	1493728847	0
+	"	3	27
+	^	3	30
+	.	3	29
+	+	36	22
+	+	34	52
+	+	48	35
+	+	34	32
+	+	55	0
+	+	7	0
+	+	5	0
+	+	1	0
+	+	5	0
+	+	1	77
+	+	34	35
+	+	48	33
+	+	34	10
+	+	1	0
+	+	34	52
+	+	55	0
+	+	49	0
+	+	55	0
+	+	36	54
+	+	34	29
+	+	34	1
+	+	34	0
+	+	48	0
+	+	49	2
+	+	36	35
+	+	48	0
+	+	36	0
+	+	15	0
+	+	26	20
+	+	4	0
+	+	1	0
+	+	4	0
+	+	8	0
+	+	12	0
+	+	13	41
+	+	55	0
+	+	14	0
+	+	15	0
+	+	1	0
+	+	1	27
+	+	1	7
+	+	55	0
+	+	54	0
+	+	62	0
+	+	1	0
+	+	34	44
+	+	32	0
+	+	34	0
+	+	35	0
+	+	34	0
+	+	1	0
+	+	36	0
+	+	51	0
+	+	55	0
+	+	32	0
+	+	35	0
+	+	34	0
+	+	34	27
+	+	32	0
+	+	34	0
+	+	35	0
+	+	32	0
+	+	35	0
+	+	34	0
+	+	35	0
+	+	34	0
+	+	26	0
+	+	27	21
+	+	26	21
+	+	27	24
+	+	26	24
+	+	28	1
+	+	25	57
+	+	16	0
+	+	17	9
+	+	32	0
+	+	25	0
+	+	36	0
+	+	31	0
+	+	32	0
+	+	30	0
+	+	25	0
+	+	24	63
+	+	21	40
+	+	20	31
+	+	22	21
+	+	23	22
+	+	24	23
+	+	23	23
+	+	22	22
+	+	25	0
+	+	34	84
+	+	18	75
+	+	25	0
+	+	34	84
+	+	34	0
+	+	33	0
+	+	35	0
+	+	2	44
+	+	3	29
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/surfaces.tex
+	*	1493724121	0
+	"	3	0
+	^	87	38
+	.	3	0
+	+	17	0
+	+	3	34
+	+	10	0
+	+	10	69
+	+	3	73
+	+	3	15
+	+	3	26
+	+	10	0
+	+	13	27
+	+	87	37
+	+	40	0
+	+	60	0
+	+	81	0
+	+	82	0
+	+	64	0
+	+	3	0
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/in
+	*	1493723971	0
+	"	1	0
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/Makefile
+	*	1493723926	0
+	"	17	0
+	^	22	2
+	.	19	0
+	+	11	13
+	+	21	0
+	+	69	13
+	+	5	58
+	+	11	7
+	+	16	4
+	+	16	0
+	+	11	9
+	+	4	0
+	+	17	2
+	+	22	0
+	+	19	1
+	+	20	1
+	+	21	1
+	+	22	1
+	+	19	0
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/confspaces.tex
+	*	1493723855	0
+	"	4	2
+	^	9	30
+	.	3	0
+	+	2	0
+	+	10	71
+	+	9	37
+	+	11	9
+	+	10	0
+	+	11	0
+	+	10	19
+	+	10	21
+	+	9	29
+	+	3	0
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.log
+	*	1493723630	0
+	"	1	0
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/glg.log
+	*	1493723621	0
+	"	1	0
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/classformations.tex
+	*	1493722846	0
+	"	85	0
+	^	401	32
+	.	99	0
+	+	416	0
+	+	416	2
+	+	416	0
+	+	416	20
+	+	416	11
+	+	416	0
+	+	416	9
+	+	416	33
+	+	416	9
+	+	416	24
+	+	416	56
+	+	416	0
+	+	416	55
+	+	416	26
+	+	416	0
+	+	416	57
+	+	416	0
+	+	416	40
+	+	416	0
+	+	416	44
+	+	416	53
+	+	416	75
+	+	416	57
+	+	416	12
+	+	416	77
+	+	416	76
+	+	416	15
+	+	416	2
+	+	416	0
+	+	416	2
+	+	416	0
+	+	416	14
+	+	416	16
+	+	416	75
+	+	416	0
+	+	416	2
+	+	416	0
+	+	416	7
+	+	416	0
+	+	416	64
+	+	416	15
+	+	416	5
+	+	416	0
+	+	416	13
+	+	416	0
+	+	416	14
+	+	416	7
+	+	416	0
+	+	416	19
+	+	416	18
+	+	416	39
+	+	416	44
+	+	416	65
+	+	416	32
+	+	416	33
+	+	416	65
+	+	416	14
+	+	416	0
+	+	1	0
+	+	98	0
+	+	100	15
+	+	102	5
+	+	100	16
+	+	102	7
+	+	352	0
+	+	369	0
+	+	329	34
+	+	401	31
+	+	99	0
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/out/glg.out
+	*	1493722714	0
+	"	1	0
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/macros.tex
+	*	1493722561	0
+	"	44	12
+	^	39	36
+	.	46	0
+	+	46	0
+	+	1	0
+	+	46	0
+	+	35	20
+	+	44	0
+	+	43	0
+	+	46	0
+	+	18	0
+	+	34	0
+	+	35	0
+	+	13	0
+	+	4	0
+	+	38	10
+	+	39	10
+	+	5	0
+	+	41	0
+	+	38	34
+	+	39	35
+	+	46	0
+
+> ~/Dropbox (MIT)/www/raeez.com/README.md
+	*	1493722527	0
+	"	4	64
+	^	4	68
+	.	4	67
+	+	4	67
+
+> ~/Dropbox (MIT)/www/raeez.com/READ
+	*	1493722498	0
+	"	1	0
+
+> ~/Dropbox (MIT)/www/raeez.com/Makefile
+	*	1493722477	0
+	"	8	0
+	^	7	25
+	.	7	24
+	+	8	23
+	+	8	9
+	+	29	0
+	+	29	10
+	+	29	1
+	+	21	11
+	+	22	17
+	+	28	25
+	+	29	11
+	+	27	29
+	+	30	13
+	+	29	1
+	+	28	1
+	+	22	16
+	+	19	47
+	+	22	16
+	+	15	14
+	+	21	0
+	+	22	13
+	+	2	21
+	+	22	21
+	+	8	0
+	+	7	24
+
+> ~/Dropbox (MIT)/mathematica/computation-tqft/tex/computation-tqft.tex
+	*	1493722288	0
+	"	46	36
+	^	44	38
+	.	44	37
+	+	33	0
+	+	5	0
+	+	43	19
+	+	48	38
+	+	49	17
+	+	47	59
+	+	49	59
+	+	49	8
+	+	49	13
+	+	48	24
+	+	48	43
+	+	48	50
+	+	63	0
+	+	50	13
+	+	51	14
+	+	52	14
+	+	61	74
+	+	55	68
+	+	43	42
+	+	46	58
+	+	57	42
+	+	48	41
+	+	52	54
+	+	48	54
+	+	62	9
+	+	54	2
+	+	56	16
+	+	61	74
+	+	54	0
+	+	9	0
+	+	8	0
+	+	9	0
+	+	43	50
+	+	46	38
+	+	48	2
+	+	50	12
+	+	48	75
+	+	49	74
+	+	49	53
+	+	51	51
+	+	53	0
+	+	49	35
+	+	44	37
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/commands.tex
+	*	1493717573	0
+	"	6	0
+	^	90	110
+	.	97	0
+	+	144	25
+	+	144	14
+	+	144	31
+	+	73	22
+	+	72	24
+	+	73	25
+	+	72	25
+	+	74	1
+	+	72	0
+	+	72	22
+	+	72	44
+	+	1	13
+	+	63	0
+	+	65	1
+	+	64	0
+	+	144	0
+	+	86	0
+	+	87	14
+	+	86	13
+	+	97	0
+	+	144	0
+	+	97	0
+	+	144	0
+	+	146	0
+	+	144	0
+	+	72	32
+	+	72	0
+	+	72	32
+	+	72	17
+	+	97	0
+	+	36	0
+	+	24	0
+	+	17	0
+	+	16	0
+	+	72	0
+	+	8	0
+	+	1	0
+	+	8	0
+	+	162	0
+	+	146	9
+	+	145	0
+	+	146	23
+	+	145	23
+	+	147	1
+	+	151	0
+	+	156	13
+	+	152	14
+	+	148	0
+	+	162	0
+	+	160	0
+	+	162	0
+	+	156	21
+	+	161	31
+	+	166	0
+	+	36	0
+	+	36	21
+	+	36	0
+	+	36	14
+	+	36	15
+	+	36	17
+	+	24	67
+	+	30	16
+	+	34	15
+	+	34	0
+	+	29	0
+	+	27	25
+	+	28	6
+	+	27	25
+	+	28	26
+	+	29	4
+	+	28	25
+	+	29	5
+	+	27	21
+	+	28	25
+	+	29	37
+	+	28	47
+	+	29	5
+	+	28	0
+	+	31	35
+	+	32	30
+	+	33	40
+	+	29	39
+	+	33	0
+	+	36	0
+	+	24	21
+	+	36	0
+	+	97	16
+	+	144	34
+	+	144	0
+	+	97	0
+	+	144	0
+	+	93	0
+	+	90	103
+	+	97	0
+	+	91	0
+	+	97	0
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/notation.tex
+	*	1493717305	0
+	"	4	0
+	^	212	27
+	.	23	5
+	+	1	0
+	+	250	0
+	+	249	0
+	+	102	0
+	+	32	0
+	+	33	0
+	+	238	0
+	+	343	0
+	+	333	0
+	+	269	0
+	+	257	0
+	+	258	0
+	+	261	0
+	+	262	0
+	+	263	0
+	+	269	0
+	+	271	0
+	+	273	0
+	+	308	0
+	+	311	0
+	+	316	0
+	+	318	0
+	+	319	0
+	+	324	0
+	+	326	0
+	+	327	0
+	+	329	0
+	+	331	0
+	+	333	0
+	+	337	0
+	+	343	0
+	+	250	0
+	+	238	0
+	+	102	21
+	+	249	0
+	+	250	0
+	+	253	0
+	+	343	2
+	+	343	3
+	+	343	0
+	+	343	1
+	+	343	0
+	+	239	0
+	+	25	20
+	+	343	0
+	+	345	9
+	+	344	12
+	+	345	13
+	+	344	26
+	+	345	0
+	+	343	0
+	+	344	38
+	+	344	0
+	+	343	19
+	+	138	0
+	+	19	0
+	+	14	29
+	+	271	0
+	+	14	29
+	+	212	8
+	+	214	40
+	+	215	21
+	+	216	4
+	+	213	0
+	+	212	24
+	+	215	0
+	+	216	0
+	+	212	26
+	+	23	5
+	a	234	15
+
+> ~/Dropbox (MIT)/mathematica/bridges/lectures.tex
+	*	1493717288	0
+	"	520	54
+	^	521	56
+	.	521	55
+	+	353	7
+	+	355	0
+	+	322	0
+	+	23	48
+	+	81	35
+	+	99	2
+	+	100	46
+	+	144	11
+	+	144	0
+	+	122	48
+	+	101	13
+	+	100	17
+	+	101	40
+	+	84	0
+	+	62	14
+	+	76	366
+	+	76	367
+	+	76	0
+	+	80	42
+	+	81	24
+	+	76	10
+	+	76	0
+	+	80	41
+	+	76	9
+	+	49	55
+	+	54	0
+	+	48	0
+	+	49	68
+	+	60	0
+	+	143	0
+	+	144	0
+	+	124	0
+	+	21	31
+	+	75	14
+	+	64	0
+	+	527	0
+	+	358	32
+	+	360	24
+	+	359	4
+	+	385	11
+	+	378	0
+	+	385	10
+	+	385	706
+	+	361	0
+	+	385	706
+	+	384	0
+	+	388	10
+	+	387	40
+	+	408	59
+	+	398	37
+	+	399	57
+	+	408	60
+	+	499	77
+	+	488	33
+	+	487	36
+	+	491	0
+	+	386	0
+	+	4	40
+	+	15	8
+	+	15	7
+	+	6	0
+	+	9	5
+	+	5	0
+	+	8	0
+	+	5	0
+	+	10	5
+	+	12	5
+	+	14	5
+	+	15	14
+	+	16	0
+	+	15	0
+	+	10	0
+	+	7	0
+	+	9	0
+	+	6	0
+	+	500	52
+	+	502	4
+	+	512	0
+	+	517	59
+	+	514	74
+	+	514	0
+	+	515	13
+	+	514	0
+	+	515	74
+	+	514	0
+	+	516	34
+	+	516	76
+	+	517	78
+	+	518	79
+	+	519	40
+	+	523	76
+	+	524	0
+	+	520	29
+	+	521	30
+	+	525	0
+	+	356	14
+	+	526	8
+	+	521	32
+	+	520	31
+	+	521	55
+
+> ~/Dropbox (MIT)/mathematica/bridges/glg.tex
+	*	1493716578	0
+	"	1	0
+
+> ~/Dropbox (MIT)/.git/modules/www/modules/raeez.com/MERGE_MSG
+	"	1	0
+
+> ~/Dropbox (MIT)/mathematica/computation-tqft/Makefile
+	*	1493721935	0
+	"	6	33
+	^	18	13
+	.	18	12
+	+	6	26
+	+	7	0
+	+	6	38
+	+	17	0
+	+	16	9
+	+	21	0
+	+	16	12
+	+	18	12
+
+> ~/Dropbox (MIT)/mathematica/bridges/commands.tex
+	*	1493717427	0
+	"	1	0
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/nomenclature.tex
+	*	1493716129	0
+	"	1	0
+	^	164	15
+	.	8	0
+	+	1	0
+	+	2	0
+	+	1	0
+	+	122	0
+	+	128	0
+	+	114	0
+	+	129	0
+	+	131	0
+	+	132	0
+	+	133	0
+	+	134	0
+	+	135	0
+	+	150	0
+	+	151	0
+	+	103	0
+	+	91	0
+	+	83	0
+	+	82	0
+	+	164	40
+	+	165	11
+	+	166	13
+	+	165	13
+	+	166	14
+	+	165	37
+	+	166	49
+	+	164	4
+	+	165	4
+	+	166	12
+	+	165	11
+	+	164	14
+	+	8	0
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/glg-construction.tex
+	*	1493715750	0
+	"	166	0
+	^	167	30
+	.	167	31
+	+	266	0
+	+	1	0
+	+	252	28
+	+	206	67
+	+	163	38
+	+	158	4
+	+	46	13
+	+	167	31
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/cohomology.tex
+	*	1493715311	0
+	"	27	21
+	^	21	23
+	.	21	22
+	+	148	0
+	+	3	0
+	+	4	0
+	+	12	24
+	+	248	31
+	+	9	0
+	+	10	78
+	+	11	18
+	+	13	23
+	+	16	30
+	+	17	37
+	+	18	43
+	+	20	0
+	+	21	22
+
+> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/configurationspaces.tex
+	*	1493715110	0
+	"	14	0
+	^	12	68
+	.	14	0
+	+	14	38
+	+	1	0
+	+	15	0
+	+	14	0
+	+	4	7
+	+	2	0
+	+	14	47
+	+	14	0
+	+	8	0
+	+	10	79
+	+	11	0
+	+	14	1
+	+	12	67
+	+	14	0
+
+> ~/Dropbox (MIT)/sys/dotfiles/fonts/list
+	*	1493713377	0
+	"	25	48
+	^	25	52
+	.	25	51
+	+	1	12
+	+	14	53
+	+	3	97
+	+	4	58
+	+	5	50
+	+	9	46
+	+	10	31
+	+	11	1
+	+	10	1
+	+	12	0
+	+	15	0
+	+	16	31
+	+	17	38
+	+	25	51
 
 > ~/Dropbox (MIT)/www/raeez.com/index.html
-	*	1493710784	0
+	*	1493713238	0
 	"	1	0
-	^	96	30
-	.	34	86
-	+	130	9
+	^	32	58
+	.	32	56
 	+	131	107
 	+	129	67
 	+	121	0
@@ -7174,29 +8673,45 @@ $
 	+	92	0
 	+	31	0
 	+	34	86
+	+	32	56
 
-> ~/Dropbox (MIT)/sys/dotfiles/fonts/list
-	*	1493710579	0
-	"	17	36
-	^	17	39
-	.	17	38
-	+	1	12
-	+	14	53
-	+	3	97
-	+	4	58
-	+	5	50
-	+	9	46
-	+	10	31
-	+	11	1
-	+	10	1
-	+	12	0
-	+	15	0
-	+	16	31
-	+	17	38
-
-> /Applications/MacVim.app/Contents/Resources/vim/runtime/doc/help.txt
-	*	1493710217	0
+> ~/Dropbox (MIT)/www/raeez.com/www/ind
+	*	1493713218	0
 	"	1	0
+
+> ~/Dropbox (MIT)/www/raeez.com/nginx/www
+	*	1493712365	0
+	"	1	7
+	.	1	7
+	+	1	7
+
+> ~/Dropbox (MIT)/www/raeez.com/nginx/default
+	*	1493712357	0
+	"	36	15
+	^	36	29
+	.	36	15
+	+	36	15
+
+> ~/Dropbox (MIT)/www/raeez.com/root
+	*	1493712346	0
+	"	1	19
+	^	1	21
+	.	1	19
+	+	1	19
+
+> ~/Dropbox (MIT)/.git/modules/sys/modules/dotfiles/MERGE_MSG
+	"	1	0
+
+> ~/Dropbox (MIT)/sys/dotfiles/Makefile
+	*	1493710956	0
+	"	10	0
+	^	4	8
+	.	24	0
+	+	24	6
+	+	2	0
+	+	3	8
+	+	4	7
+	+	24	0
 
 > ~/Dropbox (MIT)/mathematica/generalized-grassmannians/test.js
 	*	1493710097	0
@@ -7205,407 +8720,17 @@ $
 	+	1	0
 	+	30	0
 
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.tex
-	*	1493709595	0
-	"	54	13
-	^	53	0
-	.	53	0
-	+	37	0
-	+	34	0
-	+	37	0
-	+	34	0
-	+	30	0
-	+	38	0
-	+	36	45
-	+	38	0
-	+	25	0
-	+	50	0
-	+	26	0
-	+	50	39
-	+	54	0
-	+	52	49
-	+	54	0
-	+	50	0
-	+	28	0
-	+	30	0
-	+	32	0
-	+	33	0
-	+	35	0
-	+	52	0
-	+	50	0
-	+	8	53
-	+	8	0
-	+	8	61
-	+	8	10
-	+	28	0
-	+	1	27
-	+	26	29
-	+	26	0
-	+	52	0
-	+	50	7
-	+	52	0
-	+	26	0
-	+	28	0
-	+	30	0
-	+	32	1
-	+	26	0
-	+	27	0
-	+	26	9
-	+	28	9
-	+	30	9
-	+	32	9
-	+	34	9
-	+	36	9
-	+	8	0
-	+	8	19
-	+	8	22
-	+	8	25
-	+	5	0
-	+	6	19
-	+	5	0
-	+	1	26
-	+	50	14
-	+	48	0
-	+	8	0
-	+	7	0
-	+	8	0
-	+	2	0
-	+	8	0
-	+	2	0
-	+	3	22
-	+	7	0
-	+	13	0
-	+	16	0
-	+	50	7
-	+	52	7
-	+	31	0
-	+	29	0
-	+	28	9
-	+	26	0
-	+	26	4
-	+	28	0
-	+	26	40
-	+	26	17
-	+	50	0
-	+	26	42
-	+	50	7
-	+	52	7
-	+	48	19
-	+	54	15
-	+	48	0
-	+	52	0
-	+	50	0
-	+	51	0
-	+	49	0
-	+	54	0
-	+	50	4
-	+	52	4
-	+	21	12
-	+	48	53
-	+	48	0
-	+	54	0
-	+	21	0
-	+	48	0
-	+	47	0
-	+	54	0
-	+	53	0
-	j	24	3
-
 > ~/.vim/bundle/vim-colors-solarized/doc/solarized.txt
 	*	1493709412	0
 	"	50	13
-
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/classformations.tex
-	*	1493709134	0
-	"	98	0
-	^	401	32
-	.	99	0
-	+	416	0
-	+	416	2
-	+	416	0
-	+	416	20
-	+	416	11
-	+	416	0
-	+	416	9
-	+	416	33
-	+	416	9
-	+	416	24
-	+	416	56
-	+	416	0
-	+	416	55
-	+	416	26
-	+	416	0
-	+	416	57
-	+	416	0
-	+	416	40
-	+	416	0
-	+	416	44
-	+	416	53
-	+	416	75
-	+	416	57
-	+	416	12
-	+	416	77
-	+	416	76
-	+	416	15
-	+	416	2
-	+	416	0
-	+	416	2
-	+	416	0
-	+	416	14
-	+	416	16
-	+	416	75
-	+	416	0
-	+	416	2
-	+	416	0
-	+	416	7
-	+	416	0
-	+	416	64
-	+	416	15
-	+	416	5
-	+	416	0
-	+	416	13
-	+	416	0
-	+	416	14
-	+	416	7
-	+	416	0
-	+	416	19
-	+	416	18
-	+	416	39
-	+	416	44
-	+	416	65
-	+	416	32
-	+	416	33
-	+	416	65
-	+	416	14
-	+	416	0
-	+	1	0
-	+	98	0
-	+	100	15
-	+	102	5
-	+	100	16
-	+	102	7
-	+	352	0
-	+	369	0
-	+	329	34
-	+	401	31
-	+	99	0
-
-> /Applications/MacVim.app/Contents/Resources/vim/runtime/doc/options.txt
-	*	1493708287	0
-	"	8204	11
 
 > /Applications/MacVim.app/Contents/Resources/vim/runtime/doc/cmdline.txt
 	*	1493708087	0
 	"	177	31
 
-> ~/.teq
-	*	1493707648	0
-	"	159	70
-	^	159	72
-	.	159	71
-	+	147	0
-	+	147	76
-	+	148	18
-	+	149	0
-	+	150	77
-	+	151	0
-	+	152	0
-	+	154	67
-	+	157	0
-	+	159	71
-
-> ~/.zshrc
-	*	1493707643	0
-	"	1	0
-	^	32	1
-	.	32	0
-	+	304	25
-	+	330	0
-	+	106	0
-	+	105	0
-	+	120	0
-	+	120	36
-	+	120	9
-	+	120	0
-	+	330	1
-	+	19	20
-	+	22	0
-	+	20	0
-	+	21	28
-	+	330	0
-	+	173	0
-	+	172	0
-	+	173	0
-	+	174	0
-	+	330	0
-	+	330	52
-	+	330	0
-	+	237	21
-	+	43	0
-	+	120	0
-	+	33	0
-	+	32	0
-	+	33	0
-	+	5	0
-	+	3	39
-	+	6	75
-	+	288	26
-	+	330	0
-	+	288	0
-	+	286	13
-	+	287	32
-	+	289	16
-	+	298	50
-	+	303	82
-	+	302	24
-	+	291	18
-	+	290	15
-	+	293	84
-	+	295	76
-	+	295	0
-	+	298	0
-	+	294	0
-	+	296	10
-	+	304	0
-	+	330	0
-	+	330	2
-	+	330	4
-	+	330	2
-	+	330	6
-	+	330	0
-	+	330	4
-	+	330	2
-	+	330	6
-	+	330	2
-	+	220	62
-	+	330	0
-	+	170	84
-	+	174	0
-	+	170	0
-	+	171	69
-	+	228	5
-	+	182	0
-	+	220	0
-	+	198	28
-	+	199	0
-	+	205	0
-	+	202	0
-	+	203	0
-	+	199	0
-	+	200	0
-	+	206	0
-	+	202	0
-	+	219	36
-	+	220	0
-	+	224	9
-	+	223	11
-	+	224	35
-	+	215	34
-	+	6	59
-	+	8	0
-	+	36	38
-	+	37	33
-	+	38	40
-	+	235	0
-	+	236	39
-	+	274	1
-	+	273	0
-	+	236	0
-	+	35	0
-	+	11	0
-	+	15	34
-	+	16	33
-	+	33	0
-	+	32	0
-	+	33	0
-	+	32	0
-	m	170	69
-	w	170	69
-
 > ~/.vim/doc/latex-suite.txt
 	*	1493704814	0
 	"	365	1
-
-> ~/.vim/ftplugin/tex.vim
-	*	1493704751	0
-	"	23	85
-	^	21	1
-	.	23	0
-	+	11	16
-	+	14	26
-	+	45	9
-	+	45	0
-	+	39	0
-	+	45	0
-	+	39	0
-	+	21	49
-	+	25	22
-	+	21	52
-	+	38	35
-	+	21	92
-	+	45	0
-	+	5	0
-	+	3	0
-	+	1	0
-	+	3	0
-	+	1	77
-	+	21	95
-	+	38	33
-	+	21	70
-	+	1	0
-	+	21	112
-	+	45	0
-	+	39	0
-	+	45	0
-	+	25	54
-	+	21	29
-	+	21	61
-	+	21	0
-	+	38	0
-	+	39	2
-	+	25	35
-	+	38	0
-	+	24	0
-	+	13	0
-	+	14	20
-	+	2	0
-	+	1	0
-	+	2	0
-	+	6	0
-	+	10	0
-	+	11	41
-	+	45	0
-	+	12	0
-	+	13	0
-	+	1	0
-	+	1	27
-	+	1	7
-	+	45	0
-	+	44	0
-	+	52	0
-	+	1	0
-	+	21	104
-	+	15	0
-	+	21	0
-	+	23	0
-	+	21	0
-	+	1	0
-	+	26	0
-	+	41	0
-	+	45	0
-	+	16	0
-	+	23	0
-	+	21	0
-	+	21	87
-	+	19	0
-	+	21	0
-	+	23	0
-
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/out/glg.log
-	*	1493704600	0
-	"	523	10
-	.	1	0
-	+	1	0
 
 > ~/Dropbox (MIT)/mathematica/generalized-grassmannians/preamble.tex
 	*	1493684056	0
@@ -7625,81 +8750,6 @@ $
 	+	11	0
 	+	13	0
 	+	12	0
-
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/notation.tex
-	*	1493684050	0
-	"	214	21
-	^	212	27
-	.	212	26
-	+	1	0
-	+	250	0
-	+	249	0
-	+	102	0
-	+	32	0
-	+	33	0
-	+	238	0
-	+	343	0
-	+	333	0
-	+	269	0
-	+	257	0
-	+	258	0
-	+	261	0
-	+	262	0
-	+	263	0
-	+	269	0
-	+	271	0
-	+	273	0
-	+	308	0
-	+	311	0
-	+	316	0
-	+	318	0
-	+	319	0
-	+	324	0
-	+	326	0
-	+	327	0
-	+	329	0
-	+	331	0
-	+	333	0
-	+	337	0
-	+	343	0
-	+	250	0
-	+	238	0
-	+	102	21
-	+	249	0
-	+	250	0
-	+	253	0
-	+	343	2
-	+	343	3
-	+	343	0
-	+	343	1
-	+	343	0
-	+	239	0
-	+	25	20
-	+	343	0
-	+	345	9
-	+	344	12
-	+	345	13
-	+	344	26
-	+	345	0
-	+	343	0
-	+	344	38
-	+	344	0
-	+	343	19
-	+	138	0
-	+	19	0
-	+	14	29
-	+	271	0
-	+	14	29
-	+	212	8
-	+	214	40
-	+	215	21
-	+	216	4
-	+	213	0
-	+	212	24
-	+	215	0
-	+	216	0
-	+	212	26
-	a	234	15
 
 > ~/Dropbox (MIT)/mathematica/mirklecs/lectures.tex
 	*	1493683936	0
@@ -7801,356 +8851,6 @@ $
 	+	8	55
 	a	33	38
 
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/subsections.tex
-	*	1493683918	0
-	"	28	8
-	^	4	21
-	.	4	20
-	+	2	75
-	+	21	58
-	+	1	0
-	+	4	32
-	+	5	23
-	+	4	20
-
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/commands.tex
-	*	1493683917	0
-	"	24	4
-	^	90	110
-	.	97	0
-	+	144	25
-	+	144	14
-	+	144	31
-	+	73	22
-	+	72	24
-	+	73	25
-	+	72	25
-	+	74	1
-	+	72	0
-	+	72	22
-	+	72	44
-	+	1	13
-	+	63	0
-	+	65	1
-	+	64	0
-	+	144	0
-	+	86	0
-	+	87	14
-	+	86	13
-	+	97	0
-	+	144	0
-	+	97	0
-	+	144	0
-	+	146	0
-	+	144	0
-	+	72	32
-	+	72	0
-	+	72	32
-	+	72	17
-	+	97	0
-	+	36	0
-	+	24	0
-	+	17	0
-	+	16	0
-	+	72	0
-	+	8	0
-	+	1	0
-	+	8	0
-	+	162	0
-	+	146	9
-	+	145	0
-	+	146	23
-	+	145	23
-	+	147	1
-	+	151	0
-	+	156	13
-	+	152	14
-	+	148	0
-	+	162	0
-	+	160	0
-	+	162	0
-	+	156	21
-	+	161	31
-	+	166	0
-	+	36	0
-	+	36	21
-	+	36	0
-	+	36	14
-	+	36	15
-	+	36	17
-	+	24	67
-	+	30	16
-	+	34	15
-	+	34	0
-	+	29	0
-	+	27	25
-	+	28	6
-	+	27	25
-	+	28	26
-	+	29	4
-	+	28	25
-	+	29	5
-	+	27	21
-	+	28	25
-	+	29	37
-	+	28	47
-	+	29	5
-	+	28	0
-	+	31	35
-	+	32	30
-	+	33	40
-	+	29	39
-	+	33	0
-	+	36	0
-	+	24	21
-	+	36	0
-	+	97	16
-	+	144	34
-	+	144	0
-	+	97	0
-	+	144	0
-	+	93	0
-	+	90	103
-	+	97	0
-	+	91	0
-	+	97	0
-
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/macros.tex
-	*	1493683830	0
-	"	14	0
-	^	18	21
-	.	18	20
-	+	43	0
-	+	1	0
-	+	43	0
-	+	18	20
-
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/nomenclature.tex
-	*	1493683646	0
-	"	1	0
-	^	164	15
-	.	164	14
-	+	1	0
-	+	2	0
-	+	1	0
-	+	122	0
-	+	128	0
-	+	114	0
-	+	129	0
-	+	131	0
-	+	132	0
-	+	133	0
-	+	134	0
-	+	135	0
-	+	150	0
-	+	151	0
-	+	103	0
-	+	91	0
-	+	83	0
-	+	82	0
-	+	164	40
-	+	165	11
-	+	166	13
-	+	165	13
-	+	166	14
-	+	165	37
-	+	166	49
-	+	164	4
-	+	165	4
-	+	166	12
-	+	165	11
-	+	164	14
-
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/galoistheory.tex
-	*	1493683473	0
-	"	55	2
-	^	54	58
-	.	54	57
-	+	21	29
-	+	40	68
-	+	21	10
-	+	38	14
-	+	42	3
-	+	38	0
-	+	42	51
-	+	138	63
-	+	141	0
-	+	143	13
-	+	142	67
-	+	140	57
-	+	138	0
-	+	53	0
-	+	143	0
-	+	144	0
-	+	142	0
-	+	139	0
-	+	142	67
-	+	141	63
-	+	180	0
-	+	42	52
-	+	43	8
-	+	41	59
-	+	38	9
-	+	43	7
-	+	42	34
-	+	39	63
-	+	40	60
-	+	42	33
-	+	41	8
-	+	38	10
-	+	43	0
-	+	51	0
-	+	41	0
-	+	61	70
-	+	62	10
-	+	54	57
-
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/gaugetheory.tex
-	*	1493681781	0
-	"	9	0
-	^	5	27
-	.	6	1
-	+	4	55
-	+	7	0
-	+	244	18
-	+	245	0
-	+	35	0
-	+	12	64
-	+	99	0
-	+	91	71
-	+	92	62
-	+	95	0
-	+	93	70
-	+	95	44
-	+	97	48
-	+	93	0
-	+	98	26
-	+	99	0
-	+	97	69
-	+	98	18
-	+	116	12
-	+	124	82
-	+	124	57
-	+	124	82
-	+	125	26
-	+	124	79
-	+	125	34
-	+	123	0
-	+	152	15
-	+	177	0
-	+	178	37
-	+	195	4
-	+	200	5
-	+	182	19
-	+	185	42
-	+	200	28
-	+	206	7
-	+	164	0
-	+	200	48
-	+	221	10
-	+	198	34
-	+	200	31
-	+	247	55
-	+	248	30
-	+	121	18
-	+	120	52
-	+	118	49
-	+	119	0
-	+	231	65
-	+	239	30
-	+	238	33
-	+	239	78
-	+	232	77
-	+	233	50
-	+	238	7
-	+	238	8
-	+	242	0
-	+	238	8
-	+	241	0
-	+	237	77
-	+	242	14
-	+	231	65
-	+	230	0
-	+	226	10
-	+	244	23
-	+	228	37
-	+	227	71
-	+	228	45
-	+	228	27
-	+	227	78
-	+	228	57
-	+	176	8
-	+	151	7
-	+	155	34
-	+	151	21
-	+	175	0
-	+	174	8
-	+	151	19
-	+	155	27
-	+	148	79
-	+	149	75
-	+	209	74
-	+	125	72
-	+	126	0
-	+	231	37
-	+	3	0
-	+	4	63
-	+	5	0
-	+	6	1
-
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/indobjects.tex
-	*	1493681440	0
-	"	1	0
-	^	3	21
-	.	3	20
-	+	3	20
-
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/surfaces.tex
-	*	1493681372	0
-	"	21	0
-	^	4	27
-	.	11	0
-	+	18	0
-	+	4	34
-	+	11	0
-	+	11	69
-	+	4	73
-	+	4	15
-	+	4	26
-	+	11	0
-
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/abstract.tex
-	*	1493681051	0
-	"	2	23
-	^	3	44
-	.	3	16
-	+	4	0
-	+	3	7
-	+	2	77
-	+	3	16
-
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/Makefile
-	*	1493680578	0
-	"	23	0
-	^	22	2
-	.	19	0
-	+	11	13
-	+	21	0
-	+	69	13
-	+	5	58
-	+	11	7
-	+	16	4
-	+	16	0
-	+	11	9
-	+	4	0
-	+	17	2
-	+	22	0
-	+	19	1
-	+	20	1
-	+	21	1
-	+	22	1
-	+	19	0
-
 > ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/introduction.tex
 	*	1493680480	0
 	"	73	0
@@ -8177,19 +8877,6 @@ $
 	+	55	34
 	+	19	36
 	+	7	0
-
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/glg-construction.tex
-	*	1493679633	0
-	"	1	0
-	^	158	5
-	.	46	13
-	+	266	0
-	+	1	0
-	+	252	28
-	+	206	67
-	+	163	38
-	+	158	4
-	+	46	13
 
 > ~/Dropbox (MIT)/mathematica/mirklecs/sections/lec3.tex
 	*	1493679628	0
@@ -8364,24 +9051,9 @@ $
 	+	93	26
 	+	180	15
 
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/intro.tex
-	*	1493676862	0
-	"	1	0
-
 > /Applications/MacVim.app/Contents/Resources/vim/runtime/doc/map.txt
 	*	1493676658	0
 	"	38	0
-
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/cohomology.tex
-	*	1493676444	0
-	"	247	29
-	^	247	32
-	.	247	31
-	+	147	0
-	+	3	0
-	+	4	0
-	+	14	24
-	+	247	31
 
 > ~/Dropbox (MIT)/mathematica/mirklecs/sections/lec1.tex
 	*	1493673150	0
@@ -8769,646 +9441,3 @@ $
 	+	90	0
 	+	88	0
 	+	109	0
-
-> ~/Dropbox (MIT)/mathematica/mirklecs/sections/classformations.tex
-	*	1493551051	0
-	"	1	0
-
-> ~/Dropbox (MIT)/mathematica/mirklecs/sections/classfieldtheory.tex
-	*	1493551025	0
-	"	1	21
-	^	1	23
-	.	1	22
-	+	1	22
-
-> ~/Dropbox (MIT)/mathematica/mirklecs/sections/classf
-	*	1493550978	0
-	"	1	0
-
-> ~/Dropbox (MIT)/mathematica/mirklecs/Maek
-	*	1493549736	0
-	"	1	0
-
-> ~/Dropbox (MIT)/mathematica/mirklecs/glg.tex
-	*	1493549631	0
-	"	3	0
-
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/com
-	*	1493547762	0
-	"	1	0
-
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/make
-	*	1493545973	0
-	"	1	0
-
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/glg.log
-	*	1493545335	0
-	"	1	0
-
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/glg.log
-	*	1493545263	0
-	"	1	0
-
-> ~/.imrc
-	*	1493541853	0
-	"	1	0
-
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/cfm.tex
-	*	1493541264	0
-	"	1	0
-	^	223	17
-	.	223	18
-	+	227	35
-	+	266	0
-	+	264	0
-	+	4	67
-	+	4	73
-	+	4	74
-	+	5	11
-	+	6	13
-	+	5	57
-	+	4	0
-	+	3	21
-	+	4	66
-	+	5	48
-	+	4	16
-	+	32	0
-	+	29	0
-	+	3	37
-	+	3	26
-	+	18	0
-	+	5	14
-	+	17	3
-	+	18	0
-	+	14	0
-	+	16	0
-	+	14	0
-	+	17	11
-	+	227	40
-	+	228	61
-	+	225	29
-	+	230	0
-	+	225	29
-	+	227	0
-	+	225	30
-	+	226	0
-	+	225	52
-	+	230	0
-	+	229	35
-	+	223	18
-
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/grassmannians.tex
-	*	1493539605	0
-	"	1	0
-
-> ~/Dropbox (MIT)/treats/linksss
-	*	1493531992	0
-	"	2	0
-
-> ~/Dropbox (MIT)/www/ghost-theme/index.hbs
-	*	1493497887	0
-	"	1	0
-
-> ~/Dropbox (MIT)/www/ghost-theme/default.hbs
-	*	1493497874	0
-	"	1	0
-
-> ~/Dropbox (MIT)/www/ghost-theme/post.hbs
-	*	1493497856	0
-	"	4	0
-	.	2	0
-	+	2	0
-
-> ~/Dropbox (MIT)/www/ghost-theme/defu
-	*	1493497809	0
-	"	1	0
-
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/algebraicsurfaces.tex
-	*	1493493297	0
-	"	91	0
-	^	63	44
-	.	63	43
-	+	20	67
-	+	6	20
-	+	13	7
-	+	21	16
-	+	13	0
-	+	13	3
-	+	3	75
-	+	13	0
-	+	6	43
-	+	11	22
-	+	10	60
-	+	11	52
-	+	12	45
-	+	12	0
-	+	21	42
-	+	21	12
-	+	20	13
-	+	8	60
-	+	10	50
-	+	13	56
-	+	5	63
-	+	6	90
-	+	10	50
-	+	12	46
-	+	15	14
-	+	12	0
-	+	6	15
-	+	6	93
-	+	8	4
-	+	7	71
-	+	8	27
-	+	8	15
-	+	8	27
-	+	11	46
-	+	17	74
-	+	18	75
-	+	10	7
-	+	30	60
-	+	31	73
-	+	32	11
-	+	37	76
-	+	32	64
-	+	38	73
-	+	54	18
-	+	27	57
-	+	28	0
-	+	5	74
-	+	9	0
-	+	10	0
-	+	44	45
-	+	41	179
-	+	44	62
-	+	45	18
-	+	92	0
-	+	91	0
-	+	84	23
-	+	41	178
-	+	47	8
-	+	48	13
-	+	49	72
-	+	51	76
-	+	53	79
-	+	55	0
-	+	36	70
-	+	41	103
-	+	41	156
-	+	44	59
-	+	44	63
-	+	45	12
-	+	61	64
-	+	62	73
-	+	83	24
-	+	82	38
-	+	83	0
-	+	41	78
-	+	41	55
-	+	42	53
-	+	47	78
-	+	48	56
-	+	50	20
-	+	82	13
-	+	83	13
-	+	86	0
-	+	85	0
-	+	62	76
-	+	63	43
-
-> ~/Dropbox (MIT)/mathematica/generalized-grassmannians/sections/classfieldtheory.tex
-	*	1493490588	0
-	"	1	0
-
-> sections/gaugetheory.tex
-	*	1493466964	0
-	"	1	0
-
-> /glg.tex
-	*	1493466051	0
-	"	1	0
-
-> ~/Dropbox (MIT)/mathematica/bridges/sections/khovanov.tex
-	*	1493466037	0
-	"	434	0
-	^	775	9
-	.	775	8
-	+	495	63
-	+	491	0
-	+	490	10
-	+	493	45
-	+	404	40
-	+	495	0
-	+	493	46
-	+	67	50
-	+	69	0
-	+	167	0
-	+	68	0
-	+	11	0
-	+	6	8
-	+	8	7
-	+	6	73
-	+	7	39
-	+	9	63
-	+	10	7
-	+	802	47
-	+	790	0
-	+	789	5
-	+	537	70
-	+	495	33
-	+	510	0
-	+	509	67
-	+	228	0
-	+	220	1
-	+	227	0
-	+	228	0
-	+	10	0
-	+	489	0
-	+	406	12
-	+	488	11
-	+	460	11
-	+	466	9
-	+	466	4
-	+	466	19
-	+	466	0
-	+	462	0
-	+	463	17
-	+	466	0
-	+	463	48
-	+	466	2
-	+	463	51
-	+	463	74
-	+	466	0
-	+	463	76
-	+	463	0
-	+	462	15
-	+	463	16
-	+	464	0
-	+	465	0
-	+	467	0
-	+	460	0
-	+	406	39
-	+	66	6
-	+	495	0
-	+	539	0
-	+	788	0
-	+	544	41
-	+	513	41
-	+	13	0
-	+	176	15
-	+	25	62
-	+	63	60
-	+	548	452
-	+	788	0
-	+	548	0
-	+	548	454
-	+	546	14
-	+	560	24
-	+	561	0
-	+	547	86
-	+	779	0
-	+	786	0
-	+	63	0
-	+	31	54
-	+	33	0
-	+	46	51
-	+	47	0
-	+	45	0
-	+	48	0
-	+	50	67
-	+	51	0
-	+	230	0
-	+	314	0
-	+	167	4
-	+	70	59
-	+	167	0
-	+	165	65
-	+	846	0
-	+	968	0
-	+	562	28
-	+	573	61
-	+	634	14
-	+	634	32
-	+	774	53
-	+	775	8
-
-> ~/Dropbox (MIT)/mathematica/bridges/sections/equivariant-index.tex
-	*	1493466024	0
-	"	13	33
-	^	10	17
-	.	10	17
-	+	224	41
-	+	1	0
-	+	11	0
-	+	1	0
-	+	11	0
-	+	223	0
-	+	236	0
-	+	235	0
-	+	234	37
-	+	84	51
-	+	85	47
-	+	84	14
-	+	223	0
-	+	222	0
-	+	13	0
-	+	82	52
-	+	6	69
-	+	7	11
-	+	6	0
-	+	7	11
-	+	8	94
-	+	7	75
-	+	31	0
-	+	10	0
-	+	10	16
-	+	10	0
-	+	10	17
-
-> ~/$GG
-	*	1493465673	0
-	"	1	0
-
-> ~/Dropbox (MIT)/mathematica/bridges/lectures.tex
-	*	1493462682	0
-	"	8	0
-	.	6	0
-	+	197	0
-	+	19	52
-	+	19	179
-	+	19	0
-	+	20	25
-	+	318	407
-	+	266	13
-	+	318	406
-	+	267	0
-	+	266	0
-	+	318	407
-	+	244	34
-	+	246	13
-	+	236	11
-	+	247	0
-	+	245	0
-	+	237	0
-	+	144	69
-	+	158	25
-	+	186	69
-	+	144	42
-	+	145	25
-	+	146	0
-	+	187	0
-	+	161	0
-	+	353	7
-	+	355	0
-	+	322	0
-	+	23	48
-	+	81	35
-	+	99	2
-	+	100	46
-	+	144	11
-	+	144	0
-	+	122	48
-	+	101	13
-	+	100	17
-	+	101	40
-	+	84	0
-	+	62	14
-	+	76	366
-	+	76	367
-	+	76	0
-	+	80	42
-	+	81	24
-	+	76	10
-	+	76	0
-	+	80	41
-	+	76	9
-	+	49	55
-	+	54	0
-	+	48	0
-	+	49	68
-	+	60	0
-	+	143	0
-	+	144	0
-	+	124	0
-	+	21	31
-	+	75	14
-	+	64	0
-	+	501	0
-	+	358	32
-	+	360	24
-	+	359	4
-	+	385	11
-	+	378	0
-	+	385	10
-	+	385	706
-	+	361	0
-	+	385	706
-	+	384	0
-	+	388	10
-	+	387	40
-	+	408	59
-	+	398	37
-	+	399	57
-	+	408	60
-	+	499	77
-	+	488	33
-	+	487	36
-	+	491	0
-	+	386	0
-	+	4	40
-	+	15	8
-	+	15	7
-	+	6	0
-	+	9	5
-	+	5	0
-	+	8	0
-	+	5	0
-	+	10	5
-	+	12	5
-	+	14	5
-	+	15	14
-	+	16	0
-	+	15	0
-	+	10	0
-	+	7	0
-	+	9	0
-	+	6	0
-
-> ~/Dropbox (MIT)/mathematica/bridges/sections/tqft.tex
-	*	1493456555	0
-	"	5	0
-	.	7	0
-	+	4	14
-	+	4	0
-	+	3	27
-	+	46	27
-	+	45	78
-	+	6	45
-	+	38	37
-	+	30	15
-	+	24	16
-	+	30	36
-	+	36	67
-	+	24	38
-	+	29	11
-	+	23	3
-	+	7	37
-	+	8	10
-	+	7	0
-
-> ~/Dropbox (MIT)/mathematica/bridges/sections/ap-furuta.tex
-	*	1493456548	0
-	"	9	0
-	^	69	33
-	.	28	27
-	+	3	17
-	+	70	0
-	+	6	0
-	+	70	0
-	+	28	0
-	+	24	36
-	+	28	27
-
-> ~/Dropbox (MIT)/mathematica/bridges/sections/furuta.tex
-	*	1493456532	0
-	"	1	0
-	^	2	15
-	.	2	14
-	+	2	8
-	+	4	67
-	+	6	0
-	+	34	18
-	+	32	64
-	+	21	25
-	+	8	21
-	+	2	14
-
-> ~/Dropbox (MIT)/mathematica/bridges/glg.tex
-	*	1493456497	0
-	"	1	0
-
-> ~/Dropbox (MIT)/mathematica/bridges/sections/:q!
-	*	1493456463	0
-	"	1	0
-
-> ~/Dropbox (MIT)/mathematica/bridges/sections/ktheory.tex
-	*	1493456455	0
-	"	4	0
-	^	3	13
-	.	3	12
-	+	3	12
-
-> ~/Dropbox (MIT)/mathematica/bridges/sections/milnor.tex
-	*	1493456455	0
-	"	30	0
-	^	16	71
-	.	16	70
-	+	1	0
-	+	88	0
-	+	1	0
-	+	87	11
-	+	102	31
-	+	1	0
-	+	86	0
-	+	104	0
-	+	103	0
-	+	22	0
-	+	83	0
-	+	85	61
-	+	82	0
-	+	25	2
-	+	5	7
-	+	4	15
-	+	5	7
-	+	11	0
-	+	10	0
-	+	6	48
-	+	10	0
-	+	12	40
-	+	22	0
-	+	12	14
-	+	9	27
-	+	7	14
-	+	12	14
-	+	22	0
-	+	21	14
-	+	18	71
-	+	19	3
-	+	13	36
-	+	12	25
-	+	15	9
-	+	15	54
-	+	16	62
-	+	16	70
-
-> ~/Dropbox (MIT)/mathematica/bridges/sections/perimeter.tex
-	*	1493434816	0
-	"	4	0
-	^	1	22
-	.	4	0
-	+	4	0
-	+	4	15
-	+	1	21
-	+	4	0
-
-> ~/Dropbox (MIT)/mathematica/bridges/bridges.tex
-	*	1493433817	0
-	"	47	28
-	^	47	32
-	.	47	31
-	+	41	44
-	+	42	15
-	+	41	27
-	+	42	24
-	+	53	0
-	+	54	10
-	+	43	29
-	+	53	0
-	+	52	0
-	+	42	0
-	+	52	0
-	+	49	33
-	+	50	31
-	+	51	29
-	+	52	0
-	+	54	15
-	+	55	25
-	+	28	0
-	+	27	0
-	+	39	9
-	+	36	31
-	+	38	14
-	+	39	20
-	+	40	0
-	+	36	9
-	+	1	27
-	+	36	27
-	+	39	31
-	+	36	9
-	+	41	9
-	+	49	9
-	+	53	9
-	+	56	0
-	+	36	61
-	+	39	20
-	+	36	70
-	+	37	0
-	+	36	73
-	+	39	17
-	+	55	17
-	+	56	0
-	+	45	49
-	+	46	27
-	+	47	31
-
-> ~/Dropbox (MIT)/mathematica/bridges/notation.tex
-	*	1493433442	0
-	"	266	0
-	.	267	0
-	+	267	0
-
-> ~/Dropbox (MIT)/mathematica/bridges/sections/floerhomotopy.tex
-	*	1493433398	0
-	"	4	0
-	^	1	22
-	.	1	21
-	+	1	21
