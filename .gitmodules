@@ -43,3 +43,6 @@
 [submodule "others/Vundle.vim"]
 	path = others/Vundle.vim
 	url = https://github.com/VundleVim/Vundle.vim.git
+[submodule "dot/.vim/bundle/nerdtree"]
+	path = dot/.vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
