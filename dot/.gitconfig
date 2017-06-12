@@ -6,6 +6,8 @@
 [status]
 	submoduleSummary = true
 [alias]
+  gcc = !"git gc --aggressive --prune=now"
+  gp = !"git push"
   smi = !"git submodule init"
   sms = !"git submodule sync --recursive"
   smu = !"git submodule update --init --recursive"
