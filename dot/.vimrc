@@ -1,285 +1,157 @@
-" TODO
-" - use au to detect filetype to turn on/off duplication of "", {} etc.
+" =============================================================================
+" PLUGINS
+" =============================================================================
+call plug#begin('~/.vim/plugged')
 
-" enable pathogen
-execute pathogen#infect()
-Helptags
-filetype plugin indent on
+" Theme
+Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 
+" Status line
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
-set shellslash
-set grepprg=grep\ -nH\ $*
+" Quality of life
+Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-surround'
+Plug 'airblade/vim-gitgutter'
 
+" Fuzzy finder (optional but recommended)
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
+" LaTeX
+Plug 'lervag/vimtex'
 
-" Basic History
+call plug#end()
+
+" =============================================================================
+" GENERAL
+" =============================================================================
 set nocompatible
-
 set hidden
-
 set history=2000
+set encoding=utf-8
+set backspace=indent,eol,start
+set mouse=a
+set clipboard=unnamed
+set updatetime=300
 
+" Disable swap/backup (use git instead)
+set nobackup
+set nowritebackup
+set noswapfile
+
+" =============================================================================
+" APPEARANCE
+" =============================================================================
 set number
 set ruler
-syntax on
-syntax enable
+set cursorline
+set colorcolumn=80
+set signcolumn=yes
+set title
+set termguicolors
+set background=dark
 
-" Set encoding
-set encoding=utf-8
+colorscheme catppuccin_mocha
 
-" Whitespace stuff
+" Airline
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#show_buffers = 0
+
+" =============================================================================
+" INDENTATION
+" =============================================================================
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set expandtab
-set list listchars=tab:\ \ ,trail:·
-set wrap
-
 set autoindent
 set smartindent
 
+" Show whitespace
 set list
-set listchars=tab:▸\ ,eol:¬
+set listchars=tab:▸\ ,trail:·,eol:¬
 
-" Terminal Title
-set title
-
-" Searching
+" =============================================================================
+" SEARCH
+" =============================================================================
 set hlsearch
 set incsearch
 set ignorecase
 set smartcase
 set showmatch
 
-setlocal spelllang=en_gb
-set nospell
-imap hh <Esc>
-
-" Tab completion
-set wildmode=list:longest,list:full
-set wildignore+=*.o,*.obj,.git,*.rbc,*.pyc
+" =============================================================================
+" COMPLETION
+" =============================================================================
 set wildmenu
+set wildmode=list:longest,full
+set wildignore+=*.o,*.obj,.git,*.rbc,*.pyc,*.class,node_modules
 
-" Status bar
-set laststatus=2
+" =============================================================================
+" KEY MAPPINGS
+" =============================================================================
+" Quick escape
+inoremap jk <Esc>
+inoremap hh <Esc>
 
-" Without setting this, ZoomWin restores windows in a way that causes
-" equalalways behavior to be triggered the next time CommandT is used.
-" This is likely a bludgeon to solve some other issue, but it works
-set noequalalways
+" Clear search highlight
+nnoremap <silent> <Esc> :nohlsearch<CR>
 
-" Command-T configuration
-let g:CommandTMaxHeight=20
-
-" ZoomWin configuration
-map <Leader><Leader> :ZoomWin<CR>
-
-" CTags
-" map <Leader>rt :!ctags --extra=+f -R *<CR><CR>
-
-" Remember last location in file
-" if has("autocmd")
-"   au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
-"     \| exe "normal g'\"" | endif
-" endif
-
-function s:setupWrapping()
-  set wrap
-  set wm=2
-  set textwidth=72
-endfunction
-
-function s:setupMarkup()
-  call s:setupWrapping()
-  map <buffer> <Leader>p :Mm <CR>
-endfunction
-
-set ofu=syntaxcomplete#Complete
-
-if has("autocmd")
-
-  "Fussy languages
-  autocmd FileType ruby setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
-  autocmd FileType yaml setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
-  autocmd FileType html setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
-  autocmd FileType python setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
-  autocmd FileType * setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
-
-  autocmd Filetype tex setl updatetime=5
-  let g:livepreview_previewer = 'open -a Skim'
-  let g:LatexBox_split_type="new"
-
-  " defaults write TeXShop BringPdfFrontOnAutomaticUpdate NO
-
-
-" TODO decide on FileType for latex
-
-  autocmd BufWritePre * %s/\s\+$//e
-
-  autocmd BufReadPost *
-  \ if line("'\"") > 1 && line("'\"") <= line("$") |
-  \   exe "normal! g`\"" |
-  \ endif
-endif
-
-" make programs for various buffer types
-" au BufEnter *.tex set makeprg=pdflatex\ %;open\ %<.pdf
-au FileType make set noexpandtab
-au BufEnter *.rb set makeprg=irb\ -r\ %
-au BufEnter *.py set makeprg=python\ %
-au BufEnter *.c set makeprg=clang\ -Wall\ %\ &&\ ./a.out
-au BufEnter *.cc set makeprg=clang++\ -Wall\ %\ &&\ ./a.out
-" make uses real tabs
-" Thorfile, Rakefile and Gemfile are Ruby
-" au BufRead,BufNewFile {Gemfile,Rakefile,Thorfile,config.ru}    set ft=ruby
-" md, markdown, and mk are markdown and define buffer-local preview
-autocmd BufNewFile,BufReadPost *.{plan,md} set filetype=markdown
-au BufRead,BufNewFile *.{plan,md,markdown,mdown,mkd,mkdn} call s:setupMarkup()
-au BufRead,BufNewFile *.{txt,tex} call s:setupWrapping()
-
-" allow backspacing over everything in insert mode
-set backspace=indent,eol,start
-
-" Opens an edit command with the path of the currently edited file filled in
-" Normal mode: <Leader>e
+" Open file in same directory
 map <Leader>e :e <C-R>=expand("%:p:h") . "/" <CR>
-
-" Opens a tab edit command with the path of the currently edited file filled in
-" Normal mode: <Leader>t
 map <Leader>te :tabe <C-R>=expand("%:p:h") . "/" <CR>
 
-" Inserts the path of the currently edited file into a command
-" Command mode: Ctrl+P
-cmap <C-P> <C-R>=expand("%:p:h") . "/" <CR>
+" FZF
+nnoremap <C-p> :Files<CR>
+nnoremap <Leader>b :Buffers<CR>
+nnoremap <Leader>rg :Rg<CR>
 
-" Unimpaired configuration
-" Bubble single lines
-nmap <C-Up> [e
-nmap <C-Down> ]e
+" =============================================================================
+" FILETYPES
+" =============================================================================
+augroup filetypes
+  autocmd!
 
-" Bubble multiple lines
-vmap <C-Up> [egv
-vmap <C-Down> ]egv
+  " Strip trailing whitespace on save
+  autocmd BufWritePre * %s/\s\+$//e
 
-" Use modeline overrides
-set modeline
-set modelines=10
+  " Remember cursor position
+  autocmd BufReadPost *
+    \ if line("'\"") > 1 && line("'\"") <= line("$") |
+    \   exe "normal! g`\"" |
+    \ endif
 
-"Directories for swp files
-set backupdir=~/.vim/backup
-set directory=~/.vim/backup
+  " Makefiles need tabs
+  autocmd FileType make setlocal noexpandtab
 
-"extended % matching
-" runtime macros/matchit.vim
+  " Markdown
+  autocmd BufNewFile,BufReadPost *.{md,plan} set filetype=markdown
+  autocmd FileType markdown setlocal wrap textwidth=80 spell
 
-set colorcolumn=80
-" set background=light
+  " Python (4 space indent is standard)
+  autocmd FileType python setlocal tabstop=4 shiftwidth=4 softtabstop=4
 
-"let g:solarized_termcolors=16
-"let g:solarized_termcolors=256
-let g:solarized_visibility = "high"
-let g:solarized_termtrans = 1
-"let g:solarized_visibility = "low"
-"let g:solarized_contrast = "high"
-let g:signify_sign_weight = 'none'
+augroup END
 
+" =============================================================================
+" LATEX (vimtex)
+" =============================================================================
+let g:tex_flavor = 'latex'
+let g:vimtex_view_method = 'skim'
+let g:vimtex_compiler_latexmk = {
+  \ 'options' : [
+  \   '-xelatex',
+  \   '-file-line-error',
+  \   '-synctex=1',
+  \   '-interaction=nonstopmode',
+  \ ],
+  \}
 
-colorscheme solarized
-
-" vim-lext-suite"
-    " REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
-" filetype plugin on # already on
-    " IMPORTANT: grep will sometimes skip displaying the file name if you
-    " search in a single file. This will confuse Latex-Suite. Set your grep
-    " program to always generate a file-name.
-
-set grepprg=grep\ -nH\ $*
-    " OPTIONAL: This enables automatic indentation as you type.
-
-" filetype indent on # already on
-    " OPTIONAL: Starting with Vim 7, the filetype of empty .tex files defaults to
-    " 'plaintex' instead of 'tex', which results in vim-latex not being loaded.
-    " The following changes the default filetype back to 'tex':
-
-" see vim-latex-suite manual: handles vim's mode upon .tex
-let g:tex_flavor='latex'
-
-" auto paste mode, accounting for tmux
-function! WrapForTmux(s)
-  if !exists('$TMUX')
-    return a:s
-  endif
-
-  let tmux_start = "\<Esc>Ptmux;"
-  let tmux_end = "\<Esc>\\"
-
-  return tmux_start . substitute(a:s, "\<Esc>", "\<Esc>\<Esc>", 'g') . tmux_end
-endfunction
-
-let &t_SI .= WrapForTmux("\<Esc>[?2004h")
-let &t_EI .= WrapForTmux("\<Esc>[?2004l")
-
-function! XTermPasteBegin()
-  set pastetoggle=<Esc>[201~
-  set paste
-  return ""
-endfunction
-
-inoremap <special> <expr> <Esc>[200~ XTermPasteBegin()
-
-" automatic insertion of timestamp
-iab __- <c-r>=strftime("%d/%m/%y %H:%M:%S")<cr>
-
-" latex-flow aware gq
-map \gq ?^$\\|^\s*\(\\begin\\|\\end\\|\\label\)?1<CR>gq//-1<CR>
-omap lp ?^$\\|^\s*\(\\begin\\|\\end\\|\\label\)?1<CR>//-1<CR>.<CR>
-
-" vim sessions defaults to capturing all global options, including
-" 'runtimepath' needed by vim-pathogen
-" set sessionoptions-=options
-"
-"let g:livepreview_previewer = 'evince'
-" On OS X: Evince 3 or later from MacPorts works
-" let g:livepreview_previewer = 'okular'
-"g:livepreview_previewer = 'zathura'
-"g:livepreview_previewer = 'open -a Skim'
-"g:livepreview_previewer = 'open -a Preview', the preview only updates when you move the focus on the Preview application.
-" MuPDF: let g:livepreview_previewer = 'mupdf'
-
-let g:airline_theme='solarized'
-let g:Tex_CompileRule_pdf = 'xelatex -output-directory=out --interaction=nonstopmode -file-line-error-style $*'
-let g:Powerline_symbols = 'fancy'
-set encoding=utf-8
-set t_Co=256
-set fillchars+=stl:\ ,stlnc:\
-set term=xterm-256color
-set termencoding=utf-8
-
-if has('gui_running')
-   let s:uname = system("uname")
-   "if s:uname == "Darwin\n"
-   set background=dark " use macvim for light theme"
-   set guifont=Inconsolata-dz\ for\ Powerline:h15
-else
-    set background=dark
-endif
-
-let g:Powerline_symbols = 'fancy'
-set encoding=utf-8
-set t_Co=256
-set fillchars+=stl:\ ,stlnc:\
-let g:Powerline_mode_V="V·LINE"
-let g:Powerline_mode_cv="V·BLOCK"
-let g:Powerline_mode_S="S·LINE"
-let g:Powerline_mode_cs="S·BLOCK"
-let g:airline_powerline_fonts = 1
- if !exists('g:airline_symbols')
-       let g:airline_symbols = {}
- endif
-let g:airline_symbols.space = "\ua0"
-  let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#show_buffers = 0
-"let g:airline_theme = 'molokai'
-let g:Powerline_theme='short'
-let g:Powerline_colorscheme='solarized256_dark'
-
+" =============================================================================
+" TIMESTAMP
+" =============================================================================
+iab __- <C-r>=strftime("%d/%m/%y %H:%M:%S")<CR>
