@@ -3,16 +3,15 @@
 " =============================================================================
 " These settings only apply to MacVim GUI (mvim)
 
-" Font
-set guifont=JetBrainsMono\ Nerd\ Font:h14
+" Font (Monaspace variants: Neon, Argon, Xenon, Radon, Krypton)
+set guifont=Monaspace\ Neon:h14
 " Alternatives:
-" set guifont=MesloLGS\ NF:h14
-" set guifont=Monaspace\ Neon:h14
-" set guifont=Fira\ Code:h14
+" set guifont=Monaspace\ Argon:h14
+" set guifont=Monaspace\ Radon:h14
 
-" Light theme for GUI (dark in terminal)
-set background=light
-colorscheme catppuccin_latte
+" Dark theme
+set background=dark
+colorscheme catppuccin_mocha
 
 " Window size
 set lines=50
@@ -28,14 +27,11 @@ set guioptions+=c          " Use console dialogs instead of popups
 " Smooth scrolling
 set guioptions+=k
 
-" Enable ligatures (for fonts that support them)
+" Enable ligatures
 set macligatures
 
 " Native macOS fullscreen
 set fuoptions=maxvert,maxhorz
-
-" Transparency (0 = opaque, 100 = fully transparent)
-" set transparency=5
 
 " Cursor
 set guicursor=n-v-c:block-Cursor
