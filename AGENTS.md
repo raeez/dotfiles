@@ -11,7 +11,10 @@ This repository owns versioned shell, editor, terminal, and workstation configur
 ## Read by task
 
 Read `README.md` and the exact configuration file before editing it.
-Use `instructions/` for relevant setup notes. Read the called script before running a Makefile target.
+Use `instructions/README.md` to distinguish current source routes from historical setup references.
+The recorded shell and editor settings live in `dot/.zshrc`, `dot/.vimrc`, and `dot/.gvimrc`.
+Historical setup notes do not override these files or establish the live host state.
+Read the called script before running a Makefile target.
 The `dot/`, `scripts/`, `fonts/`, `themes/`, and `toolchain/` directories hold distinct configuration sources.
 
 ## Host configuration boundary
@@ -19,6 +22,7 @@ The `dot/`, `scripts/`, `fonts/`, `themes/`, and `toolchain/` directories hold d
 Keep repository edits separate from installation into the user's home directory or operating system.
 The Makefile contains targets that copy host files, replace configuration, install packages, and remove files.
 The `save` target includes destructive removal commands. Do not use it as a verification step.
+Do not treat `make -n` as a side-effect guarantee. The Makefile contains a `$(shell ...)` expansion.
 Inherited Git restrictions apply even when an existing script contains a forbidden command.
 Do not import private host configuration or credentials into the repository during review.
 Preserve custom settings and inspect existing destination files before an authorized installation.
